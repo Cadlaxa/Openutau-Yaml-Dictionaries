@@ -23,14 +23,30 @@ credits for [mmemim](https://github.com/mmemim) for the [Synthv French .json Dic
 ## How to download and install dictionaries for Openutau
 
 - To download any .yaml dictionary, click on the filename and then click on the download icon in the upper left corner of the file browser, as shown in the image below.
-no img yet
--  Open your Openutau folder and go to `Plug-ins` folder. Drag and drop the yaml there and you are ready to go
 
+![dl](https://user-images.githubusercontent.com/92255161/216503673-be812287-8c2f-42f8-82dd-a108b9eceb52.png)
+
+- If it doesn't show up like that, click Raw...
+
+
+![dl2](https://user-images.githubusercontent.com/92255161/216503748-3cfe3a8e-33ff-4213-9cf5-7e741f78baa0.png)
+
+- Then right click, and click save as...
+
+
+![dl3](https://user-images.githubusercontent.com/92255161/216503826-ba5c7f96-dcbe-4022-91d1-99b5e4a140ef.png)
+
+- Rename the extension to `.yaml` not `.txt` then save
+
+
+![dl4](https://user-images.githubusercontent.com/92255161/216503933-00dbda4e-d280-4f4f-84e2-e9f08f753a16.png)
+
+-  Open your Openutau folder and go to `Plug-ins` folder. Drag and drop the yaml there and you are ready to go
 
 ![yamls](https://user-images.githubusercontent.com/92255161/216483581-7249910a-e9f1-4af0-ae3f-ac197c1250e9.png)
 
 
-- Reload the english voicebank by choosing any phonemizers then back to the english one or changing voicebanks then going back again to the desired voicebank and you should now be able utilize the dictionary.
+- Reload the english voicebank by choosing any phonemizers then back to the english one or changing voicebanks then going back again to the desired voicebank and you should now be able utilize the dictionary. If it doesn't load up, close and reopen [OpenUtau](https://www.openutau.com/)
 
 ## How to use the dictionary + the suffix support
 
@@ -48,7 +64,7 @@ no img yet
 ![kr consonant assimilation](https://user-images.githubusercontent.com/92255161/216489533-014c19a7-f41f-4524-b5c7-92aed36601c2.png)
 
 ### Chinese Dictionary Usage
-- Only `Pinyin` character with `/` after the word to utilize the Chinese dictionary.
+- Only `Pinyin` characters with `/` after the word to utilize the Chinese dictionary.
  
 ![Chinese Dictionary](https://user-images.githubusercontent.com/92255161/216489976-4335a8b9-6b5e-407b-9e53-ea738bb194b9.png)
 
