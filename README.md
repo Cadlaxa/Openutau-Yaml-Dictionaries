@@ -1,18 +1,18 @@
 # Openutau Yaml Dictionaries
 Openutau Yaml Dictionaries for Arpasing, En VCCV, and Delta phonemizers to support Japanese, Korean, Chinese, and French (more languages to support soon)
 
-`English to Japanese`, `English to Korean`, `English to Chinese`, and `English to French` (languages auxiliary support for now) for Arpasing, En VCCV, and Delta banks for [Openutau](https://www.openutau.com/) .yaml dictionaries, tweacked based on [Slidingwall's synth dictionary](https://github.com/Slidingwall/synthv-dictionaries).
+`English to Japanese`, `English to Korean`, `English to Chinese`, and `English to French` (languages auxiliary support for now) for Arpasing, En VCCV, and Delta banks for [Openutau](https://www.openutau.com/) .yaml dictionaries, tweaked based on [Slidingwall's synth dictionary](https://github.com/Slidingwall/synthv-dictionaries).
 
-#### 📍 As of now, the bigger the `.yaml` file, the slower Openutau changes the phonemes or any changes in general, as of Ou doesn't support yet the dictionary picking like on Synthv, for now, you can choose and download the single language dictionary or the compiled one.
+#### 📍 As of now, the bigger the `.yaml` file, the slower Openutau changes the phonemes or any changes in general, as of Ou doesn't supports yet the dictionary picking like on Synthv, for now, you can choose and download the single language dictionary or the compiled one.
 
 ## Credits
 credits for [mmemim](https://github.com/mmemim) for the [Synthv French .json Dictionary](https://github.com/mmemim/OpenUTAU-French-Dictionary) and also credits [Halo/BagelHero](https://github.com/BagelHero) & Mim for the [Ou En VCCV Custom Dictionary](https://github.com/mmemim/OU-EN-VCCV-Custom-Dictionary)
 
-- if there's any issue, and language request to support Openutau's dictionary, you can contact me through my [Twitter](https://twitter.com/cadlaxa).
+- if there's any issue on the dictionary, and language request to support Openutau's dictionary, you can contact me through my [Twitter](https://twitter.com/cadlaxa). Let me know if there's a problem tehee.
 
-#### 📍 There may be wrong entries and mispronunciation in the dictionary, please report them if so. Making your english voicebanks sings in different languages will still require phoneme editing as this lexicon is by no means a plug-and-play solution especially Korean, Chinese, and the French one.
+#### 📍 There may be wrong entries and mispronunciation in the dictionary, please report them if so. Making your english voicebanks sings in different languages will still require phoneme editing as this lexicon is by no means a plug-and-play solution especially Korean, Chinese, and the French.
 
-⭐ The dictionaries are updated regularly so feel free to download the latest one [here]()or in this [mirror link](https://mega.nz/folder/BjhATYZb#s3dYIDZxlBRG7TF0QBG6Xw). ⭐
+⭐ The dictionaries are updated regularly so feel free to download the latest one [here](https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries.git)or in this [mirror link](https://mega.nz/folder/BjhATYZb#s3dYIDZxlBRG7TF0QBG6Xw). ⭐
 
 ### Table of contents
 - [How to download and install dictionaries on Windows](https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries/edit/main/README.md#how-to-download-and-install-dictionaries-for-openutau)
