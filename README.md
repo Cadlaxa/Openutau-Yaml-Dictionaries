@@ -15,9 +15,13 @@ credits for [mmemim](https://github.com/mmemim) for the [Synthv French .json Dic
 ⭐ The dictionaries are updated regularly so feel free to download the latest one [here](https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries.git)or in this [mirror link](https://mega.nz/folder/BjhATYZb#s3dYIDZxlBRG7TF0QBG6Xw). ⭐
 
 ### Table of contents
-- [How to download and install dictionaries on Windows](https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries/edit/main/README.md#how-to-download-and-install-dictionaries-for-openutau)
-- [How to use the dictionary + the suffix support](https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries/edit/main/README.md#how-to-use-the-dictionary--the-suffix-support)
-- [How to edit dictionary to fit a specific voicebank](https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries/edit/main/README.md#how-to-edit-dictionary-to-fit-a-specific-voicebank)
+- **[How to download and install dictionaries on Windows](https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries#how-to-download-and-install-dictionaries-for-openutau)**
+- **[How to use the dictionary + the suffix support](https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries#how-to-use-the-dictionary--the-suffix-support)**
+    - **[Japanese](https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries#japanese-dictionary-usage)**
+    - **[Korean](https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries#korean-dictionary-usage)**
+    - **[Chinese](https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries#chinese-dictionary-usage)**
+    - **[French](https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries#french-dictionary-usage)**
+- **[How to edit dictionary to fit a specific voicebank](https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries#how-to-edit-dictionary-to-fit-a-specific-voicebank)**
 
 
 ## How to download and install dictionaries for Openutau
