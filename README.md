@@ -1,13 +1,13 @@
 # Openutau Yaml Dictionaries
 Openutau Yaml Dictionaries for Arpasing, En VCCV, and Delta phonemizers to support Japanese, Korean, Chinese, and French (more languages to support soon)
-
+ 
 `English to Japanese`, `English to Korean`, `English to Chinese`, and `English to French` (languages auxiliary support for now) for Arpasing, En VCCV, and Delta banks for [Openutau](https://www.openutau.com/) .yaml dictionaries, tweaked based on [Slidingwall's synth dictionary](https://github.com/Slidingwall/synthv-dictionaries).
 
 #### 📍 As of now, the bigger the `.yaml` file, the slower Openutau changes the phonemes or any changes in general, as of Ou doesn't supports yet the dictionary picking like on Synthv, for now, you can choose and download the single language dictionary or the compiled one.
 
 ## Credits
 credits for [mmemim](https://github.com/mmemim) for the [Synthv French .json Dictionary](https://github.com/mmemim/OpenUTAU-French-Dictionary) and also credits [Halo/BagelHero](https://github.com/BagelHero) & Mim for the [Ou En VCCV Custom Dictionary](https://github.com/mmemim/OU-EN-VCCV-Custom-Dictionary)
-
+ - - - -
 - if there's any issue on the dictionary, and language request to support Openutau's dictionary, you can contact me through my [Twitter](https://twitter.com/cadlaxa). Let me know if there's a problem tehee.
 
 #### 📍 There may be wrong entries and mispronunciation in the dictionary, please report them if so. Making your english voicebanks sings in different languages will still require phoneme editing as this lexicon is by no means a plug-and-play solution especially Korean, Chinese, and the French.
@@ -23,12 +23,12 @@ credits for [mmemim](https://github.com/mmemim) for the [Synthv French .json Dic
     - **[French](https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries#french-dictionary-usage)**
 - **[How to edit dictionary to fit a specific voicebank](https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries#how-to-edit-dictionary-to-fit-a-specific-voicebank)**
 
-
+ - - - -
 ## How to download and install dictionaries for Openutau
 
 - To download any .yaml dictionary, click on the filename and then click on the download icon in the upper left corner of the file browser, as shown in the image below.
 
-![dl](https://user-images.githubusercontent.com/92255161/216503673-be812287-8c2f-42f8-82dd-a108b9eceb52.png)
+![dl](https://user-images.githubusercontent.com/92255161/216503673-be812287-8c2f-42f8-82dd-a108b9eceb52.png) style="border: 1px solid black"
 
 - If it doesn't show up like that, click Raw...
 
@@ -51,7 +51,7 @@ credits for [mmemim](https://github.com/mmemim) for the [Synthv French .json Dic
 
 
 - Reload the english voicebank by choosing any phonemizers then back to the english one or changing voicebanks then going back again to the desired voicebank and you should now be able utilize the dictionary. If it doesn't load up, close and reopen [OpenUtau](https://www.openutau.com/)
-
+ - - - -
 ## How to use the dictionary + the suffix support
 
 ### Japanese Dictionary Usage
@@ -84,8 +84,8 @@ credits for [mmemim](https://github.com/mmemim) for the [Synthv French .json Dic
 - In French, you also have [liaisons](https://en.wikipedia.org/wiki/Liaison_(French)), and some words might not always be pronounced the same way. Because of that, you may sometimes need to put `word(2)`, `word(3)` or even `word(4)`. For example, `absentes` has 4 entries.
 
 ![WordEntries](https://i.imgur.com/MsXgO0o.png)
-
-## How to edit dictionary to fit a specific voicebank
+ - - - -
+## How to edit `.yaml` dictionary to fit a specific voicebank
 - Some voicebanks come with extra phonemes especially with En VCCV and Delta voicebanks, test out first the dictionary so you will know if its there are errors you will encounter like on this picture below:
 ![example](https://user-images.githubusercontent.com/92255161/216491969-82eb325e-9077-423d-97c6-2ab73f5b1caa.png)
 
