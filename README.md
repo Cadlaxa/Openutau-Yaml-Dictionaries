@@ -1,5 +1,5 @@
 # Openutau Yaml Dictionaries
-Openutau Yaml Dictionaries for Arpasing, En VCCV, and Delta phonemizers to support Japanese, Korean, Chinese, and French (more languages to support soon)
+Openutau Yaml Dictionaries for Arpasing, En VCCV, Delta phonemizers, En Enunu, and En EnunuX/EnunuX to support Japanese, Korean, Chinese, and French (more languages to support soon)
  
 `English to Japanese`, `English to Korean`, `English to Chinese`, and `English to French` (languages auxiliary support for now) for Arpasing, En VCCV, and Delta banks for [Openutau](https://www.openutau.com/) .yaml dictionaries, tweaked based on [Slidingwall's synth dictionary](https://github.com/Slidingwall/synthv-dictionaries).
 
