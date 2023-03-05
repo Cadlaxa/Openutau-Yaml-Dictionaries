@@ -61,7 +61,7 @@ credits for [mmemim](https://github.com/mmemim) for the [Synthv French .json Dic
 ![Japanese Dictionary](https://user-images.githubusercontent.com/92255161/216487321-01cbc836-a4b1-4b4a-a368-29fa2eb18745.png)
 
 ### Korean Dictionary Usage
-- You can input `Hanguul` and `Romaja` with `.` after the romaja word in the notes to utilize the Korean dictionary. Some have alternate pronunciations by inputing `1`, `2`, and `3` after the word. **Note that korean consonant assimilation is not supported because of the complex character-to-phoneme system with the `Hangul` input, so using `Romaja` to place consonants such as `ss.`, `p.`, `bb.` and so on the note.**
+- You can input `Hanguul` and `Romaja` with `.` after the romaja word in the notes to utilize the Korean dictionary. Some have alternate pronunciations by inputing `1`, `2`, and `3` after the word. **Note that [korean consonant assimilation](https://www.koreanwikiproject.com/wiki/Category:Consonant_assimilation#:~:text=Consonant%20assimilation%20is%20when%20the,or%20both%20of%20them%20changes.&text=1.,becomes%20%2F%E3%84%B4%2B%E3%84%B4%2F.) is not supported because of the complex character-to-phoneme system with the `Hangul` input, so using `Romaja` to place consonants such as `ss.`, `p.`, `bb.` and so on the note.**
 
 ![Korean Dictionary](https://user-images.githubusercontent.com/92255161/216488297-f4c373c8-595f-4f10-9abf-31f09916cd62.png)
 
