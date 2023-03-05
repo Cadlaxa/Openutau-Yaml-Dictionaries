@@ -1,9 +1,9 @@
 %YAML 1.2
-#Dictionary extension for Arpasing voicebanks
-#Japanese (Hiragana, Katakana, romaji), Korean (Hangul, Romaja), Chinese Pinyin, and French are currently supported.
+#Dictionary extension for English Enunu voicebanks
+#Japanese (Hiragana, Katakana, romaji), Korean (Hangul, Romaja), Chinese Pinyin, French, and Spanish are currently supported.
 #More languages to support soon.
 #This dictionary is being updated regularly so download the latest one here:
-#https://mega.nz/folder/BjhATYZb#s3dYIDZxlBRG7TF0QBG6Xw
+#https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries.git
 ---
 symbols:
   - {symbol: aa, type: vowel}
@@ -107,7 +107,7 @@ entries:
   - grapheme: m
     phonemes: [m]
   - grapheme: n
-    phonemes: [N]
+    phonemes: [n]
   - grapheme: ng
     phonemes: [ng]
   - grapheme: p
@@ -399,7 +399,7 @@ entries:
   - grapheme: を
     phonemes: [w, ao]
   - grapheme: ん
-    phonemes: [N]
+    phonemes: [n]
   - grapheme: ん2
     phonemes: [q, n]
   - grapheme: が
@@ -996,7 +996,7 @@ entries:
   - grapheme: を1
     phonemes: [w, ao]
   - grapheme: ン1
-    phonemes: [N]
+    phonemes: [n]
   - grapheme: ガ1
     phonemes: [g, ah]
   - grapheme: ギ1
@@ -1222,15 +1222,15 @@ entries:
   - grapheme: ト
     phonemes: [t]
   - grapheme: ナ
-    phonemes: [N]
+    phonemes: [n]
   - grapheme: ニ
-    phonemes: [N]
+    phonemes: [n]
   - grapheme: ヌ
-    phonemes: [N]
+    phonemes: [n]
   - grapheme: ネ
-    phonemes: [N]
+    phonemes: [n]
   - grapheme: ノ
-    phonemes: [N]
+    phonemes: [n]
   - grapheme: ハ
     phonemes: [hh]
   - grapheme: ヒ
@@ -1282,7 +1282,7 @@ entries:
   - grapheme: を
     phonemes: [w]
   - grapheme: ン
-    phonemes: [N]
+    phonemes: [n]
   - grapheme: ガ
     phonemes: [g]
   - grapheme: ギ

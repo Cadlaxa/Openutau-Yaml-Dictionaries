@@ -1,6 +1,6 @@
 %YAML 1.2
 #Dictionary extension for En-VCCV voicebanks
-#Japanese (Hiragana, Katakana, romaji), Korean (Hangul, Romaja), Chinese Pinyin, and French are currently supported.
+#Japanese (Hiragana, Katakana, romaji), Korean (Hangul, Romaja), Chinese Pinyin, French and Spanish are currently supported.
 #More languages to support soon.
 #This dictionary is being updated regularly so download the latest one here:
 #https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries.git
@@ -10693,468 +10693,2106 @@ entries:
 
 
 #Chinese (pinyin)
-  - grapheme: zhi/
-    phonemes: [j, 6]
-  - grapheme: chi/
-    phonemes: [ch, 6]
-  - grapheme: shi/
-    phonemes: [sh, 6]
-  - grapheme: ri/
-    phonemes: [r, 6]
-  - grapheme: ri/1
-    phonemes: [zh, 6]
-  - grapheme: zi/
-    phonemes: [z, ih]
-  - grapheme: ci/
-    phonemes: [t, s, ih]
-  - grapheme: si/
-    phonemes: [s, ih]
+  - grapheme: a/
+    phonemes: [a]
+  - grapheme: ai/
+    phonemes: [I]
+  - grapheme: air/
+    phonemes: [a, 3]
+  - grapheme: an/
+    phonemes: [a, n]
+  - grapheme: ang/
+    phonemes: [a, ng]
+  - grapheme: angr/
+    phonemes: [a, ng, 3]
+  - grapheme: anr/
+    phonemes: [a, 3]
+  - grapheme: 9/
+    phonemes: [a, o]
+  - grapheme: aor/
+    phonemes: [a, o, 3]
+  - grapheme: ar/
+    phonemes: [a, 3]
   - grapheme: ba/
     phonemes: [b, a]
-  - grapheme: pa/
-    phonemes: [p, a]
-  - grapheme: ma/
-    phonemes: [m, a]
-  - grapheme: fa/
-    phonemes: [f, a]
-  - grapheme: da/
-    phonemes: [d, a]
-  - grapheme: ta/
-    phonemes: [t, a]
-  - grapheme: na/
-    phonemes: [n, a]
-  - grapheme: la/
-    phonemes: [l, a]
-  - grapheme: ga/
-    phonemes: [g, a]
-  - grapheme: ka/
-    phonemes: [k, a]
-  - grapheme: ha/
-    phonemes: [h, a]
-  - grapheme: zha/
-    phonemes: [j, a]
-  - grapheme: cha/
-    phonemes: [ch, a]
-  - grapheme: sha/
-    phonemes: [sh, a]
-  - grapheme: ra/
-    phonemes: [r, a]
-  - grapheme: ra/1
-    phonemes: [zh, a]
-  - grapheme: za/
-    phonemes: [z, a]
-  - grapheme: ca/
-    phonemes: [t, s, a]
-  - grapheme: sa/
-    phonemes: [s, a]
-  - grapheme: bo/
-    phonemes: [b, w, 9]
-  - grapheme: po/
-    phonemes: [p, w, 9]
-  - grapheme: mo/
-    phonemes: [m, w, 9]
-  - grapheme: fo/
-    phonemes: [f, w, 9]
-  - grapheme: do/
-    phonemes: [d, 9]
-  - grapheme: to/
-    phonemes: [t, 9]
-  - grapheme: no/
-    phonemes: [n, 9]
-  - grapheme: lo/
-    phonemes: [l, 9]
-  - grapheme: go/
-    phonemes: [g, 9]
-  - grapheme: ko/
-    phonemes: [k, 9]
-  - grapheme: ho/
-    phonemes: [h, 9]
-  - grapheme: zho/
-    phonemes: [j, 9]
-  - grapheme: cho/
-    phonemes: [ch, 9]
-  - grapheme: sho/
-    phonemes: [sh, 9]
-  - grapheme: ro/
-    phonemes: [r, 9]
-  - grapheme: ro/1
-    phonemes: [zh, 9]
-  - grapheme: zo/
-    phonemes: [z, 9]
-  - grapheme: co/
-    phonemes: [t, s, 9]
-  - grapheme: so/
-    phonemes: [s, 9]
-  - grapheme: be/
-    phonemes: [b, a]
-  - grapheme: pe/
-    phonemes: [p, a]
-  - grapheme: me/
-    phonemes: [m, a]
-  - grapheme: fe/
-    phonemes: [f, a]
-  - grapheme: de/
-    phonemes: [d, a]
-  - grapheme: te/
-    phonemes: [t, a]
-  - grapheme: ne/
-    phonemes: [n, a]
-  - grapheme: le/
-    phonemes: [l, a]
-  - grapheme: ge/
-    phonemes: [g, a]
-  - grapheme: ke/
-    phonemes: [k, a]
-  - grapheme: he/
-    phonemes: [h, a]
-  - grapheme: zhe/
-    phonemes: [j, a]
-  - grapheme: che/
-    phonemes: [ch, a]
-  - grapheme: she/
-    phonemes: [sh, a]
-  - grapheme: re/
-    phonemes: [r, a]
-  - grapheme: re/1
-    phonemes: [zh, a]
-  - grapheme: ze/
-    phonemes: [z, a]
-  - grapheme: ce/
-    phonemes: [t, s, a]
-  - grapheme: se/
-    phonemes: [s, a]
   - grapheme: bai/
     phonemes: [b, I]
-  - grapheme: pai/
-    phonemes: [p, I]
-  - grapheme: mai/
-    phonemes: [m, I]
-  - grapheme: fai/
-    phonemes: [f, I]
-  - grapheme: dai/
-    phonemes: [d, I]
-  - grapheme: tai/
-    phonemes: [t, I]
-  - grapheme: nai/
-    phonemes: [n, I]
-  - grapheme: lai/
-    phonemes: [l, I]
-  - grapheme: gai/
-    phonemes: [g, I]
-  - grapheme: kai/
-    phonemes: [k, I]
-  - grapheme: hai/
-    phonemes: [h, I]
-  - grapheme: zhai/
-    phonemes: [j, I]
-  - grapheme: chai/
-    phonemes: [ch, I]
-  - grapheme: shai/
-    phonemes: [sh, I]
-  - grapheme: rai/
-    phonemes: [r, I]
-  - grapheme: rai/1
-    phonemes: [zh, I]
-  - grapheme: zai/
-    phonemes: [z, I]
-  - grapheme: cai/
-    phonemes: [t, s, I]
-  - grapheme: sai/
-    phonemes: [s, I]
-  - grapheme: bei/
-    phonemes: [b, A]
-  - grapheme: pei/
-    phonemes: [p, A]
-  - grapheme: mei/
-    phonemes: [m, A]
-  - grapheme: fei/
-    phonemes: [f, A]
-  - grapheme: dei/
-    phonemes: [d, A]
-  - grapheme: tei/
-    phonemes: [t, A]
-  - grapheme: nei/
-    phonemes: [n, A]
-  - grapheme: lei/
-    phonemes: [l, A]
-  - grapheme: gei/
-    phonemes: [g, A]
-  - grapheme: kei/
-    phonemes: [k, A]
-  - grapheme: hei/
-    phonemes: [h, A]
-  - grapheme: zhei/
-    phonemes: [j, A]
-  - grapheme: chei/
-    phonemes: [ch, A]
-  - grapheme: shei/
-    phonemes: [sh, A]
-  - grapheme: rei/
-    phonemes: [r, A]
-  - grapheme: rei/1
-    phonemes: [zh, A]
-  - grapheme: zei/
-    phonemes: [z, A]
-  - grapheme: cei/
-    phonemes: [t, s, A]
-  - grapheme: sei/
-    phonemes: [s, A]
-  - grapheme: b9/
-    phonemes: [b, aa, 6]
-  - grapheme: p9/
-    phonemes: [p, aa, 6]
-  - grapheme: m9/
-    phonemes: [m, aa, 6]
-  - grapheme: f9/
-    phonemes: [f, aa, 6]
-  - grapheme: d9/
-    phonemes: [d, aa, 6]
-  - grapheme: t9/
-    phonemes: [t, aa, 6]
-  - grapheme: n9/
-    phonemes: [n, aa, 6]
-  - grapheme: l9/
-    phonemes: [l, aa, 6]
-  - grapheme: g9/
-    phonemes: [g, aa, 6]
-  - grapheme: k9/
-    phonemes: [k, aa, 6]
-  - grapheme: h9/
-    phonemes: [h, aa, 6]
-  - grapheme: zh9/
-    phonemes: [j, aa, 6]
-  - grapheme: ch9/
-    phonemes: [ch, aa, 6]
-  - grapheme: sh9/
-    phonemes: [sh, aa, 6]
-  - grapheme: r9/
-    phonemes: [r, aa, 6]
-  - grapheme: r9/2
-    phonemes: [zh, aa, 6]
-  - grapheme: z9/
-    phonemes: [z, aa, 6]
-  - grapheme: c9/
-    phonemes: [t, s, aa, 6]
-  - grapheme: s9/
-    phonemes: [s, aa, 6]
-  - grapheme: bou/
-    phonemes: [b, x, 6]
-  - grapheme: pou/
-    phonemes: [p, x, 6]
-  - grapheme: mou/
-    phonemes: [m, x, 6]
-  - grapheme: fou/
-    phonemes: [f, x, 6]
-  - grapheme: dou/
-    phonemes: [d, x, 6]
-  - grapheme: tou/
-    phonemes: [t, x, 6]
-  - grapheme: nou/
-    phonemes: [n, x, 6]
-  - grapheme: lou/
-    phonemes: [l, x, 6]
-  - grapheme: gou/
-    phonemes: [g, x, 6]
-  - grapheme: kou/
-    phonemes: [k, x, 6]
-  - grapheme: hou/
-    phonemes: [h, x, 6]
-  - grapheme: zhou/
-    phonemes: [j, x, 6]
-  - grapheme: chou/
-    phonemes: [ch, x, 6]
-  - grapheme: shou/
-    phonemes: [sh, x, 6]
-  - grapheme: rou/
-    phonemes: [r, x, 6]
-  - grapheme: rou/1
-    phonemes: [zh, x, 6]
-  - grapheme: zou/
-    phonemes: [z, x, 6]
-  - grapheme: cou/
-    phonemes: [t, s, x, 6]
-  - grapheme: sou/
-    phonemes: [s, x, 6]
+  - grapheme: bair/
+    phonemes: [b, a, 3]
   - grapheme: ban/
     phonemes: [b, a, n]
-  - grapheme: pan/
-    phonemes: [p, a, n]
-  - grapheme: man/
-    phonemes: [m, a, n]
-  - grapheme: fan/
-    phonemes: [f, a, n]
-  - grapheme: dan/
-    phonemes: [d, a, n]
-  - grapheme: tan/
-    phonemes: [t, a, n]
-  - grapheme: nan/
-    phonemes: [n, a, n]
-  - grapheme: lan/
-    phonemes: [l, a, n]
-  - grapheme: gan/
-    phonemes: [g, a, n]
-  - grapheme: kan/
-    phonemes: [k, a, n]
-  - grapheme: han/
-    phonemes: [h, a, n]
-  - grapheme: zhan/
-    phonemes: [j, a, n]
-  - grapheme: chan/
-    phonemes: [ch, a, n]
-  - grapheme: shan/
-    phonemes: [sh, a, n]
-  - grapheme: ran/
-    phonemes: [r, a, n]
-  - grapheme: ran/1
-    phonemes: [zh, a, n]
-  - grapheme: zan/
-    phonemes: [z, a, n]
-  - grapheme: can/
-    phonemes: [t, s, a, n]
-  - grapheme: san/
-    phonemes: [s, a, n]
+  - grapheme: bang/
+    phonemes: [b, a, ng]
+  - grapheme: bangr/
+    phonemes: [b, a, ng, 3]
+  - grapheme: banr/
+    phonemes: [b, a, 3]
+  - grapheme: bao/
+    phonemes: [b, a, o]
+  - grapheme: baor/
+    phonemes: [b, a, o, 3]
+  - grapheme: bar/
+    phonemes: [b, a, 3]
+  - grapheme: be/
+    phonemes: [b, x]
+  - grapheme: bei/
+    phonemes: [b, A]
+  - grapheme: beir/
+    phonemes: [b, x, 3]
   - grapheme: ben/
     phonemes: [b, x, n]
-  - grapheme: pen/
-    phonemes: [p, x, n]
-  - grapheme: men/
-    phonemes: [m, x, n]
-  - grapheme: fen/
-    phonemes: [f, x, n]
-  - grapheme: den/
-    phonemes: [d, x, n]
-  - grapheme: ten/
-    phonemes: [t, x, n]
-  - grapheme: nen/
-    phonemes: [n, x, n]
-  - grapheme: len/
-    phonemes: [l, x, n]
-  - grapheme: gen/
-    phonemes: [g, x, n]
-  - grapheme: ken/
-    phonemes: [k, x, n]
-  - grapheme: hen/
-    phonemes: [h, x, n]
-  - grapheme: zhen/
-    phonemes: [j, x, n]
-  - grapheme: chen/
-    phonemes: [ch, x, n]
-  - grapheme: shen/
-    phonemes: [sh, x, n]
-  - grapheme: ren/
-    phonemes: [r, x, n]
-  - grapheme: ren/1
-    phonemes: [zh, x, n]
-  - grapheme: zen/
-    phonemes: [z, x, n]
-  - grapheme: cen/
-    phonemes: [t, s, x, n]
-  - grapheme: sen/
-    phonemes: [s, x, n]
-  - grapheme: bang/
-    phonemes: [b, aa, ng]
-  - grapheme: pang/
-    phonemes: [p, aa, ng]
-  - grapheme: mang/
-    phonemes: [m, aa, ng]
-  - grapheme: fang/
-    phonemes: [f, aa, ng]
-  - grapheme: dang/
-    phonemes: [d, aa, ng]
-  - grapheme: tang/
-    phonemes: [t, aa, ng]
-  - grapheme: nang/
-    phonemes: [n, aa, ng]
-  - grapheme: lang/
-    phonemes: [l, aa, ng]
-  - grapheme: gang/
-    phonemes: [g, aa, ng]
-  - grapheme: kang/
-    phonemes: [k, aa, ng]
-  - grapheme: hang/
-    phonemes: [h, aa, ng]
-  - grapheme: zhang/
-    phonemes: [j, aa, ng]
-  - grapheme: chang/
-    phonemes: [ch, aa, ng]
-  - grapheme: shang/
-    phonemes: [sh, aa, ng]
-  - grapheme: rang/
-    phonemes: [r, aa, ng]
-  - grapheme: rang/1
-    phonemes: [zh, aa, ng]
-  - grapheme: zang/
-    phonemes: [z, aa, ng]
-  - grapheme: cang/
-    phonemes: [t, s, aa, ng]
-  - grapheme: sang/
-    phonemes: [s, aa, ng]
   - grapheme: beng/
     phonemes: [b, x, ng]
-  - grapheme: peng/
-    phonemes: [p, x, ng]
-  - grapheme: meng/
-    phonemes: [m, x, ng]
-  - grapheme: feng/
-    phonemes: [f, x, ng]
-  - grapheme: deng/
-    phonemes: [d, x, ng]
-  - grapheme: teng/
-    phonemes: [t, x, ng]
-  - grapheme: neng/
-    phonemes: [n, x, ng]
-  - grapheme: leng/
-    phonemes: [l, x, ng]
-  - grapheme: geng/
-    phonemes: [g, x, ng]
-  - grapheme: keng/
-    phonemes: [k, x, ng]
-  - grapheme: heng/
-    phonemes: [h, x, ng]
-  - grapheme: zheng/
-    phonemes: [j, x, ng]
-  - grapheme: cheng/
-    phonemes: [ch, x, ng]
-  - grapheme: sheng/
-    phonemes: [sh, x, ng]
-  - grapheme: reng/
-    phonemes: [r, x, ng]
-  - grapheme: reng/1
-    phonemes: [zh, x, ng]
-  - grapheme: zeng/
-    phonemes: [z, x, ng]
-  - grapheme: ceng/
-    phonemes: [t, s, x, ng]
-  - grapheme: seng/
-    phonemes: [s, x, ng]
+  - grapheme: bengr/
+    phonemes: [b, x, ng, 3]
+  - grapheme: benr/
+    phonemes: [b, x, 3]
+  - grapheme: ber/
+    phonemes: [b, x, 3]
   - grapheme: bi/
     phonemes: [b, E]
-  - grapheme: pi/
-    phonemes: [p, E]
-  - grapheme: mi/
-    phonemes: [m, E]
-  - grapheme: fi/
-    phonemes: [f, E]
+  - grapheme: bian/
+    phonemes: [b, y, e, n]
+  - grapheme: bianr/
+    phonemes: [b, y, a, 3]
+  - grapheme: biao/
+    phonemes: [b, y, a, o]
+  - grapheme: biaor/
+    phonemes: [b, y, a, o, 3]
+  - grapheme: bie/
+    phonemes: [b, y, e]
+  - grapheme: bier/
+    phonemes: [b, y, e, 3]
+  - grapheme: bin/
+    phonemes: [b, E, n]
+  - grapheme: bing/
+    phonemes: [b, E, ng]
+  - grapheme: bingr/
+    phonemes: [b, E, ng, 3]
+  - grapheme: binr/
+    phonemes: [b, E, 3]
+  - grapheme: bir/
+    phonemes: [b, E, 3]
+  - grapheme: biu/
+    phonemes: [b, y, x, o]
+  - grapheme: biur/
+    phonemes: [b, y, x, o, 3]
+  - grapheme: bo/
+    phonemes: [b, w, 9]
+  - grapheme: bo/1
+    phonemes: [b, 9]
+  - grapheme: bong/
+    phonemes: [b, 9, ng]
+  - grapheme: bongr/
+    phonemes: [b, 9, ng, 3]
+  - grapheme: bor/
+    phonemes: [b, 9, 3]
+  - grapheme: bou/
+    phonemes: [b, x, o]
+  - grapheme: bour/
+    phonemes: [b, x, o, 3]
+  - grapheme: bu/
+    phonemes: [b, o]
+  - grapheme: bur/
+    phonemes: [b, o, 3]
+  - grapheme: ca/
+    phonemes: [t, s, a]
+  - grapheme: cai/
+    phonemes: [t, s, I]
+  - grapheme: cair/
+    phonemes: [t, s, a, 3]
+  - grapheme: can/
+    phonemes: [t, s, a, n]
+  - grapheme: cang/
+    phonemes: [t, s, a, ng]
+  - grapheme: cangr/
+    phonemes: [t, s, a, ng, 3]
+  - grapheme: canr/
+    phonemes: [t, s, a, 3]
+  - grapheme: cao/
+    phonemes: [t, s, a, o]
+  - grapheme: caor/
+    phonemes: [t, s, a, o, 3]
+  - grapheme: car/
+    phonemes: [t, s, a, 3]
+  - grapheme: ce/
+    phonemes: [t, s, x]
+  - grapheme: cei/
+    phonemes: [t, s, A]
+  - grapheme: ceir/
+    phonemes: [t, s, x, 3]
+  - grapheme: cen/
+    phonemes: [t, s, x, n]
+  - grapheme: ceng/
+    phonemes: [t, s, x, ng]
+  - grapheme: cengr/
+    phonemes: [t, s, x, ng, 3]
+  - grapheme: cenr/
+    phonemes: [t, s, x, 3]
+  - grapheme: cer/
+    phonemes: [t, s, x, 3]
+  - grapheme: cha/
+    phonemes: [ch, a]
+  - grapheme: chai/
+    phonemes: [ch, I]
+  - grapheme: chair/
+    phonemes: [ch, a, 3]
+  - grapheme: chan/
+    phonemes: [ch, a, n]
+  - grapheme: chang/
+    phonemes: [ch, a, ng]
+  - grapheme: changr/
+    phonemes: [ch, a, ng, 3]
+  - grapheme: chanr/
+    phonemes: [ch, a, 3]
+  - grapheme: chao/
+    phonemes: [ch, a, o]
+  - grapheme: chaor/
+    phonemes: [ch, a, o, 3]
+  - grapheme: char/
+    phonemes: [ch, a, 3]
+  - grapheme: che/
+    phonemes: [ch, x]
+  - grapheme: chei/
+    phonemes: [ch, A]
+  - grapheme: cheir/
+    phonemes: [ch, x, 3]
+  - grapheme: chen/
+    phonemes: [ch, x, n]
+  - grapheme: cheng/
+    phonemes: [ch, x, ng]
+  - grapheme: chengr/
+    phonemes: [ch, x, ng, 3]
+  - grapheme: chenr/
+    phonemes: [ch, x, 3]
+  - grapheme: cher/
+    phonemes: [ch, x, 3]
+  - grapheme: chi/
+    phonemes: [ch, i]
+  - grapheme: chir/
+    phonemes: [ch, x, 3]
+  - grapheme: cho/
+    phonemes: [ch, 9]
+  - grapheme: chong/
+    phonemes: [ch, 9, ng]
+  - grapheme: chongr/
+    phonemes: [ch, 9, ng, 3]
+  - grapheme: chor/
+    phonemes: [ch, 9, 3]
+  - grapheme: chou/
+    phonemes: [ch, x, o]
+  - grapheme: chour/
+    phonemes: [ch, x, o, 3]
+  - grapheme: chu/
+    phonemes: [ch, o]
+  - grapheme: chua/
+    phonemes: [ch, w, a]
+  - grapheme: chuai/
+    phonemes: [ch, w, I]
+  - grapheme: chuair/
+    phonemes: [ch, w, a, 3]
+  - grapheme: chuan/
+    phonemes: [ch, w, a, n]
+  - grapheme: chuang/
+    phonemes: [ch, w, a, ng]
+  - grapheme: chuangr/
+    phonemes: [ch, w, a, ng, 3]
+  - grapheme: chuanr/
+    phonemes: [ch, w, a, 3]
+  - grapheme: chuar/
+    phonemes: [ch, w, a, 3]
+  - grapheme: chui/
+    phonemes: [ch, w, A]
+  - grapheme: chuir/
+    phonemes: [ch, o, 3]
+  - grapheme: chun/
+    phonemes: [ch, o, n]
+  - grapheme: chunr/
+    phonemes: [ch, o, 3]
+  - grapheme: chuo/
+    phonemes: [ch, w, 9]
+  - grapheme: chuor/
+    phonemes: [ch, w, 9, 3]
+  - grapheme: chur/
+    phonemes: [ch, o, 3]
+  - grapheme: ci/
+    phonemes: [t, s, i]
+  - grapheme: cian/
+    phonemes: [t, s, y, e, n]
+  - grapheme: ciang/
+    phonemes: [t, s, y, a, ng]
+  - grapheme: ciangr/
+    phonemes: [t, s, y, a, ng, 3]
+  - grapheme: cianr/
+    phonemes: [t, s, y, a, 3]
+  - grapheme: ciao/
+    phonemes: [t, s, y, a, o]
+  - grapheme: ciaor/
+    phonemes: [t, s, y, a, o, 3]
+  - grapheme: cie/
+    phonemes: [t, s, y, e]
+  - grapheme: cier/
+    phonemes: [t, s, y, e, 3]
+  - grapheme: cii/
+    phonemes: [t, s, E]
+  - grapheme: ciir/
+    phonemes: [t, s, E, 3]
+  - grapheme: cin/
+    phonemes: [t, s, E, n]
+  - grapheme: cing/
+    phonemes: [t, s, E, ng]
+  - grapheme: cingr/
+    phonemes: [t, s, E, ng, 3]
+  - grapheme: cinr/
+    phonemes: [t, s, E, 3]
+  - grapheme: cio/
+    phonemes: [t, s, y, 9]
+  - grapheme: cior/
+    phonemes: [t, s, y, 9, 3]
+  - grapheme: cir/
+    phonemes: [t, s, x, 3]
+  - grapheme: ciu/
+    phonemes: [t, s, y, x, o]
+  - grapheme: ciur/
+    phonemes: [t, s, y, x, o, 3]
+  - grapheme: co/
+    phonemes: [t, s, 9]
+  - grapheme: cong/
+    phonemes: [t, s, 9, ng]
+  - grapheme: congr/
+    phonemes: [t, s, 9, ng, 3]
+  - grapheme: cor/
+    phonemes: [t, s, 9, 3]
+  - grapheme: cou/
+    phonemes: [t, s, x, o]
+  - grapheme: cour/
+    phonemes: [t, s, x, o, 3]
+  - grapheme: cu/
+    phonemes: [t, s, o]
+  - grapheme: cuan/
+    phonemes: [t, s, w, a, n]
+  - grapheme: cuanr/
+    phonemes: [t, s, w, a, 3]
+  - grapheme: cue/1
+    phonemes: [t, s, w, e]
+  - grapheme: cuer/
+    phonemes: [t, s, w, e, 3]
+  - grapheme: cui/
+    phonemes: [t, s, w, A]
+  - grapheme: cuir/
+    phonemes: [t, s, o, 3]
+  - grapheme: cun/
+    phonemes: [t, s, o, n]
+  - grapheme: cunr/
+    phonemes: [t, s, o, 3]
+  - grapheme: cuo/
+    phonemes: [t, s, w, 9]
+  - grapheme: cuor/
+    phonemes: [t, s, w, 9, 3]
+  - grapheme: cur/
+    phonemes: [t, s, o, 3]
+  - grapheme: cv/
+    phonemes: [t, s, i]
+  - grapheme: cvan/
+    phonemes: [t, s, w, e, n]
+  - grapheme: cvanr/
+    phonemes: [t, s, w, a, 3]
+  - grapheme: cve/1
+    phonemes: [t, s, w, e]
+  - grapheme: cver/
+    phonemes: [t, s, w, e, 3]
+  - grapheme: cvn/
+    phonemes: [t, s, i, n]
+  - grapheme: cvnr/
+    phonemes: [t, s, i, 3]
+  - grapheme: cvr/
+    phonemes: [t, s, i, 3]
+  - grapheme: da/
+    phonemes: [d, a]
+  - grapheme: dai/
+    phonemes: [d, I]
+  - grapheme: dair/
+    phonemes: [d, a, 3]
+  - grapheme: dan/
+    phonemes: [d, a, n]
+  - grapheme: dang/
+    phonemes: [d, a, ng]
+  - grapheme: dangr/
+    phonemes: [d, a, ng, 3]
+  - grapheme: danr/
+    phonemes: [d, a, 3]
+  - grapheme: dao/
+    phonemes: [d, a, o]
+  - grapheme: daor/
+    phonemes: [d, a, o, 3]
+  - grapheme: dar/
+    phonemes: [d, a, 3]
+  - grapheme: de/
+    phonemes: [d, x]
+  - grapheme: dei/
+    phonemes: [d, A]
+  - grapheme: deir/
+    phonemes: [d, x, 3]
+  - grapheme: den/
+    phonemes: [d, x, n]
+  - grapheme: deng/
+    phonemes: [d, x, ng]
+  - grapheme: dengr/
+    phonemes: [d, x, ng, 3]
+  - grapheme: denr/
+    phonemes: [d, x, 3]
+  - grapheme: der/
+    phonemes: [d, x, 3]
   - grapheme: di/
     phonemes: [d, E]
-  - grapheme: ti/
-    phonemes: [t, E]
-  - grapheme: ni/
-    phonemes: [n, E]
+  - grapheme: dian/
+    phonemes: [d, y, e, n]
+  - grapheme: dianr/
+    phonemes: [d, y, a, 3]
+  - grapheme: diao/
+    phonemes: [d, y, a, o]
+  - grapheme: diaor/
+    phonemes: [d, y, a, o, 3]
+  - grapheme: die/
+    phonemes: [d, y, e]
+  - grapheme: dier/
+    phonemes: [d, y, e, 3]
+  - grapheme: ding/
+    phonemes: [d, E, ng]
+  - grapheme: dingr/
+    phonemes: [d, E, ng, 3]
+  - grapheme: dir/
+    phonemes: [d, E, 3]
+  - grapheme: diu/
+    phonemes: [d, y, x, o]
+  - grapheme: diur/
+    phonemes: [d, y, x, o, 3]
+  - grapheme: do/
+    phonemes: [d, 9]
+  - grapheme: dong/
+    phonemes: [d, 9, ng]
+  - grapheme: dongr/
+    phonemes: [d, 9, ng, 3]
+  - grapheme: dor/
+    phonemes: [d, 9, 3]
+  - grapheme: dou/
+    phonemes: [d, x, o]
+  - grapheme: dour/
+    phonemes: [d, x, o, 3]
+  - grapheme: du/
+    phonemes: [d, o]
+  - grapheme: dun/
+    phonemes: [d, o, n]
+  - grapheme: dunr/
+    phonemes: [d, o, 3]
+  - grapheme: duo/
+    phonemes: [d, w, 9]
+  - grapheme: duor/
+    phonemes: [d, w, 9, 3]
+  - grapheme: dur/
+    phonemes: [d, o, 3]
+  - grapheme: e/
+    phonemes: [x]
+  - grapheme: ei/
+    phonemes: [A]
+  - grapheme: eir/
+    phonemes: [x, 3]
+  - grapheme: en/
+    phonemes: [x, n]
+  - grapheme: eng/
+    phonemes: [x, ng]
+  - grapheme: engr/
+    phonemes: [x, ng, 3]
+  - grapheme: enr/
+    phonemes: [x, 3]
+  - grapheme: er/2
+    phonemes: [x, 3]
+  - grapheme: fa/
+    phonemes: [f, a]
+  - grapheme: fan/
+    phonemes: [f, a, n]
+  - grapheme: fang/
+    phonemes: [f, a, ng]
+  - grapheme: fangr/
+    phonemes: [f, a, ng, 3]
+  - grapheme: fanr/
+    phonemes: [f, a, 3]
+  - grapheme: far/
+    phonemes: [f, a, 3]
+  - grapheme: fe/
+    phonemes: [f, x]
+  - grapheme: fei/
+    phonemes: [f, A]
+  - grapheme: feir/
+    phonemes: [f, x, 3]
+  - grapheme: fen/
+    phonemes: [f, x, n]
+  - grapheme: feng/
+    phonemes: [f, x, ng]
+  - grapheme: fengr/
+    phonemes: [f, x, ng, 3]
+  - grapheme: fenr/
+    phonemes: [f, x, 3]
+  - grapheme: fer/
+    phonemes: [f, x, 3]
+  - grapheme: fo/
+    phonemes: [f, w, 9]
+  - grapheme: fo/1
+    phonemes: [f, 9]
+  - grapheme: fong/
+    phonemes: [f, 9, ng]
+  - grapheme: fongr/
+    phonemes: [f, 9, ng, 3]
+  - grapheme: for/
+    phonemes: [f, 9, 3]
+  - grapheme: fou/
+    phonemes: [f, x, o]
+  - grapheme: four/
+    phonemes: [f, x, o, 3]
+  - grapheme: fu/
+    phonemes: [f, o]
+  - grapheme: fur/
+    phonemes: [f, o, 3]
+  - grapheme: ga/
+    phonemes: [g, a]
+  - grapheme: gai/
+    phonemes: [g, I]
+  - grapheme: gair/
+    phonemes: [g, a, 3]
+  - grapheme: gan/
+    phonemes: [g, a, n]
+  - grapheme: gang/
+    phonemes: [g, a, ng]
+  - grapheme: gangr/
+    phonemes: [g, a, ng, 3]
+  - grapheme: ganr/
+    phonemes: [g, a, 3]
+  - grapheme: gao/
+    phonemes: [g, a, o]
+  - grapheme: gaor/
+    phonemes: [g, a, o, 3]
+  - grapheme: gar/
+    phonemes: [g, a, 3]
+  - grapheme: ge/
+    phonemes: [g, x]
+  - grapheme: gei/
+    phonemes: [g, A]
+  - grapheme: geir/
+    phonemes: [g, x, 3]
+  - grapheme: gen/
+    phonemes: [g, x, n]
+  - grapheme: geng/
+    phonemes: [g, x, ng]
+  - grapheme: gengr/
+    phonemes: [g, x, ng, 3]
+  - grapheme: genr/
+    phonemes: [g, x, 3]
+  - grapheme: ger/
+    phonemes: [g, x, 3]
+  - grapheme: go/
+    phonemes: [g, 9]
+  - grapheme: gong/
+    phonemes: [g, 9, ng]
+  - grapheme: gongr/
+    phonemes: [g, 9, ng, 3]
+  - grapheme: gor/
+    phonemes: [g, 9, 3]
+  - grapheme: gou/
+    phonemes: [g, x, o]
+  - grapheme: gour/
+    phonemes: [g, x, o, 3]
+  - grapheme: gu/
+    phonemes: [g, o]
+  - grapheme: gua/
+    phonemes: [g, w, a]
+  - grapheme: guai/
+    phonemes: [g, w, I]
+  - grapheme: guair/
+    phonemes: [g, w, a, 3]
+  - grapheme: guang/
+    phonemes: [g, w, a, ng]
+  - grapheme: guangr/
+    phonemes: [g, w, a, ng, 3]
+  - grapheme: guar/
+    phonemes: [g, w, a, 3]
+  - grapheme: guo/
+    phonemes: [g, w, 9]
+  - grapheme: guor/
+    phonemes: [g, w, 9, 3]
+  - grapheme: gur/
+    phonemes: [g, o, 3]
+  - grapheme: ha/
+    phonemes: [h, a]
+  - grapheme: hai/
+    phonemes: [h, I]
+  - grapheme: hair/
+    phonemes: [h, a, 3]
+  - grapheme: han/
+    phonemes: [h, a, n]
+  - grapheme: hang/
+    phonemes: [h, a, ng]
+  - grapheme: hangr/
+    phonemes: [h, a, ng, 3]
+  - grapheme: hanr/
+    phonemes: [h, a, 3]
+  - grapheme: hao/
+    phonemes: [h, a, o]
+  - grapheme: haor/
+    phonemes: [h, a, o, 3]
+  - grapheme: har/
+    phonemes: [h, a, 3]
+  - grapheme: he/
+    phonemes: [h, x]
+  - grapheme: hei/
+    phonemes: [h, A]
+  - grapheme: heir/
+    phonemes: [h, x, 3]
+  - grapheme: hen/
+    phonemes: [h, x, n]
+  - grapheme: heng/
+    phonemes: [h, x, ng]
+  - grapheme: hengr/
+    phonemes: [h, x, ng, 3]
+  - grapheme: henr/
+    phonemes: [h, x, 3]
+  - grapheme: her/
+    phonemes: [h, x, 3]
+  - grapheme: ho/
+    phonemes: [h, 9]
+  - grapheme: hong/
+    phonemes: [h, 9, ng]
+  - grapheme: hongr/
+    phonemes: [h, 9, ng, 3]
+  - grapheme: hor/
+    phonemes: [h, 9, 3]
+  - grapheme: hou/
+    phonemes: [h, x, o]
+  - grapheme: hour/
+    phonemes: [h, x, o, 3]
+  - grapheme: hu/
+    phonemes: [h, o]
+  - grapheme: hua/
+    phonemes: [h, w, a]
+  - grapheme: huai/
+    phonemes: [h, w, I]
+  - grapheme: huair/
+    phonemes: [h, w, a, 3]
+  - grapheme: huang/
+    phonemes: [h, w, a, ng]
+  - grapheme: huangr/
+    phonemes: [h, w, a, ng, 3]
+  - grapheme: huar/
+    phonemes: [h, w, a, 3]
+  - grapheme: huo/
+    phonemes: [h, w, 9]
+  - grapheme: huor/
+    phonemes: [h, w, 9, 3]
+  - grapheme: hur/
+    phonemes: [h, o, 3]
+  - grapheme: i/1
+    phonemes: [i]
+  - grapheme: ia/
+    phonemes: [y, a]
+  - grapheme: iai/
+    phonemes: [y, I]
+  - grapheme: ian/
+    phonemes: [y, e, n]
+  - grapheme: iang/
+    phonemes: [y, a, ng]
+  - grapheme: iao/
+    phonemes: [y, a, o]
+  - grapheme: ie/
+    phonemes: [y, e]
+  - grapheme: in/
+    phonemes: [E, n]
+  - grapheme: ing/
+    phonemes: [E, ng]
+  - grapheme: io/
+    phonemes: [y, 9]
+  - grapheme: iong/
+    phonemes: [y, 9, ng]
+  - grapheme: iu/
+    phonemes: [y, x, o]
+  - grapheme: ji/
+    phonemes: [j, E]
+  - grapheme: jia/
+    phonemes: [j, y, a]
+  - grapheme: jiai/
+    phonemes: [j, y, I]
+  - grapheme: jiair/
+    phonemes: [j, y, a, 3]
+  - grapheme: jian/
+    phonemes: [j, y, e, n]
+  - grapheme: jiang/
+    phonemes: [j, y, a, ng]
+  - grapheme: jiangr/
+    phonemes: [j, y, a, ng, 3]
+  - grapheme: jianr/
+    phonemes: [j, y, a, 3]
+  - grapheme: jiao/
+    phonemes: [j, y, a, o]
+  - grapheme: jiaor/
+    phonemes: [j, y, a, o, 3]
+  - grapheme: jiar/
+    phonemes: [j, y, a, 3]
+  - grapheme: jie/
+    phonemes: [j, y, e]
+  - grapheme: jier/
+    phonemes: [j, y, e, 3]
+  - grapheme: jin/
+    phonemes: [j, E, n]
+  - grapheme: jing/
+    phonemes: [j, E, ng]
+  - grapheme: jingr/
+    phonemes: [j, E, ng, 3]
+  - grapheme: jinr/
+    phonemes: [j, E, 3]
+  - grapheme: jio/
+    phonemes: [j, y, 9]
+  - grapheme: jiong/
+    phonemes: [j, y, 9, ng]
+  - grapheme: jiongr/
+    phonemes: [j, y, 9, ng, 3]
+  - grapheme: jior/
+    phonemes: [j, y, 9, 3]
+  - grapheme: jir/
+    phonemes: [j, E, 3]
+  - grapheme: jiu/
+    phonemes: [j, y, x, o]
+  - grapheme: jiur/
+    phonemes: [j, y, x, o, 3]
+  - grapheme: ju/
+    phonemes: [j, i]
+  - grapheme: juan/
+    phonemes: [j, w, e, n]
+  - grapheme: juanr/
+    phonemes: [j, w, a, 3]
+  - grapheme: jue/
+    phonemes: [j, w, e]
+  - grapheme: juer/
+    phonemes: [j, w, e, 3]
+  - grapheme: jun/
+    phonemes: [j, i, n]
+  - grapheme: junr/
+    phonemes: [j, i, 3]
+  - grapheme: jur/
+    phonemes: [j, i, 3]
+  - grapheme: jv/
+    phonemes: [j, i]
+  - grapheme: jvan/
+    phonemes: [j, w, e, n]
+  - grapheme: jvanr/
+    phonemes: [j, w, a, 3]
+  - grapheme: jve/1
+    phonemes: [j, w, e]
+  - grapheme: jver/
+    phonemes: [j, w, e, 3]
+  - grapheme: jvn/
+    phonemes: [j, i, n]
+  - grapheme: jvnr/
+    phonemes: [j, i, 3]
+  - grapheme: jvr/
+    phonemes: [j, i, 3]
+  - grapheme: ka/
+    phonemes: [k, a]
+  - grapheme: kai/
+    phonemes: [k, I]
+  - grapheme: kair/
+    phonemes: [k, a, 3]
+  - grapheme: kan/
+    phonemes: [k, a, n]
+  - grapheme: kang/
+    phonemes: [k, a, ng]
+  - grapheme: kangr/
+    phonemes: [k, a, ng, 3]
+  - grapheme: kanr/
+    phonemes: [k, a, 3]
+  - grapheme: kao/
+    phonemes: [k, a, o]
+  - grapheme: kaor/
+    phonemes: [k, a, o, 3]
+  - grapheme: kar/
+    phonemes: [k, a, 3]
+  - grapheme: ke/
+    phonemes: [k, x]
+  - grapheme: kei/
+    phonemes: [k, A]
+  - grapheme: keir/
+    phonemes: [k, x, 3]
+  - grapheme: ken/
+    phonemes: [k, x, n]
+  - grapheme: keng/
+    phonemes: [k, x, ng]
+  - grapheme: kengr/
+    phonemes: [k, x, ng, 3]
+  - grapheme: kenr/
+    phonemes: [k, x, 3]
+  - grapheme: ker/
+    phonemes: [k, x, 3]
+  - grapheme: ko/
+    phonemes: [k, 9]
+  - grapheme: kong/
+    phonemes: [k, 9, ng]
+  - grapheme: kongr/
+    phonemes: [k, 9, ng, 3]
+  - grapheme: kor/
+    phonemes: [k, 9, 3]
+  - grapheme: kou/
+    phonemes: [k, x, o]
+  - grapheme: kour/
+    phonemes: [k, x, o, 3]
+  - grapheme: ku/
+    phonemes: [k, o]
+  - grapheme: kua/
+    phonemes: [k, w, a]
+  - grapheme: kuai/
+    phonemes: [k, w, I]
+  - grapheme: kuair/
+    phonemes: [k, w, a, 3]
+  - grapheme: kuang/
+    phonemes: [k, w, a, ng]
+  - grapheme: kuangr/
+    phonemes: [k, w, a, ng, 3]
+  - grapheme: kuar/
+    phonemes: [k, w, a, 3]
+  - grapheme: kuo/
+    phonemes: [k, w, 9]
+  - grapheme: kuor/
+    phonemes: [k, w, 9, 3]
+  - grapheme: kur/
+    phonemes: [k, o, 3]
+  - grapheme: la/
+    phonemes: [l, a]
+  - grapheme: lai/
+    phonemes: [l, I]
+  - grapheme: lair/
+    phonemes: [l, a, 3]
+  - grapheme: lan/
+    phonemes: [l, a, n]
+  - grapheme: lang/
+    phonemes: [l, a, ng]
+  - grapheme: langr/
+    phonemes: [l, a, ng, 3]
+  - grapheme: lanr/
+    phonemes: [l, a, 3]
+  - grapheme: lao/
+    phonemes: [l, a, o]
+  - grapheme: laor/
+    phonemes: [l, a, o, 3]
+  - grapheme: lar/
+    phonemes: [l, a, 3]
+  - grapheme: le/
+    phonemes: [l, x]
+  - grapheme: lei/
+    phonemes: [l, A]
+  - grapheme: leir/
+    phonemes: [l, x, 3]
+  - grapheme: len/
+    phonemes: [l, x, n]
+  - grapheme: leng/
+    phonemes: [l, x, ng]
+  - grapheme: lengr/
+    phonemes: [l, x, ng, 3]
+  - grapheme: lenr/
+    phonemes: [l, x, 3]
+  - grapheme: ler/
+    phonemes: [l, x, 3]
   - grapheme: li/
     phonemes: [l, E]
-  - grapheme: gi/
-    phonemes: [g, E]
-  - grapheme: ki/
-    phonemes: [k, E]
-  - grapheme: hi/
-    phonemes: [h, E]
-  - grapheme: ji/
-    phonemes: [ch, E]
+  - grapheme: lian/
+    phonemes: [l, y, e, n]
+  - grapheme: liang/
+    phonemes: [l, y, a, ng]
+  - grapheme: liangr/
+    phonemes: [l, y, a, ng, 3]
+  - grapheme: lianr/
+    phonemes: [l, y, a, 3]
+  - grapheme: liao/
+    phonemes: [l, y, a, o]
+  - grapheme: liaor/
+    phonemes: [l, y, a, o, 3]
+  - grapheme: lie/
+    phonemes: [l, y, e]
+  - grapheme: lier/
+    phonemes: [l, y, e, 3]
+  - grapheme: lin/
+    phonemes: [l, E, n]
+  - grapheme: ling/
+    phonemes: [l, E, ng]
+  - grapheme: lingr/
+    phonemes: [l, E, ng, 3]
+  - grapheme: linr/
+    phonemes: [l, E, 3]
+  - grapheme: lio/
+    phonemes: [l, y, 9]
+  - grapheme: lior/
+    phonemes: [l, y, 9, 3]
+  - grapheme: lir/
+    phonemes: [l, E, 3]
+  - grapheme: liu/
+    phonemes: [l, y, x, o]
+  - grapheme: liur/
+    phonemes: [l, y, x, o, 3]
+  - grapheme: lo/
+    phonemes: [l, 9]
+  - grapheme: long/
+    phonemes: [l, 9, ng]
+  - grapheme: longr/
+    phonemes: [l, 9, ng, 3]
+  - grapheme: lor/
+    phonemes: [l, 9, 3]
+  - grapheme: lou/
+    phonemes: [l, x, o]
+  - grapheme: lour/
+    phonemes: [l, x, o, 3]
+  - grapheme: lu/
+    phonemes: [l, o]
+  - grapheme: lue/1
+    phonemes: [l, w, e]
+  - grapheme: luer/
+    phonemes: [l, w, e, 3]
+  - grapheme: lun/
+    phonemes: [l, o, n]
+  - grapheme: lunr/
+    phonemes: [l, o, 3]
+  - grapheme: luo/
+    phonemes: [l, w, 9]
+  - grapheme: luor/
+    phonemes: [l, w, 9, 3]
+  - grapheme: lur/
+    phonemes: [l, o, 3]
+  - grapheme: lv/
+    phonemes: [l, i]
+  - grapheme: lve/1
+    phonemes: [l, w, e]
+  - grapheme: lver/
+    phonemes: [l, w, e, 3]
+  - grapheme: lvr/
+    phonemes: [l, i, 3]
+  - grapheme: ma/
+    phonemes: [m, a]
+  - grapheme: mai/
+    phonemes: [m, I]
+  - grapheme: mair/
+    phonemes: [m, a, 3]
+  - grapheme: man/
+    phonemes: [m, a, n]
+  - grapheme: mang/
+    phonemes: [m, a, ng]
+  - grapheme: mangr/
+    phonemes: [m, a, ng, 3]
+  - grapheme: manr/
+    phonemes: [m, a, 3]
+  - grapheme: mao/
+    phonemes: [m, a, o]
+  - grapheme: maor/
+    phonemes: [m, a, o, 3]
+  - grapheme: mar/
+    phonemes: [m, a, 3]
+  - grapheme: me/
+    phonemes: [m, x]
+  - grapheme: mei/
+    phonemes: [m, A]
+  - grapheme: meir/
+    phonemes: [m, x, 3]
+  - grapheme: men/
+    phonemes: [m, x, n]
+  - grapheme: meng/
+    phonemes: [m, x, ng]
+  - grapheme: mengr/
+    phonemes: [m, x, ng, 3]
+  - grapheme: menr/
+    phonemes: [m, x, 3]
+  - grapheme: mer/
+    phonemes: [m, x, 3]
+  - grapheme: mi/
+    phonemes: [m, E]
+  - grapheme: mian/
+    phonemes: [m, y, e, n]
+  - grapheme: mianr/
+    phonemes: [m, y, a, 3]
+  - grapheme: miao/
+    phonemes: [m, y, a, o]
+  - grapheme: miaor/
+    phonemes: [m, y, a, o, 3]
+  - grapheme: mie/
+    phonemes: [m, y, e]
+  - grapheme: mier/
+    phonemes: [m, y, e, 3]
+  - grapheme: min/
+    phonemes: [m, E, n]
+  - grapheme: ming/
+    phonemes: [m, E, ng]
+  - grapheme: mingr/
+    phonemes: [m, E, ng, 3]
+  - grapheme: minr/
+    phonemes: [m, E, 3]
+  - grapheme: mir/
+    phonemes: [m, E, 3]
+  - grapheme: miu/
+    phonemes: [m, y, x, o]
+  - grapheme: miur/
+    phonemes: [m, y, x, o, 3]
+  - grapheme: mo/
+    phonemes: [m, w, 9]
+  - grapheme: mo/1
+    phonemes: [m, 9]
+  - grapheme: mong/
+    phonemes: [m, 9, ng]
+  - grapheme: mongr/
+    phonemes: [m, 9, ng, 3]
+  - grapheme: mor/
+    phonemes: [m, 9, 3]
+  - grapheme: mou/
+    phonemes: [m, x, o]
+  - grapheme: mour/
+    phonemes: [m, x, o, 3]
+  - grapheme: mu/
+    phonemes: [m, o]
+  - grapheme: mur/
+    phonemes: [m, o, 3]
+  - grapheme: na/
+    phonemes: [n, a]
+  - grapheme: nai/
+    phonemes: [n, I]
+  - grapheme: nair/
+    phonemes: [n, a, 3]
+  - grapheme: nan/
+    phonemes: [n, a, n]
+  - grapheme: nang/
+    phonemes: [n, a, ng]
+  - grapheme: nangr/
+    phonemes: [n, a, ng, 3]
+  - grapheme: nanr/
+    phonemes: [n, a, 3]
+  - grapheme: nao/
+    phonemes: [n, a, o]
+  - grapheme: naor/
+    phonemes: [n, a, o, 3]
+  - grapheme: nar/
+    phonemes: [n, a, 3]
+  - grapheme: ne/
+    phonemes: [n, x]
+  - grapheme: nei/
+    phonemes: [n, A]
+  - grapheme: neir/
+    phonemes: [n, x, 3]
+  - grapheme: nen/
+    phonemes: [n, x, n]
+  - grapheme: neng/
+    phonemes: [n, x, ng]
+  - grapheme: nengr/
+    phonemes: [n, x, ng, 3]
+  - grapheme: nenr/
+    phonemes: [n, x, 3]
+  - grapheme: ner/
+    phonemes: [n, x, 3]
+  - grapheme: ni/
+    phonemes: [n, E]
+  - grapheme: nian/
+    phonemes: [n, y, e, n]
+  - grapheme: niang/
+    phonemes: [n, y, a, ng]
+  - grapheme: niangr/
+    phonemes: [n, y, a, ng, 3]
+  - grapheme: nianr/
+    phonemes: [n, y, a, 3]
+  - grapheme: niao/
+    phonemes: [n, y, a, o]
+  - grapheme: niaor/
+    phonemes: [n, y, a, o, 3]
+  - grapheme: nie/
+    phonemes: [n, y, e]
+  - grapheme: nier/
+    phonemes: [n, y, e, 3]
+  - grapheme: nin/
+    phonemes: [n, E, n]
+  - grapheme: ning/
+    phonemes: [n, E, ng]
+  - grapheme: ningr/
+    phonemes: [n, E, ng, 3]
+  - grapheme: ninr/
+    phonemes: [n, E, 3]
+  - grapheme: nio/
+    phonemes: [n, y, 9]
+  - grapheme: nior/
+    phonemes: [n, y, 9, 3]
+  - grapheme: nir/
+    phonemes: [n, E, 3]
+  - grapheme: niu/
+    phonemes: [n, y, x, o]
+  - grapheme: niur/
+    phonemes: [n, y, x, o, 3]
+  - grapheme: no/
+    phonemes: [n, 9]
+  - grapheme: nong/
+    phonemes: [n, 9, ng]
+  - grapheme: nongr/
+    phonemes: [n, 9, ng, 3]
+  - grapheme: nor/
+    phonemes: [n, 9, 3]
+  - grapheme: nou/
+    phonemes: [n, x, o]
+  - grapheme: nour/
+    phonemes: [n, x, o, 3]
+  - grapheme: nu/
+    phonemes: [n, o]
+  - grapheme: nue/1
+    phonemes: [n, w, e]
+  - grapheme: nuer/
+    phonemes: [n, w, e, 3]
+  - grapheme: nun/
+    phonemes: [n, o, n]
+  - grapheme: nunr/
+    phonemes: [n, o, 3]
+  - grapheme: nuo/
+    phonemes: [n, w, 9]
+  - grapheme: nuor/
+    phonemes: [n, w, 9, 3]
+  - grapheme: nur/
+    phonemes: [n, o, 3]
+  - grapheme: nv/
+    phonemes: [n, i]
+  - grapheme: nve/1
+    phonemes: [n, w, e]
+  - grapheme: nver/
+    phonemes: [n, w, e, 3]
+  - grapheme: nvr/
+    phonemes: [n, i, 3]
+  - grapheme: o/
+    phonemes: [9]
+  - grapheme: ong/
+    phonemes: [9, ng]
+  - grapheme: ongr/
+    phonemes: [9, ng, 3]
+  - grapheme: or/
+    phonemes: [9, 3]
+  - grapheme: ou/
+    phonemes: [x, o]
+  - grapheme: our/
+    phonemes: [x, o, 3]
+  - grapheme: pa/
+    phonemes: [p, a]
+  - grapheme: pai/
+    phonemes: [p, I]
+  - grapheme: pair/
+    phonemes: [p, a, 3]
+  - grapheme: pan/
+    phonemes: [p, a, n]
+  - grapheme: pang/
+    phonemes: [p, a, ng]
+  - grapheme: pangr/
+    phonemes: [p, a, ng, 3]
+  - grapheme: panr/
+    phonemes: [p, a, 3]
+  - grapheme: pao/
+    phonemes: [p, a, o]
+  - grapheme: paor/
+    phonemes: [p, a, o, 3]
+  - grapheme: par/
+    phonemes: [p, a, 3]
+  - grapheme: pe/
+    phonemes: [p, x]
+  - grapheme: pei/
+    phonemes: [p, A]
+  - grapheme: peir/
+    phonemes: [p, x, 3]
+  - grapheme: pen/
+    phonemes: [p, x, n]
+  - grapheme: peng/
+    phonemes: [p, x, ng]
+  - grapheme: pengr/
+    phonemes: [p, x, ng, 3]
+  - grapheme: penr/
+    phonemes: [p, x, 3]
+  - grapheme: per/
+    phonemes: [p, x, 3]
+  - grapheme: pi/
+    phonemes: [p, E]
+  - grapheme: pian/
+    phonemes: [p, y, e, n]
+  - grapheme: pianr/
+    phonemes: [p, y, a, 3]
+  - grapheme: piao/
+    phonemes: [p, y, a, o]
+  - grapheme: piaor/
+    phonemes: [p, y, a, o, 3]
+  - grapheme: pie/
+    phonemes: [p, y, e]
+  - grapheme: pier/
+    phonemes: [p, y, e, 3]
+  - grapheme: pin/
+    phonemes: [p, E, n]
+  - grapheme: ping/
+    phonemes: [p, E, ng]
+  - grapheme: pingr/
+    phonemes: [p, E, ng, 3]
+  - grapheme: pinr/
+    phonemes: [p, E, 3]
+  - grapheme: pir/
+    phonemes: [p, E, 3]
+  - grapheme: piu/
+    phonemes: [p, y, x, o]
+  - grapheme: piur/
+    phonemes: [p, y, x, o, 3]
+  - grapheme: po/
+    phonemes: [p, w, 9]
+  - grapheme: po/1
+    phonemes: [p, 9]
+  - grapheme: pong/
+    phonemes: [p, 9, ng]
+  - grapheme: pongr/
+    phonemes: [p, 9, ng, 3]
+  - grapheme: por/
+    phonemes: [p, 9, 3]
+  - grapheme: pou/
+    phonemes: [p, x, o]
+  - grapheme: pour/
+    phonemes: [p, x, o, 3]
+  - grapheme: pu/
+    phonemes: [p, o]
+  - grapheme: pur/
+    phonemes: [p, o, 3]
   - grapheme: qi/
     phonemes: [ch, E]
+  - grapheme: qia/
+    phonemes: [ch, y, a]
+  - grapheme: qiai/
+    phonemes: [ch, y, I]
+  - grapheme: qiair/
+    phonemes: [ch, y, a, 3]
+  - grapheme: qian/
+    phonemes: [ch, y, e, n]
+  - grapheme: qiang/
+    phonemes: [ch, y, a, ng]
+  - grapheme: qiangr/
+    phonemes: [ch, y, a, ng, 3]
+  - grapheme: qianr/
+    phonemes: [ch, y, a, 3]
+  - grapheme: qiao/
+    phonemes: [ch, y, a, o]
+  - grapheme: qiaor/
+    phonemes: [ch, y, a, o, 3]
+  - grapheme: qiar/
+    phonemes: [ch, y, a, 3]
+  - grapheme: qie/
+    phonemes: [ch, y, e]
+  - grapheme: qier/
+    phonemes: [ch, y, e, 3]
+  - grapheme: qin/
+    phonemes: [ch, E, n]
+  - grapheme: qing/
+    phonemes: [ch, E, ng]
+  - grapheme: qingr/
+    phonemes: [ch, E, ng, 3]
+  - grapheme: qinr/
+    phonemes: [ch, E, 3]
+  - grapheme: qio/
+    phonemes: [ch, y, 9]
+  - grapheme: qiong/
+    phonemes: [ch, y, 9, ng]
+  - grapheme: qiongr/
+    phonemes: [ch, y, 9, ng, 3]
+  - grapheme: qior/
+    phonemes: [ch, y, 9, 3]
+  - grapheme: qir/
+    phonemes: [ch, E, 3]
+  - grapheme: qiu/
+    phonemes: [ch, y, x, o]
+  - grapheme: qiur/
+    phonemes: [ch, y, x, o, 3]
+  - grapheme: qu/
+    phonemes: [ch, i]
+  - grapheme: quan/1
+    phonemes: [ch, w, e, n]
+  - grapheme: quanr/
+    phonemes: [ch, w, a, 3]
+  - grapheme: que/1
+    phonemes: [ch, w, e]
+  - grapheme: quer/
+    phonemes: [ch, w, e, 3]
+  - grapheme: qun/
+    phonemes: [ch, i, n]
+  - grapheme: qunr/
+    phonemes: [ch, i, 3]
+  - grapheme: qur/
+    phonemes: [ch, i, 3]
+  - grapheme: qv/
+    phonemes: [ch, i]
+  - grapheme: qvan/
+    phonemes: [ch, w, e, n]
+  - grapheme: qvanr/
+    phonemes: [ch, w, a, 3]
+  - grapheme: qve/1
+    phonemes: [ch, w, e]
+  - grapheme: qver/
+    phonemes: [ch, w, e, 3]
+  - grapheme: qvn/
+    phonemes: [ch, i, n]
+  - grapheme: qvnr/
+    phonemes: [ch, i, 3]
+  - grapheme: qvr/
+    phonemes: [ch, i, 3]
+  - grapheme: ran/
+    phonemes: [r, a, n]
+  - grapheme: rang/
+    phonemes: [r, a, ng]
+  - grapheme: rangr/
+    phonemes: [r, a, ng, 3]
+  - grapheme: ranr/
+    phonemes: [r, a, 3]
+  - grapheme: rao/
+    phonemes: [r, a, o]
+  - grapheme: raor/
+    phonemes: [r, a, o, 3]
+  - grapheme: re/
+    phonemes: [r, x]
+  - grapheme: ren/
+    phonemes: [r, x, n]
+  - grapheme: reng/
+    phonemes: [r, x, ng]
+  - grapheme: rengr/
+    phonemes: [r, x, ng, 3]
+  - grapheme: renr/
+    phonemes: [r, x, 3]
+  - grapheme: rer/
+    phonemes: [r, x, 3]
+  - grapheme: rong/
+    phonemes: [r, 9, ng]
+  - grapheme: rongr/
+    phonemes: [r, 9, ng, 3]
+  - grapheme: ru/
+    phonemes: [r, o]
+  - grapheme: rua/
+    phonemes: [r, w, a]
+  - grapheme: ruan/
+    phonemes: [r, w, a, n]
+  - grapheme: ruanr/
+    phonemes: [r, w, a, 3]
+  - grapheme: ruar/
+    phonemes: [r, w, a, 3]
+  - grapheme: rui/
+    phonemes: [r, w, A]
+  - grapheme: ruir/
+    phonemes: [r, o, 3]
+  - grapheme: run/
+    phonemes: [r, o, n]
+  - grapheme: runr/
+    phonemes: [r, o, 3]
+  - grapheme: ruo/
+    phonemes: [r, w, 9]
+  - grapheme: ruor/
+    phonemes: [r, w, 9, 3]
+  - grapheme: rur/
+    phonemes: [r, o, 3]
+  - grapheme: ran/1
+    phonemes: [zh, a, n]
+  - grapheme: rang/1
+    phonemes: [zh, a, ng]
+  - grapheme: rangr/1
+    phonemes: [zh, a, ng, 3]
+  - grapheme: ranr/1
+    phonemes: [zh, a, 3]
+  - grapheme: rao/1
+    phonemes: [zh, a, o]
+  - grapheme: raor/1
+    phonemes: [zh, a, o, 3]
+  - grapheme: re/1
+    phonemes: [zh, x]
+  - grapheme: ren/1
+    phonemes: [zh, x, n]
+  - grapheme: reng/1
+    phonemes: [zh, x, ng]
+  - grapheme: rengr/1
+    phonemes: [zh, x, ng, 3]
+  - grapheme: renr/1
+    phonemes: [zh, x, 3]
+  - grapheme: rer/1
+    phonemes: [zh, x, 3]
+  - grapheme: rong/1
+    phonemes: [zh, 9, ng]
+  - grapheme: rongr/1
+    phonemes: [zh, 9, ng, 3]
+  - grapheme: ru/1
+    phonemes: [zh, o]
+  - grapheme: rua/1
+    phonemes: [zh, w, a]
+  - grapheme: ruan/1
+    phonemes: [zh, w, a, n]
+  - grapheme: ruanr/1
+    phonemes: [zh, w, a, 3]
+  - grapheme: ruar/1
+    phonemes: [zh, w, a, 3]
+  - grapheme: rui/1
+    phonemes: [zh, w, A]
+  - grapheme: ruir/1
+    phonemes: [zh, o, 3]
+  - grapheme: run/1
+    phonemes: [zh, o, n]
+  - grapheme: runr/1
+    phonemes: [zh, o, 3]
+  - grapheme: ruo/1
+    phonemes: [zh, w, 9]
+  - grapheme: ruor/1
+    phonemes: [zh, w, 9, 3]
+  - grapheme: rur/1
+    phonemes: [zh, o, 3]
+  - grapheme: sa/
+    phonemes: [s, a]
+  - grapheme: sai/
+    phonemes: [s, I]
+  - grapheme: sair/
+    phonemes: [s, a, 3]
+  - grapheme: san/
+    phonemes: [s, a, n]
+  - grapheme: sang/
+    phonemes: [s, a, ng]
+  - grapheme: sangr/
+    phonemes: [s, a, ng, 3]
+  - grapheme: sanr/
+    phonemes: [s, a, 3]
+  - grapheme: sao/
+    phonemes: [s, a, o]
+  - grapheme: saor/
+    phonemes: [s, a, o, 3]
+  - grapheme: sar/
+    phonemes: [s, a, 3]
+  - grapheme: se/
+    phonemes: [s, x]
+  - grapheme: sei/
+    phonemes: [s, A]
+  - grapheme: seir/
+    phonemes: [s, x, 3]
+  - grapheme: sen/
+    phonemes: [s, x, n]
+  - grapheme: seng/
+    phonemes: [s, x, ng]
+  - grapheme: sengr/
+    phonemes: [s, x, ng, 3]
+  - grapheme: senr/
+    phonemes: [s, x, 3]
+  - grapheme: ser/
+    phonemes: [s, x, 3]
+  - grapheme: sha/
+    phonemes: [sh, a]
+  - grapheme: shai/
+    phonemes: [sh, I]
+  - grapheme: shair/
+    phonemes: [sh, a, 3]
+  - grapheme: shan/
+    phonemes: [sh, a, n]
+  - grapheme: shang/
+    phonemes: [sh, a, ng]
+  - grapheme: shangr/
+    phonemes: [sh, a, ng, 3]
+  - grapheme: shanr/
+    phonemes: [sh, a, 3]
+  - grapheme: shao/
+    phonemes: [sh, a, o]
+  - grapheme: shaor/
+    phonemes: [sh, a, o, 3]
+  - grapheme: shar/
+    phonemes: [sh, a, 3]
+  - grapheme: she/
+    phonemes: [sh, x]
+  - grapheme: shei/
+    phonemes: [sh, A]
+  - grapheme: sheir/
+    phonemes: [sh, x, 3]
+  - grapheme: shen/
+    phonemes: [sh, x, n]
+  - grapheme: sheng/
+    phonemes: [sh, x, ng]
+  - grapheme: shengr/
+    phonemes: [sh, x, ng, 3]
+  - grapheme: shenr/
+    phonemes: [sh, x, 3]
+  - grapheme: sher/
+    phonemes: [sh, x, 3]
+  - grapheme: shi/
+    phonemes: [sh, i]
+  - grapheme: shir/
+    phonemes: [sh, x, 3]
+  - grapheme: sho/
+    phonemes: [sh, 9]
+  - grapheme: shong/
+    phonemes: [sh, 9, ng]
+  - grapheme: shongr/
+    phonemes: [sh, 9, ng, 3]
+  - grapheme: shor/
+    phonemes: [sh, 9, 3]
+  - grapheme: shou/
+    phonemes: [sh, x, o]
+  - grapheme: shour/
+    phonemes: [sh, x, o, 3]
+  - grapheme: shu/
+    phonemes: [sh, o]
+  - grapheme: shua/
+    phonemes: [sh, w, a]
+  - grapheme: shuai/
+    phonemes: [sh, w, I]
+  - grapheme: shuair/
+    phonemes: [sh, w, a, 3]
+  - grapheme: shuan/
+    phonemes: [sh, w, a, n]
+  - grapheme: shuang/
+    phonemes: [sh, w, a, ng]
+  - grapheme: shuangr/
+    phonemes: [sh, w, a, ng, 3]
+  - grapheme: shuanr/
+    phonemes: [sh, w, a, 3]
+  - grapheme: shuar/
+    phonemes: [sh, w, a, 3]
+  - grapheme: shui/
+    phonemes: [sh, w, A]
+  - grapheme: shuir/
+    phonemes: [sh, o, 3]
+  - grapheme: shun/
+    phonemes: [sh, o, n]
+  - grapheme: shunr/
+    phonemes: [sh, o, 3]
+  - grapheme: shuo/
+    phonemes: [sh, w, 9]
+  - grapheme: shuor/
+    phonemes: [sh, w, 9, 3]
+  - grapheme: shur/
+    phonemes: [sh, o, 3]
+  - grapheme: si/
+    phonemes: [s, i]
+  - grapheme: sian/
+    phonemes: [s, y, e, n]
+  - grapheme: siang/
+    phonemes: [s, y, a, ng]
+  - grapheme: siangr/
+    phonemes: [s, y, a, ng, 3]
+  - grapheme: sianr/
+    phonemes: [s, y, a, 3]
+  - grapheme: siao/
+    phonemes: [s, y, a, o]
+  - grapheme: siaor/
+    phonemes: [s, y, a, o, 3]
+  - grapheme: sie/
+    phonemes: [s, y, e]
+  - grapheme: sier/
+    phonemes: [s, y, e, 3]
+  - grapheme: sii/
+    phonemes: [s, E]
+  - grapheme: siir/
+    phonemes: [s, E, 3]
+  - grapheme: sin/
+    phonemes: [s, E, n]
+  - grapheme: sing/
+    phonemes: [s, E, ng]
+  - grapheme: singr/
+    phonemes: [s, E, ng, 3]
+  - grapheme: sinr/
+    phonemes: [s, E, 3]
+  - grapheme: sio/
+    phonemes: [s, y, 9]
+  - grapheme: sior/
+    phonemes: [s, y, 9, 3]
+  - grapheme: sir/
+    phonemes: [s, x, 3]
+  - grapheme: siu/
+    phonemes: [s, y, x, o]
+  - grapheme: siur/
+    phonemes: [s, y, x, o, 3]
+  - grapheme: so/
+    phonemes: [s, 9]
+  - grapheme: song/
+    phonemes: [s, 9, ng]
+  - grapheme: songr/
+    phonemes: [s, 9, ng, 3]
+  - grapheme: sor/
+    phonemes: [s, 9, 3]
+  - grapheme: sou/
+    phonemes: [s, x, o]
+  - grapheme: sour/
+    phonemes: [s, x, o, 3]
+  - grapheme: su/
+    phonemes: [s, o]
+  - grapheme: suan/
+    phonemes: [s, w, a, n]
+  - grapheme: suanr/
+    phonemes: [s, w, a, 3]
+  - grapheme: sue/1
+    phonemes: [s, w, e]
+  - grapheme: suer/
+    phonemes: [s, w, e, 3]
+  - grapheme: sui/
+    phonemes: [s, w, A]
+  - grapheme: suir/
+    phonemes: [s, o, 3]
+  - grapheme: sun/
+    phonemes: [s, o, n]
+  - grapheme: sunr/
+    phonemes: [s, o, 3]
+  - grapheme: suo/
+    phonemes: [s, w, 9]
+  - grapheme: suor/
+    phonemes: [s, w, 9, 3]
+  - grapheme: sur/
+    phonemes: [s, o, 3]
+  - grapheme: sv/
+    phonemes: [s, i]
+  - grapheme: svan/
+    phonemes: [s, w, e, n]
+  - grapheme: svanr/
+    phonemes: [s, w, a, 3]
+  - grapheme: sve/1
+    phonemes: [s, w, e]
+  - grapheme: sver/
+    phonemes: [s, w, e, 3]
+  - grapheme: svn/
+    phonemes: [s, i, n]
+  - grapheme: svnr/
+    phonemes: [s, i, 3]
+  - grapheme: svr/
+    phonemes: [s, i, 3]
+  - grapheme: ta/
+    phonemes: [t, a]
+  - grapheme: tai/
+    phonemes: [t, I]
+  - grapheme: tair/
+    phonemes: [t, a, 3]
+  - grapheme: tan/
+    phonemes: [t, a, n]
+  - grapheme: tang/
+    phonemes: [t, a, ng]
+  - grapheme: tangr/
+    phonemes: [t, a, ng, 3]
+  - grapheme: tanr/
+    phonemes: [t, a, 3]
+  - grapheme: tao/
+    phonemes: [t, a, o]
+  - grapheme: taor/
+    phonemes: [t, a, o, 3]
+  - grapheme: tar/
+    phonemes: [t, a, 3]
+  - grapheme: te/
+    phonemes: [t, x]
+  - grapheme: tei/
+    phonemes: [t, A]
+  - grapheme: teir/
+    phonemes: [t, x, 3]
+  - grapheme: ten/
+    phonemes: [t, x, n]
+  - grapheme: teng/
+    phonemes: [t, x, ng]
+  - grapheme: tengr/
+    phonemes: [t, x, ng, 3]
+  - grapheme: tenr/
+    phonemes: [t, x, 3]
+  - grapheme: ter/
+    phonemes: [t, x, 3]
+  - grapheme: ti/
+    phonemes: [t, E]
+  - grapheme: tian/
+    phonemes: [t, y, e, n]
+  - grapheme: tianr/
+    phonemes: [t, y, a, 3]
+  - grapheme: tiao/
+    phonemes: [t, y, a, o]
+  - grapheme: tiaor/
+    phonemes: [t, y, a, o, 3]
+  - grapheme: tie/
+    phonemes: [t, y, e]
+  - grapheme: tier/
+    phonemes: [t, y, e, 3]
+  - grapheme: ting/
+    phonemes: [t, E, ng]
+  - grapheme: tingr/
+    phonemes: [t, E, ng, 3]
+  - grapheme: tir/
+    phonemes: [t, E, 3]
+  - grapheme: tiu/
+    phonemes: [t, y, x, o]
+  - grapheme: tiur/
+    phonemes: [t, y, x, o, 3]
+  - grapheme: to/
+    phonemes: [t, 9]
+  - grapheme: tong/
+    phonemes: [t, 9, ng]
+  - grapheme: tongr/
+    phonemes: [t, 9, ng, 3]
+  - grapheme: tor/
+    phonemes: [t, 9, 3]
+  - grapheme: tou/
+    phonemes: [t, x, o]
+  - grapheme: tour/
+    phonemes: [t, x, o, 3]
+  - grapheme: tu/
+    phonemes: [t, o]
+  - grapheme: tun/
+    phonemes: [t, o, n]
+  - grapheme: tunr/
+    phonemes: [t, o, n, 3]
+  - grapheme: tuo/
+    phonemes: [t, w, 9]
+  - grapheme: tuor/
+    phonemes: [t, w, 9, 3]
+  - grapheme: tur/
+    phonemes: [t, o, 3]
+  - grapheme: u/
+    phonemes: [o]
+  - grapheme: ua/
+    phonemes: [w, a]
+  - grapheme: uai/
+    phonemes: [w, I]
+  - grapheme: uan/
+    phonemes: [w, a, n]
+  - grapheme: uang/
+    phonemes: [w, a, ng]
+  - grapheme: ue/
+    phonemes: [w, e]
+  - grapheme: ui/
+    phonemes: [w, A]
+  - grapheme: un/
+    phonemes: [o, n]
+  - grapheme: uo/
+    phonemes: [w, 9]
+  - grapheme: v/1
+    phonemes: [y]
+  - grapheme: van/
+    phonemes: [w, e, n]
+  - grapheme: ve/
+    phonemes: [w, e]
+  - grapheme: vn/
+    phonemes: [y, n]
+  - grapheme: wa/
+    phonemes: [w, a]
+  - grapheme: wai/
+    phonemes: [w, I]
+  - grapheme: wair/
+    phonemes: [w, a, 3]
+  - grapheme: wan/
+    phonemes: [w, a, n]
+  - grapheme: wang/
+    phonemes: [w, a, ng]
+  - grapheme: wangr/
+    phonemes: [w, a, ng, 3]
+  - grapheme: wanr/
+    phonemes: [w, a, 3]
+  - grapheme: war/
+    phonemes: [w, a, 3]
+  - grapheme: wei/
+    phonemes: [w, A]
+  - grapheme: weir/
+    phonemes: [o, 3]
+  - grapheme: wen/
+    phonemes: [w, x, n]
+  - grapheme: weng/
+    phonemes: [w, x, ng]
+  - grapheme: wengr/
+    phonemes: [w, x, ng, 3]
+  - grapheme: wenr/
+    phonemes: [o, 3]
+  - grapheme: wo/
+    phonemes: [w, 9]
+  - grapheme: wong/
+    phonemes: [w, 9, ng]
+  - grapheme: wongr/
+    phonemes: [w, 9, ng, 3]
+  - grapheme: wor/
+    phonemes: [w, 9, 3]
+  - grapheme: wu/1
+    phonemes: [w, o]
+  - grapheme: wur/
+    phonemes: [w, o, 3]
   - grapheme: xi/
     phonemes: [sh, E]
+  - grapheme: xia/
+    phonemes: [sh, y, a]
+  - grapheme: xiai/
+    phonemes: [sh, y, I]
+  - grapheme: xiair/
+    phonemes: [sh, y, a, 3]
+  - grapheme: xian/
+    phonemes: [sh, y, e, n]
+  - grapheme: xiang/
+    phonemes: [sh, y, a, ng]
+  - grapheme: xiangr/
+    phonemes: [sh, y, a, ng, 3]
+  - grapheme: xianr/
+    phonemes: [sh, y, a, 3]
+  - grapheme: xiao/
+    phonemes: [sh, y, a, o]
+  - grapheme: xiaor/
+    phonemes: [sh, y, a, o, 3]
+  - grapheme: xiar/
+    phonemes: [sh, y, a, 3]
+  - grapheme: xie/
+    phonemes: [sh, y, e]
+  - grapheme: xier/
+    phonemes: [sh, y, e, 3]
+  - grapheme: xin/
+    phonemes: [sh, E, n]
+  - grapheme: xing/
+    phonemes: [sh, E, ng]
+  - grapheme: xingr/
+    phonemes: [sh, E, ng, 3]
+  - grapheme: xinr/
+    phonemes: [sh, E, 3]
+  - grapheme: xio/
+    phonemes: [sh, y, 9]
+  - grapheme: xiong/
+    phonemes: [sh, y, 9, ng]
+  - grapheme: xiongr/
+    phonemes: [sh, y, 9, ng, 3]
+  - grapheme: xior/
+    phonemes: [sh, y, 9, 3]
+  - grapheme: xir/
+    phonemes: [sh, E, 3]
+  - grapheme: xiu/
+    phonemes: [sh, y, x, o]
+  - grapheme: xiur/
+    phonemes: [sh, y, x, o, 3]
+  - grapheme: xu/
+    phonemes: [sh, i]
+  - grapheme: xuan/1
+    phonemes: [sh, w, e, n]
+  - grapheme: xuanr/
+    phonemes: [sh, w, a, 3]
+  - grapheme: xue/1
+    phonemes: [sh, w, e]
+  - grapheme: xuer/
+    phonemes: [sh, w, e, 3]
+  - grapheme: xun/
+    phonemes: [sh, i, n]
+  - grapheme: xunr/
+    phonemes: [sh, i, 3]
+  - grapheme: xur/
+    phonemes: [sh, i, 3]
+  - grapheme: xv/
+    phonemes: [sh, i]
+  - grapheme: xvan/
+    phonemes: [sh, w, e, n]
+  - grapheme: xvanr/
+    phonemes: [sh, w, a, 3]
+  - grapheme: xve/1
+    phonemes: [sh, w, e]
+  - grapheme: xver/
+    phonemes: [sh, w, e, 3]
+  - grapheme: xvn/
+    phonemes: [sh, i, n]
+  - grapheme: xvnr/
+    phonemes: [sh, i, 3]
+  - grapheme: xvr/
+    phonemes: [sh, i, 3]
+  - grapheme: ya/
+    phonemes: [y, a]
+  - grapheme: yai/
+    phonemes: [y, I]
+  - grapheme: yair/
+    phonemes: [y, a, 3]
+  - grapheme: yan/
+    phonemes: [y, e, n]
+  - grapheme: yang/
+    phonemes: [y, a, ng]
+  - grapheme: yangr/
+    phonemes: [y, a, ng, 3]
+  - grapheme: yanr/
+    phonemes: [y, a, 3]
+  - grapheme: yao/
+    phonemes: [y, a, o]
+  - grapheme: yaor/
+    phonemes: [y, a, o, 3]
+  - grapheme: yar/
+    phonemes: [y, a, 3]
+  - grapheme: ye/
+    phonemes: [y, e]
+  - grapheme: yer/
+    phonemes: [y, e, 3]
+  - grapheme: yi/1
+    phonemes: [y, E]
+  - grapheme: yin/
+    phonemes: [y, E, n]
+  - grapheme: ying/
+    phonemes: [y, E, ng]
+  - grapheme: yingr/
+    phonemes: [y, E, ng, 3]
+  - grapheme: yinr/
+    phonemes: [y, E, 3]
+  - grapheme: yir/
+    phonemes: [y, E, 3]
+  - grapheme: yo/
+    phonemes: [y, 9]
+  - grapheme: yong/
+    phonemes: [y, 9, ng]
+  - grapheme: yongr/
+    phonemes: [y, 9, ng, 3]
+  - grapheme: yor/
+    phonemes: [y, 9, 3]
+  - grapheme: you/
+    phonemes: [y, x, o]
+  - grapheme: your/
+    phonemes: [y, x, o, 3]
+  - grapheme: yu/1
+    phonemes: [y, i]
+  - grapheme: yuan/1
+    phonemes: [y, w, e, n]
+  - grapheme: yuanr/
+    phonemes: [y, w, a, 3]
+  - grapheme: yue/
+    phonemes: [y, w, e]
+  - grapheme: yuer/
+    phonemes: [y, w, e, 3]
+  - grapheme: yun/
+    phonemes: [y, i, n]
+  - grapheme: yunr/
+    phonemes: [y, i, 3]
+  - grapheme: yur/
+    phonemes: [y, i, 3]
+  - grapheme: za/
+    phonemes: [z, a]
+  - grapheme: zai/
+    phonemes: [z, I]
+  - grapheme: zair/
+    phonemes: [z, a, 3]
+  - grapheme: zan/
+    phonemes: [z, a, n]
+  - grapheme: zang/
+    phonemes: [z, a, ng]
+  - grapheme: zangr/
+    phonemes: [z, a, ng, 3]
+  - grapheme: zanr/
+    phonemes: [z, a, 3]
+  - grapheme: zao/
+    phonemes: [z, a, o]
+  - grapheme: zaor/
+    phonemes: [z, a, o, 3]
+  - grapheme: zar/
+    phonemes: [z, a, 3]
+  - grapheme: ze/
+    phonemes: [z, x]
+  - grapheme: zei/
+    phonemes: [z, A]
+  - grapheme: zeir/
+    phonemes: [z, x, 3]
+  - grapheme: zen/
+    phonemes: [z, x, n]
+  - grapheme: zeng/
+    phonemes: [z, x, ng]
+  - grapheme: zengr/
+    phonemes: [z, x, ng, 3]
+  - grapheme: zenr/
+    phonemes: [z, x, 3]
+  - grapheme: zer/
+    phonemes: [z, x, 3]
+  - grapheme: zha/
+    phonemes: [j, a]
+  - grapheme: zhai/
+    phonemes: [j, I]
+  - grapheme: zhair/
+    phonemes: [j, a, 3]
+  - grapheme: zhan/
+    phonemes: [j, a, n]
+  - grapheme: zhang/
+    phonemes: [j, a, ng]
+  - grapheme: zhangr/
+    phonemes: [j, a, ng, 3]
+  - grapheme: zhanr/
+    phonemes: [j, a, 3]
+  - grapheme: zhao/
+    phonemes: [j, a, o]
+  - grapheme: zhaor/
+    phonemes: [j, a, o, 3]
+  - grapheme: zhar/
+    phonemes: [j, a, 3]
+  - grapheme: zhe/
+    phonemes: [j, x]
+  - grapheme: zhei/
+    phonemes: [j, A]
+  - grapheme: zheir/
+    phonemes: [j, x, 3]
+  - grapheme: zhen/
+    phonemes: [j, x, n]
+  - grapheme: zheng/
+    phonemes: [j, x, ng]
+  - grapheme: zhengr/
+    phonemes: [j, x, ng, 3]
+  - grapheme: zhenr/
+    phonemes: [j, x, 3]
+  - grapheme: zher/
+    phonemes: [j, x, 3]
+  - grapheme: zhi/
+    phonemes: [j, i]
+  - grapheme: zhir/
+    phonemes: [j, x, 3]
+  - grapheme: zho/
+    phonemes: [j, 9]
+  - grapheme: zhong/
+    phonemes: [j, 9, ng]
+  - grapheme: zhongr/
+    phonemes: [j, 9, ng, 3]
+  - grapheme: zhor/
+    phonemes: [j, 9, 3]
+  - grapheme: zhou/
+    phonemes: [j, x, o]
+  - grapheme: zhour/
+    phonemes: [j, x, o, 3]
+  - grapheme: zhu/
+    phonemes: [j, o]
+  - grapheme: zhua/
+    phonemes: [j, w, a]
+  - grapheme: zhuai/
+    phonemes: [j, w, I]
+  - grapheme: zhuair/
+    phonemes: [j, w, a, 3]
+  - grapheme: zhuan/
+    phonemes: [j, w, a, n]
+  - grapheme: zhuang/
+    phonemes: [j, w, a, ng]
+  - grapheme: zhuangr/
+    phonemes: [j, w, a, ng, 3]
+  - grapheme: zhuanr/
+    phonemes: [j, w, a, 3]
+  - grapheme: zhuar/
+    phonemes: [j, w, a, 3]
+  - grapheme: zhui/
+    phonemes: [j, w, A]
+  - grapheme: zhuir/
+    phonemes: [j, o, 3]
+  - grapheme: zhun/
+    phonemes: [j, o, n]
+  - grapheme: zhunr/
+    phonemes: [j, o, 3]
+  - grapheme: zhuo/
+    phonemes: [j, w, 9]
+  - grapheme: zhuor/
+    phonemes: [j, w, 9, 3]
+  - grapheme: zhur/
+    phonemes: [j, o, 3]
+  - grapheme: zi/
+    phonemes: [z, i]
+  - grapheme: zian/
+    phonemes: [z, y, e, n]
+  - grapheme: ziang/
+    phonemes: [z, y, a, ng]
+  - grapheme: ziangr/
+    phonemes: [z, y, a, ng, 3]
+  - grapheme: zianr/
+    phonemes: [z, y, a, 3]
+  - grapheme: ziao/
+    phonemes: [z, y, a, o]
+  - grapheme: ziaor/
+    phonemes: [z, y, a, o, 3]
+  - grapheme: zie/
+    phonemes: [z, y, e]
+  - grapheme: zier/
+    phonemes: [z, y, e, 3]
+  - grapheme: zii/
+    phonemes: [z, E]
+  - grapheme: ziir/
+    phonemes: [z, E, 3]
+  - grapheme: zin/
+    phonemes: [z, E, n]
+  - grapheme: zing/
+    phonemes: [z, E, ng]
+  - grapheme: zingr/
+    phonemes: [z, E, ng, 3]
+  - grapheme: zinr/
+    phonemes: [z, E, 3]
+  - grapheme: zio/
+    phonemes: [z, y, 9]
+  - grapheme: zior/
+    phonemes: [z, y, 9, 3]
+  - grapheme: zir/
+    phonemes: [z, x, 3]
+  - grapheme: ziu/
+    phonemes: [z, y, x, o]
+  - grapheme: ziur/
+    phonemes: [z, y, x, o, 3]
+  - grapheme: zo/
+    phonemes: [z, 9]
+  - grapheme: zong/
+    phonemes: [z, 9, ng]
+  - grapheme: zongr/
+    phonemes: [z, 9, ng, 3]
+  - grapheme: zor/
+    phonemes: [z, 9, 3]
+  - grapheme: zou/
+    phonemes: [z, x, o]
+  - grapheme: zour/
+    phonemes: [z, x, o, 3]
+  - grapheme: zu/
+    phonemes: [z, o]
+  - grapheme: zuan/
+    phonemes: [z, w, a, n]
+  - grapheme: zuanr/
+    phonemes: [z, w, a, 3]
+  - grapheme: zue/1
+    phonemes: [z, w, e]
+  - grapheme: zuer/
+    phonemes: [z, w, e, 3]
+  - grapheme: zui/
+    phonemes: [z, w, A]
+  - grapheme: zuir/
+    phonemes: [z, o, 3]
+  - grapheme: zun/
+    phonemes: [z, o, n]
+  - grapheme: zunr/
+    phonemes: [z, o, 3]
+  - grapheme: zuo/
+    phonemes: [z, w, 9]
+  - grapheme: zuor/
+    phonemes: [z, w, 9, 3]
+  - grapheme: zur/
+    phonemes: [z, o, 3]
+  - grapheme: zv/
+    phonemes: [z, i]
+  - grapheme: zvan/
+    phonemes: [z, w, e, n]
+  - grapheme: zvanr/
+    phonemes: [z, w, a, 3]
+  - grapheme: zve/1
+    phonemes: [z, w, e]
+  - grapheme: zver/
+    phonemes: [z, w, e, 3]
+  - grapheme: zvn/
+    phonemes: [z, i, n]
+  - grapheme: zvnr/
+    phonemes: [z, i, 3]
+  - grapheme: zvr/
+    phonemes: [z, i, 3]
+  - grapheme: bang/1
+    phonemes: [b, a, ng]
+  - grapheme: pang/1
+    phonemes: [p, a, ng]
+  - grapheme: mang/1
+    phonemes: [m, a, ng]
+  - grapheme: fang/1
+    phonemes: [f, a, ng]
+  - grapheme: dang/1
+    phonemes: [d, a, ng]
+  - grapheme: tang/1
+    phonemes: [t, a, ng]
+  - grapheme: nang/1
+    phonemes: [n, a, ng]
+  - grapheme: lang/1
+    phonemes: [l, a, ng]
+  - grapheme: gang/1
+    phonemes: [g, a, ng]
+  - grapheme: kang/1
+    phonemes: [k, a, ng]
+  - grapheme: hang/1
+    phonemes: [h, a, ng]
+  - grapheme: zhang/1
+    phonemes: [j, a, ng]
+  - grapheme: chang/1
+    phonemes: [ch, a, ng]
+  - grapheme: shang/1
+    phonemes: [sh, a, ng]
+  - grapheme: rang/2
+    phonemes: [r, a, ng]
+  - grapheme: rang/4
+    phonemes: [zh, a, ng]
+  - grapheme: zang/1
+    phonemes: [z, a, ng]
+  - grapheme: cang/1
+    phonemes: [t, s, a, ng]
+  - grapheme: sang/1
+    phonemes: [s, a, ng]
   - grapheme: bia/
     phonemes: [b, y, a]
   - grapheme: pia/
@@ -11177,42 +12815,40 @@ entries:
     phonemes: [k, y, a]
   - grapheme: hia/
     phonemes: [h, y, a]
-  - grapheme: jia/
+  - grapheme: jia/1
     phonemes: [ch, y, a]
   - grapheme: qia/
     phonemes: [ch, y, a]
   - grapheme: xia/
     phonemes: [sh, y, a]
   - grapheme: bio/
-    phonemes: [b, y, aa, 6]
+    phonemes: [b, y, a, o]
   - grapheme: pio/
-    phonemes: [p, y, aa, 6]
+    phonemes: [p, y, a, o]
   - grapheme: mio/
-    phonemes: [m, y, aa, 6]
+    phonemes: [m, y, a, o]
   - grapheme: fio/
-    phonemes: [f, y, aa, 6]
+    phonemes: [f, y, a, o]
   - grapheme: dio/
-    phonemes: [d, y, aa, 6]
+    phonemes: [d, y, a, o]
   - grapheme: tio/
-    phonemes: [t, y, aa, 6]
-  - grapheme: nio/
-    phonemes: [n, y, aa, 6]
-  - grapheme: lio/
-    phonemes: [l, y, aa, 6]
+    phonemes: [t, y, a, o]
+  - grapheme: nio/1
+    phonemes: [n, y, a, o]
+  - grapheme: lio/1
+    phonemes: [l, y, a, o]
   - grapheme: gio/
-    phonemes: [g, y, aa, 6]
+    phonemes: [g, y, a, o]
   - grapheme: kio/
-    phonemes: [k, y, aa, 6]
+    phonemes: [k, y, a, o]
   - grapheme: hio/
-    phonemes: [h, y, aa, 6]
-  - grapheme: jio/
-    phonemes: [ch, y, aa, 6]
-  - grapheme: qio/
-    phonemes: [ch, y, aa, 6]
-  - grapheme: xio/
-    phonemes: [sh, y, aa, 6]
-  - grapheme: bie/
-    phonemes: [b, y, e]
+    phonemes: [h, y, a, o]
+  - grapheme: jio/1
+    phonemes: [ch, y, a, o]
+  - grapheme: qio/1
+    phonemes: [ch, y, a, o]
+  - grapheme: xio/1
+    phonemes: [sh, y, a, o]
   - grapheme: pie/
     phonemes: [p, y, e]
   - grapheme: mie/
@@ -11233,7 +12869,7 @@ entries:
     phonemes: [k, y, e]
   - grapheme: hie/
     phonemes: [h, y, e]
-  - grapheme: jie/
+  - grapheme: jie/1
     phonemes: [ch, y, e]
   - grapheme: qie/
     phonemes: [ch, y, e]
@@ -11261,224 +12897,40 @@ entries:
     phonemes: [k, y, I]
   - grapheme: hiai/
     phonemes: [h, y, I]
-  - grapheme: jiai/
+  - grapheme: jiai/1
     phonemes: [ch, y, I]
   - grapheme: qiai/
     phonemes: [ch, y, I]
   - grapheme: xiai/
     phonemes: [sh, y, I]
-  - grapheme: bi9/
-    phonemes: [b, y, aa, 6]
-  - grapheme: pi9/
-    phonemes: [p, y, aa, 6]
-  - grapheme: mi9/
-    phonemes: [m, y, aa, 6]
-  - grapheme: fi9/
-    phonemes: [f, y, aa, 6]
-  - grapheme: di9/
-    phonemes: [d, y, aa, 6]
-  - grapheme: ti9/
-    phonemes: [t, y, aa, 6]
-  - grapheme: ni9/
-    phonemes: [n, y, aa, 6]
-  - grapheme: li9/
-    phonemes: [l, y, aa, 6]
-  - grapheme: gi9/
-    phonemes: [g, y, aa, 6]
-  - grapheme: ki9/
-    phonemes: [k, y, aa, 6]
-  - grapheme: hi9/
-    phonemes: [h, y, aa, 6]
-  - grapheme: ji9/
-    phonemes: [ch, y, aa, 6]
-  - grapheme: qi9/
-    phonemes: [ch, y, aa, 6]
-  - grapheme: xi9/
-    phonemes: [sh, y, aa, 6]
-  - grapheme: biu/
-    phonemes: [b, y, x, 6]
-  - grapheme: piu/
-    phonemes: [p, y, x, 6]
-  - grapheme: miu/
-    phonemes: [m, y, x, 6]
-  - grapheme: fiu/
-    phonemes: [f, y, x, 6]
-  - grapheme: diu/
-    phonemes: [d, y, x, 6]
-  - grapheme: tiu/
-    phonemes: [t, y, x, 6]
-  - grapheme: niu/
-    phonemes: [n, y, x, 6]
-  - grapheme: liu/
-    phonemes: [l, y, x, 6]
-  - grapheme: giu/
-    phonemes: [g, y, x, 6]
-  - grapheme: kiu/
-    phonemes: [k, y, x, 6]
-  - grapheme: hiu/
-    phonemes: [h, y, x, 6]
-  - grapheme: jiu/
-    phonemes: [ch, y, x, 6]
-  - grapheme: qiu/
-    phonemes: [ch, y, x, 6]
-  - grapheme: xiu/
-    phonemes: [sh, y, x, 6]
-  - grapheme: bian/
-    phonemes: [b, y, e, n]
-  - grapheme: pian/
-    phonemes: [p, y, e, n]
-  - grapheme: mian/
-    phonemes: [m, y, e, n]
-  - grapheme: fian/
-    phonemes: [f, y, e, n]
-  - grapheme: dian/
-    phonemes: [d, y, e, n]
-  - grapheme: tian/
-    phonemes: [t, y, e, n]
-  - grapheme: nian/
-    phonemes: [n, y, e, n]
-  - grapheme: lian/
-    phonemes: [l, y, e, n]
-  - grapheme: gian/
-    phonemes: [g, y, e, n]
-  - grapheme: kian/
-    phonemes: [k, y, e, n]
-  - grapheme: hian/
-    phonemes: [h, y, e, n]
-  - grapheme: jian/
-    phonemes: [ch, y, e, n]
-  - grapheme: qian/
-    phonemes: [ch, y, e, n]
-  - grapheme: xian/
-    phonemes: [sh, y, e, n]
-  - grapheme: bin/
-    phonemes: [b, E, n]
-  - grapheme: pin/
-    phonemes: [p, E, n]
-  - grapheme: min/
-    phonemes: [m, E, n]
-  - grapheme: fin/
-    phonemes: [f, E, n]
-  - grapheme: din/
-    phonemes: [d, E, n]
-  - grapheme: tin/
-    phonemes: [t, E, n]
-  - grapheme: nin/
-    phonemes: [n, E, n]
-  - grapheme: lin/
-    phonemes: [l, E, n]
-  - grapheme: gin/
-    phonemes: [g, E, n]
-  - grapheme: kin/
-    phonemes: [k, E, n]
-  - grapheme: hin/
-    phonemes: [h, E, n]
-  - grapheme: jin/
-    phonemes: [ch, E, n]
-  - grapheme: qin/
-    phonemes: [ch, E, n]
-  - grapheme: xin/
-    phonemes: [sh, E, n]
   - grapheme: biang/
-    phonemes: [b, y, aa, ng]
+    phonemes: [b, y, a, ng]
   - grapheme: piang/
-    phonemes: [p, y, aa, ng]
+    phonemes: [p, y, a, ng]
   - grapheme: miang/
-    phonemes: [m, y, aa, ng]
+    phonemes: [m, y, a, ng]
   - grapheme: fiang/
-    phonemes: [f, y, aa, ng]
+    phonemes: [f, y, a, ng]
   - grapheme: diang/
-    phonemes: [d, y, aa, ng]
+    phonemes: [d, y, a, ng]
   - grapheme: tiang/
-    phonemes: [t, y, aa, ng]
-  - grapheme: niang/
-    phonemes: [n, y, aa, ng]
-  - grapheme: liang/
-    phonemes: [l, y, aa, ng]
+    phonemes: [t, y, a, ng]
+  - grapheme: niang/1
+    phonemes: [n, y, a, ng]
+  - grapheme: liang/1
+    phonemes: [l, y, a, ng]
   - grapheme: giang/
-    phonemes: [g, y, aa, ng]
+    phonemes: [g, y, a, ng]
   - grapheme: kiang/
-    phonemes: [k, y, aa, ng]
+    phonemes: [k, y, a, ng]
   - grapheme: hiang/
-    phonemes: [h, y, aa, ng]
-  - grapheme: jiang/
-    phonemes: [ch, y, aa, ng]
-  - grapheme: qiang/
-    phonemes: [ch, y, aa, ng]
-  - grapheme: xiang/
-    phonemes: [sh, y, aa, ng]
-  - grapheme: bing/
-    phonemes: [b, E, ng]
-  - grapheme: ping/
-    phonemes: [p, E, ng]
-  - grapheme: ming/
-    phonemes: [m, E, ng]
-  - grapheme: fing/
-    phonemes: [f, E, ng]
-  - grapheme: ding/
-    phonemes: [d, E, ng]
-  - grapheme: ting/
-    phonemes: [t, E, ng]
-  - grapheme: ning/
-    phonemes: [n, E, ng]
-  - grapheme: ling/
-    phonemes: [l, E, ng]
-  - grapheme: ging/
-    phonemes: [g, E, ng]
-  - grapheme: king/
-    phonemes: [k, E, ng]
-  - grapheme: hing/
-    phonemes: [h, E, ng]
-  - grapheme: jing/
-    phonemes: [ch, E, ng]
-  - grapheme: qing/
-    phonemes: [ch, E, ng]
-  - grapheme: xing/
-    phonemes: [sh, E, ng]
-  - grapheme: bu/
-    phonemes: [b, o]
-  - grapheme: pu/
-    phonemes: [p, o]
-  - grapheme: mu/
-    phonemes: [m, o]
-  - grapheme: fu/
-    phonemes: [f, o]
-  - grapheme: du/
-    phonemes: [d, o]
-  - grapheme: tu/
-    phonemes: [t, o]
-  - grapheme: nu/
-    phonemes: [n, o]
-  - grapheme: lu/
-    phonemes: [l, o]
-  - grapheme: gu/
-    phonemes: [g, o]
-  - grapheme: ku/
-    phonemes: [k, o]
-  - grapheme: hu/
-    phonemes: [h, o]
-  - grapheme: ju/
-    phonemes: [ch, E]
-  - grapheme: qu/
-    phonemes: [ch, E]
-  - grapheme: xu/
-    phonemes: [sh, E]
-  - grapheme: zhu/
-    phonemes: [j, o]
-  - grapheme: chu/
-    phonemes: [ch, o]
-  - grapheme: shu/
-    phonemes: [sh, o]
-  - grapheme: ru/
-    phonemes: [r, o]
-  - grapheme: ru/1
-    phonemes: [zh, o]
-  - grapheme: zu/
-    phonemes: [z, o]
-  - grapheme: cu/
-    phonemes: [t, s, o]
-  - grapheme: su/
-    phonemes: [s, o]
+    phonemes: [h, y, a, ng]
+  - grapheme: jiang/1
+    phonemes: [ch, y, a, ng]
+  - grapheme: qiang/1
+    phonemes: [ch, y, a, ng]
+  - grapheme: xiang/1
+    phonemes: [sh, y, a, ng]
   - grapheme: bua/
     phonemes: [b, w, a]
   - grapheme: pua/
@@ -11509,8 +12961,6 @@ entries:
     phonemes: [sh, w, a]
   - grapheme: zhua/
     phonemes: [j, w, a]
-  - grapheme: chua/
-    phonemes: [ch, w, a]
   - grapheme: shua/
     phonemes: [sh, w, a]
   - grapheme: rua/
@@ -11677,7 +13127,7 @@ entries:
     phonemes: [k, w, a, n]
   - grapheme: huan/
     phonemes: [h, w, a, n]
-  - grapheme: juan/
+  - grapheme: juan/1
     phonemes: [ch, E, a, n]
   - grapheme: quan/
     phonemes: [ch, E, a, n]
@@ -11685,7 +13135,7 @@ entries:
     phonemes: [sh, E, a, n]
   - grapheme: zhuan/
     phonemes: [j, w, a, n]
-  - grapheme: chuan/
+  - grapheme: chuan/1
     phonemes: [ch, w, a, n]
   - grapheme: shuan/
     phonemes: [sh, w, a, n]
@@ -11700,131 +13150,107 @@ entries:
   - grapheme: suan/
     phonemes: [s, w, a, n]
   - grapheme: bun/
+    phonemes: [b, o, n]
+  - grapheme: bun/1
     phonemes: [b, w, x, n]
   - grapheme: pun/
+    phonemes: [p, o, n]
+  - grapheme: pun/1
     phonemes: [p, w, x, n]
   - grapheme: mun/
+    phonemes: [m, o, n]
+  - grapheme: mun/1
     phonemes: [m, w, x, n]
   - grapheme: fun/
+    phonemes: [f, o, n]
+  - grapheme: fun/1
     phonemes: [f, w, x, n]
-  - grapheme: dun/
+  - grapheme: dun/1
     phonemes: [d, w, x, n]
-  - grapheme: tun/
+  - grapheme: tun/1
     phonemes: [t, w, x, n]
-  - grapheme: nun/
+  - grapheme: nun/1
     phonemes: [n, w, x, n]
-  - grapheme: lun/
+  - grapheme: lun/1
     phonemes: [l, w, x, n]
   - grapheme: gun/
+    phonemes: [g, o, n]
+  - grapheme: gun/1
     phonemes: [g, w, x, n]
   - grapheme: kun/
+    phonemes: [k, o, n]
+  - grapheme: kun/1
     phonemes: [k, w, x, n]
   - grapheme: hun/
+    phonemes: [h, o, n]
+  - grapheme: hun/1
     phonemes: [h, w, x, n]
-  - grapheme: jun/
+  - grapheme: jun/1
     phonemes: [ch, E, e, n]
-  - grapheme: qun/
+  - grapheme: qun/1
     phonemes: [ch, E, e, n]
-  - grapheme: xun/
+  - grapheme: xun/1
     phonemes: [sh, E, e, n]
-  - grapheme: zhun/
+  - grapheme: zhun/1
     phonemes: [j, w, x, n]
-  - grapheme: chun/
+  - grapheme: chun/1
     phonemes: [ch, w, x, n]
-  - grapheme: shun/
+  - grapheme: shun/1
     phonemes: [sh, w, x, n]
-  - grapheme: run/
+  - grapheme: run/3
     phonemes: [r, w, x, n]
-  - grapheme: run/1
+  - grapheme: run/4
     phonemes: [zh, w, x, n]
-  - grapheme: zun/
+  - grapheme: zun/1
     phonemes: [z, w, x, n]
-  - grapheme: cun/
+  - grapheme: cun/1
     phonemes: [t, s, w, x, n]
-  - grapheme: sun/
+  - grapheme: sun/1
     phonemes: [s, w, x, n]
   - grapheme: buang/
-    phonemes: [b, w, aa, ng]
+    phonemes: [b, w, a, ng]
   - grapheme: puang/
-    phonemes: [p, w, aa, ng]
+    phonemes: [p, w, a, ng]
   - grapheme: muang/
-    phonemes: [m, w, aa, ng]
+    phonemes: [m, w, a, ng]
   - grapheme: fuang/
-    phonemes: [f, w, aa, ng]
+    phonemes: [f, w, a, ng]
   - grapheme: duang/
-    phonemes: [d, w, aa, ng]
+    phonemes: [d, w, a, ng]
   - grapheme: tuang/
-    phonemes: [t, w, aa, ng]
+    phonemes: [t, w, a, ng]
   - grapheme: nuang/
-    phonemes: [n, w, aa, ng]
+    phonemes: [n, w, a, ng]
   - grapheme: luang/
-    phonemes: [l, w, aa, ng]
-  - grapheme: guang/
-    phonemes: [g, w, aa, ng]
-  - grapheme: kuang/
-    phonemes: [k, w, aa, ng]
-  - grapheme: huang/
-    phonemes: [h, w, aa, ng]
+    phonemes: [l, w, a, ng]
+  - grapheme: guang/1
+    phonemes: [g, w, a, ng]
+  - grapheme: kuang/1
+    phonemes: [k, w, a, ng]
+  - grapheme: huang/1
+    phonemes: [h, w, a, ng]
   - grapheme: juang/
-    phonemes: [ch, w, aa, ng]
+    phonemes: [ch, w, a, ng]
   - grapheme: quang/
-    phonemes: [ch, w, aa, ng]
+    phonemes: [ch, w, a, ng]
   - grapheme: xuang/
-    phonemes: [sh, w, aa, ng]
-  - grapheme: zhuang/
-    phonemes: [j, w, aa, ng]
-  - grapheme: chuang/
-    phonemes: [ch, w, aa, ng]
-  - grapheme: shuang/
-    phonemes: [sh, w, aa, ng]
+    phonemes: [sh, w, a, ng]
+  - grapheme: zhuang/1
+    phonemes: [j, w, a, ng]
+  - grapheme: chuang/1
+    phonemes: [ch, w, a, ng]
+  - grapheme: shuang/1
+    phonemes: [sh, w, a, ng]
   - grapheme: ruang/
-    phonemes: [r, w, aa, ng]
+    phonemes: [r, w, a, ng]
   - grapheme: ruang/1
-    phonemes: [zh, w, aa, ng]
+    phonemes: [zh, w, a, ng]
   - grapheme: zuang/
-    phonemes: [z, w, aa, ng]
+    phonemes: [z, w, a, ng]
   - grapheme: cuang/
-    phonemes: [t, s, w, aa, ng]
+    phonemes: [t, s, w, a, ng]
   - grapheme: suang/
-    phonemes: [s, w, aa, ng]
-  - grapheme: bong/
-    phonemes: [b, 6, ng]
-  - grapheme: pong/
-    phonemes: [p, 6, ng]
-  - grapheme: mong/
-    phonemes: [m, 6, ng]
-  - grapheme: fong/
-    phonemes: [f, 6, ng]
-  - grapheme: dong/
-    phonemes: [d, 6, ng]
-  - grapheme: tong/
-    phonemes: [t, 6, ng]
-  - grapheme: nong/
-    phonemes: [n, 6, ng]
-  - grapheme: long/
-    phonemes: [l, 6, ng]
-  - grapheme: gong/
-    phonemes: [g, 6, ng]
-  - grapheme: kong/
-    phonemes: [k, 6, ng]
-  - grapheme: hong/
-    phonemes: [h, 6, ng]
-  - grapheme: zhong/
-    phonemes: [j, 6, ng]
-  - grapheme: chong/
-    phonemes: [ch, 6, ng]
-  - grapheme: shong/
-    phonemes: [sh, 6, ng]
-  - grapheme: rong/
-    phonemes: [r, 6, ng]
-  - grapheme: rong/1
-    phonemes: [zh, 6, ng]
-  - grapheme: zong/
-    phonemes: [z, 6, ng]
-  - grapheme: cong/
-    phonemes: [t, s, 6, ng]
-  - grapheme: song/
-    phonemes: [s, 6, ng]
+    phonemes: [s, w, a, ng]
   - grapheme: bv/
     phonemes: [b, E]
   - grapheme: byu/
@@ -11849,11 +13275,11 @@ entries:
     phonemes: [t, E]
   - grapheme: tyu/
     phonemes: [t, E]
-  - grapheme: nv/
+  - grapheme: nv/1
     phonemes: [n, E]
   - grapheme: nyu/
     phonemes: [n, E]
-  - grapheme: lv/
+  - grapheme: lv/1
     phonemes: [l, E]
   - grapheme: lyu/
     phonemes: [l, E]
@@ -11873,11 +13299,11 @@ entries:
     phonemes: [ch, E]
   - grapheme: jyu/
     phonemes: [ch, E]
-  - grapheme: qv/
+  - grapheme: qv/1
     phonemes: [ch, E]
   - grapheme: qyu/
     phonemes: [ch, E]
-  - grapheme: xv/
+  - grapheme: xv/1
     phonemes: [sh, E]
   - grapheme: xyu/
     phonemes: [sh, E]
@@ -11901,15 +13327,15 @@ entries:
     phonemes: [r, E]
   - grapheme: ryu/1
     phonemes: [zh, E]
-  - grapheme: zv/
+  - grapheme: zv/1
     phonemes: [z, E]
   - grapheme: zyu/
     phonemes: [z, E]
-  - grapheme: cv/
+  - grapheme: cv/1
     phonemes: [t, s, E]
   - grapheme: cyu/
     phonemes: [t, s, E]
-  - grapheme: sv/
+  - grapheme: sv/1
     phonemes: [s, E]
   - grapheme: syu/
     phonemes: [s, E]
@@ -11959,7 +13385,7 @@ entries:
     phonemes: [h, E, e]
   - grapheme: jve/
     phonemes: [ch, E, e]
-  - grapheme: jue/
+  - grapheme: jue/1
     phonemes: [ch, E, e]
   - grapheme: qve/
     phonemes: [ch, E, e]
@@ -12002,78 +13428,92 @@ entries:
   - grapheme: sue/
     phonemes: [s, E, e]
   - grapheme: biong/
-    phonemes: [b, y, 6, ng]
+    phonemes: [b, y, 9, ng]
   - grapheme: piong/
-    phonemes: [p, y, 6, ng]
+    phonemes: [p, y, 9, ng]
   - grapheme: miong/
-    phonemes: [m, y, 6, ng]
+    phonemes: [m, y, 9, ng]
   - grapheme: fiong/
-    phonemes: [f, y, 6, ng]
+    phonemes: [f, y, 9, ng]
   - grapheme: diong/
-    phonemes: [d, y, 6, ng]
+    phonemes: [d, y, 9, ng]
   - grapheme: tiong/
-    phonemes: [t, y, 6, ng]
+    phonemes: [t, y, 9, ng]
   - grapheme: niong/
-    phonemes: [n, y, 6, ng]
+    phonemes: [n, y, 9, ng]
   - grapheme: liong/
-    phonemes: [l, y, 6, ng]
+    phonemes: [l, y, 9, ng]
   - grapheme: giong/
-    phonemes: [g, y, 6, ng]
+    phonemes: [g, y, 9, ng]
   - grapheme: kiong/
-    phonemes: [k, y, 6, ng]
+    phonemes: [k, y, 9, ng]
   - grapheme: hiong/
-    phonemes: [h, y, 6, ng]
-  - grapheme: jiong/
-    phonemes: [ch, y, 6, ng]
+    phonemes: [h, y, 9, ng]
+  - grapheme: jiong/1
+    phonemes: [ch, y, 9, ng]
   - grapheme: qiong/
-    phonemes: [ch, y, 6, ng]
+    phonemes: [ch, y, 9, ng]
   - grapheme: xiong/
-    phonemes: [sh, y, 6, ng]
+    phonemes: [sh, y, 9, ng]
   - grapheme: zhiong/
-    phonemes: [j, y, 6, ng]
+    phonemes: [j, y, 9, ng]
   - grapheme: chiong/
-    phonemes: [ch, y, 6, ng]
+    phonemes: [ch, y, 9, ng]
   - grapheme: shiong/
-    phonemes: [sh, y, 6, ng]
+    phonemes: [sh, y, 9, ng]
   - grapheme: riong/
-    phonemes: [r, y, 6, ng]
+    phonemes: [r, y, 9, ng]
   - grapheme: riong/1
-    phonemes: [zh, y, 6, ng]
+    phonemes: [zh, y, 9, ng]
   - grapheme: ziong/
-    phonemes: [z, y, 6, ng]
+    phonemes: [z, y, 9, ng]
   - grapheme: ciong/
-    phonemes: [t, s, y, 6, ng]
+    phonemes: [t, s, y, 9, ng]
   - grapheme: siong/
-    phonemes: [s, y, 6, ng]
-  - grapheme: a/
-    phonemes: [a]
-  - grapheme: o/
-    phonemes: [9]
-  - grapheme: e/
-    phonemes: [9]
-  - grapheme: ai/
-    phonemes: [I]
-  - grapheme: ei/
-    phonemes: [A]
-  - grapheme: 9/
-    phonemes: [aa, 6]
-  - grapheme: ou/
-    phonemes: [x, 6]
-  - grapheme: an/
-    phonemes: [a, n]
-  - grapheme: en/
-    phonemes: [x, n]
-  - grapheme: ang/
-    phonemes: [aa, ng]
-  - grapheme: ong/
-    phonemes: [6, ng]
-  - grapheme: eng/
-    phonemes: [x, ng]
+    phonemes: [s, y, 9, ng]
+  - grapheme: bou/1
+    phonemes: [b, x, 6]
+  - grapheme: pou/1
+    phonemes: [p, x, 6]
+  - grapheme: mou/1
+    phonemes: [m, x, 6]
+  - grapheme: fou/1
+    phonemes: [f, x, 6]
+  - grapheme: dou/
+    phonemes: [d, x, 6]
+  - grapheme: tou/1
+    phonemes: [t, x, 6]
+  - grapheme: nou/1
+    phonemes: [n, x, 6]
+  - grapheme: lou/1
+    phonemes: [l, x, 6]
+  - grapheme: gou/1
+    phonemes: [g, x, 6]
+  - grapheme: kou/1
+    phonemes: [k, x, 6]
+  - grapheme: hou/1
+    phonemes: [h, x, 6]
+  - grapheme: zhou/1
+    phonemes: [j, x, 6]
+  - grapheme: chou/1
+    phonemes: [ch, x, 6]
+  - grapheme: shou/1
+    phonemes: [sh, x, 6]
+  - grapheme: rou/
+    phonemes: [r, x, 6]
+  - grapheme: rou/1
+    phonemes: [zh, x, 6]
+  - grapheme: zou/1
+    phonemes: [z, x, 6]
+  - grapheme: cou/1
+    phonemes: [t, s, x, 6]
+  - grapheme: sou/1
+    phonemes: [s, x, 6]
   - grapheme: er/
     phonemes: [3]
   - grapheme: er/1
     phonemes: [a, 3]
-  - grapheme: er/2
+  - grapheme: er/3
     phonemes: [r]
   - grapheme: i/
     phonemes: [E]
@@ -12087,99 +13527,20 @@ entries:
     phonemes: [o]
   - grapheme: yu/
     phonemes: [E]
-  - grapheme: ya/
-    phonemes: [y, a]
-  - grapheme: ia/
-    phonemes: [y, a]
-  - grapheme: yo/
-    phonemes: [y, aa, 6]
-  - grapheme: io/
-    phonemes: [y, aa, 6]
-  - grapheme: ye/
-    phonemes: [y, e]
-  - grapheme: ie/
-    phonemes: [y, e]
-  - grapheme: yai/
-    phonemes: [y, I]
-  - grapheme: iai/
-    phonemes: [y, I]
-  - grapheme: y9]
-    phonemes: [y, aa, 6]
-  - grapheme: i9]
-    phonemes: [y, aa, 6]
-  - grapheme: you/
-    phonemes: [y, x, 6]
-  - grapheme: iou/
-    phonemes: [y, x, 6]
-  - grapheme: yan/
-    phonemes: [y, a, n]
-  - grapheme: ian/
-    phonemes: [y, e, n]
-  - grapheme: yin/
-    phonemes: [y, E, n]
-  - grapheme: in/
-    phonemes: [y, E, n]
-  - grapheme: yang/
-    phonemes: [y, aa, ng]
-  - grapheme: iang/
-    phonemes: [y, aa, ng]
-  - grapheme: ying/
-    phonemes: [y, E, ng]
-  - grapheme: ing/
-    phonemes: [y, E, ng]
-  - grapheme: wa/
-    phonemes: [w, a]
-  - grapheme: ua/
-    phonemes: [w, a]
-  - grapheme: wo/
-    phonemes: [w, 9]
-  - grapheme: uo/
-    phonemes: [w, 9]
-  - grapheme: wai/
-    phonemes: [w, I]
-  - grapheme: uai/
-    phonemes: [w, I]
-  - grapheme: wei/
-    phonemes: [w, A]
-  - grapheme: wui/
-    phonemes: [w, A]
-  - grapheme: ui/
-    phonemes: [w, A]
-  - grapheme: wan/
-    phonemes: [w, a, n]
-  - grapheme: uan/
-    phonemes: [w, a, n]
-  - grapheme: wen/
-    phonemes: [w, x, n]
-  - grapheme: uen/
-    phonemes: [w, x, n]
-  - grapheme: wang/
-    phonemes: [w, aa, ng]
-  - grapheme: uang/
-    phonemes: [w, aa, ng]
-  - grapheme: weng/
-    phonemes: [w, x, ng]
-  - grapheme: wong/
-    phonemes: [w, 6, ng]
-  - grapheme: yue/
+  - grapheme: yue/1
     phonemes: [y, E, e]
-  - grapheme: ue/
+  - grapheme: ue/1
     phonemes: [y, E, e]
-  - grapheme: yve/
+  - grapheme: yve/1
     phonemes: [y, E, e]
-  - grapheme: ve/
+  - grapheme: ve/1
     phonemes: [y, E, e]
   - grapheme: yuan/
     phonemes: [y, E, a, n]
-  - grapheme: van/
+  - grapheme: van/1
     phonemes: [y, E, e, n]
-  - grapheme: yun/
+  - grapheme: yun/1
     phonemes: [y, E, e, n]
-  - grapheme: vn/
+  - grapheme: vn/1
     phonemes: [y, E, e, n]
-  - grapheme: yong/
-    phonemes: [y, 6, ng]
-  - grapheme: iong/
-    phonemes: [y, 6, ng]
-
 
