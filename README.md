@@ -1,18 +1,18 @@
 # Openutau Yaml Dictionaries
 Openutau Yaml Dictionaries for Arpasing, En VCCV, Delta phonemizers, En Enunu, and En EnunuX/EnunuX to support Japanese, Korean, Chinese, and French (more languages to support soon)
  
-`English to Japanese`, `English to Korean`, `English to Chinese`, and `English to French` (languages auxiliary support for now) for Arpasing, En VCCV, and Delta banks for [Openutau](https://www.openutau.com/) .yaml dictionaries, tweaked based on [Slidingwall's synth dictionary](https://github.com/Slidingwall/synthv-dictionaries).
+`English to Japanese`, `English to Korean`, `English to Chinese`, `English to French`, and `English to Spanish` (languages auxiliary support for now) for Arpasing, En VCCV, and Delta banks for [Openutau](https://www.openutau.com/) .yaml dictionaries, tweaked based on [Slidingwall's synth dictionary](https://github.com/Slidingwall/synthv-dictionaries).
 
 #### 📍 As of now, the bigger the `.yaml` file, the slower Openutau changes the phonemes or any changes in general, as of Ou doesn't supports yet the dictionary picking like on Synthv, for now, you can choose and download the single language dictionary or the compiled one.
 
 ## Credits
-credits for [mmemim](https://github.com/mmemim) for the [Synthv French .json Dictionary](https://github.com/mmemim/OpenUTAU-French-Dictionary) and also credits [Halo/BagelHero](https://github.com/BagelHero) & Mim for the [Ou En VCCV Custom Dictionary](https://github.com/mmemim/OU-EN-VCCV-Custom-Dictionary)
+credits for [mmemim](https://github.com/mmemim) for the [Synthv French .json Dictionary](https://github.com/mmemim/OpenUTAU-French-Dictionary). Credits to [Halo/BagelHero](https://github.com/BagelHero) & Mim for the [Ou En VCCV Custom Dictionary](https://github.com/mmemim/OU-EN-VCCV-Custom-Dictionary) and credits to [Lotte's](https://github.com/lottev1991) [Spanish cmudict](https://github.com/lottev1991/OpenUTAU-Spanish-Dictionary) for the en2sp base.
  - - - -
 - if there's any issue on the dictionary, and language request to support Openutau's dictionary, you can contact me through my [Twitter](https://twitter.com/cadlaxa). Let me know if there's a problem tehee.
 
-#### 📍 There may be wrong entries and mispronunciation in the dictionary, please report them if so. Making your english voicebanks sings in different languages will still require phoneme editing as this lexicon is by no means a plug-and-play solution especially Korean, Chinese, and the French.
+#### 📍 There may be wrong entries and mispronunciation in the dictionary, please report them if so. Making your english voicebanks sings in different languages will still require phoneme editing as this lexicon is by no means a plug-and-play solution especially Korean, Chinese, French and the Spanish.
 
-⭐ The dictionaries are updated regularly so feel free to download the latest one [here](https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries.git)or in this [mirror link](https://mega.nz/folder/BjhATYZb#s3dYIDZxlBRG7TF0QBG6Xw). ⭐
+⭐ The dictionaries are updated regularly so feel free to download the latest one [here](https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries.git) or in this [mirror link](https://mega.nz/folder/BjhATYZb#s3dYIDZxlBRG7TF0QBG6Xw). ⭐
 
 ### Table of contents
 - **[How to download and install dictionaries on Windows](https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries#how-to-download-and-install-dictionaries-for-openutau)**
@@ -21,6 +21,7 @@ credits for [mmemim](https://github.com/mmemim) for the [Synthv French .json Dic
     - **[Korean](https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries#korean-dictionary-usage)**
     - **[Chinese](https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries#chinese-dictionary-usage)**
     - **[French](https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries#french-dictionary-usage)**
+    - **[Spanish](https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries#spanish-dictionary-usage)**
 - **[How to edit dictionary to fit a specific voicebank](https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries#how-to-edit-dictionary-to-fit-a-specific-voicebank)**
 
  - - - -
@@ -68,10 +69,12 @@ credits for [mmemim](https://github.com/mmemim) for the [Synthv French .json Dic
 ![kr consonant assimilation](https://user-images.githubusercontent.com/92255161/216489533-014c19a7-f41f-4524-b5c7-92aed36601c2.png)
 
 ### Chinese Dictionary Usage
-- Only `Pinyin` characters with `/` after the word to utilize the Chinese dictionary.
+- Only `Pinyin` characters with `/` after the word to utilize the Chinese dictionary. Multiple pronunciations now supported. eg: `ra/1` as `[zh, ah]`, `chun/` as `[ch, w, ax, n]`, `chun/1` as `[ch, uw, n]`
  
 ![Chinese Dictionary](https://user-images.githubusercontent.com/92255161/216489976-4335a8b9-6b5e-407b-9e53-ea738bb194b9.png)
+- Multiple pronunciation variations
 
+![ch new](https://user-images.githubusercontent.com/92255161/222963424-75319578-a70f-4222-816e-4246a95bbae5.png)
 
 ### French Dictionary Usage
 - You can input `French`, with `*` after the word in the notes to utilize the French dictionary. Based with [mmemim's](https://github.com/mmemim) [Synthv French .json Dictionary](https://github.com/mmemim/OpenUTAU-French-Dictionary), If you want to say words like l'année or j'en you'll have to split them in two notes l' + année and j' + en as shown below.
@@ -84,11 +87,22 @@ credits for [mmemim](https://github.com/mmemim) for the [Synthv French .json Dic
 - In French, you also have [liaisons](https://en.wikipedia.org/wiki/Liaison_(French)), and some words might not always be pronounced the same way. Because of that, you may sometimes need to put `word(2)`, `word(3)` or even `word(4)`. For example, `absentes` has 4 entries.
 
 ![WordEntries](https://i.imgur.com/MsXgO0o.png)
+
+### Spanish Dictionary Usage
+- You can input `español` with `~` after the spanish word in the notes to utilize the Spanish dictionary. **Note that rolled r's or `rr` doesn't support by default on the dictionary itself, if you voibecank has a rolled r extras, you can add them to the dictionary by specifying the phoneme to the symbols list and replacing the `dx, dx` phoneme. If you vb doesn't have rolled r extras, you can find a way to do them, mine I just as many `r q r q` or `r/dx` then glottals to the rolled r part of the word**
+![spa 2](https://user-images.githubusercontent.com/92255161/222963332-be424bc0-88eb-4aee-86d1-43fb048191fd.png)
+- Rolled r's with r's and glottal magic ✨✨
+![spa rr](https://user-images.githubusercontent.com/92255161/222963387-f97f236e-12c3-4e73-9adb-76d78a37d12e.png)
+
+- **also words without accent doesn't work eg: `útiles~` and you typed `utiles~`, ou will output the english pronunciation eg: `utiles~` to `[y, uw, t, ah/ax, l, z]` so it is important to add the symbol accents. If this feature is annoys you (also myself as well lmao) just let me know, I'll make a variant without the symbol accents**
+
  - - - -
 ## How to edit `.yaml` dictionary to fit a specific voicebank
 - Some voicebanks come with extra phonemes especially with En VCCV and Delta voicebanks, test out first the dictionary so you will know if its there are errors you will encounter like on this picture below:
 ![example](https://user-images.githubusercontent.com/92255161/216491969-82eb325e-9077-423d-97c6-2ab73f5b1caa.png)
 
 - Editing the `.yaml` file via notepad or any other editing software you have to edit your desired phoneme per voicebank. I recommended to copy first one language then edit with the instructions inside the `.yaml` file
+
+- If it doesn't work, batch rename your vb's oto or wait for the dev team to make an phoneme fallback to fix the issue.
 
 ![vccv yaml](https://user-images.githubusercontent.com/92255161/216492284-95afa267-ead7-4703-9722-a7a0dba1084f.png)
