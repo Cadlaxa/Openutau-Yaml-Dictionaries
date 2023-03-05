@@ -29,7 +29,7 @@ credits for [mmemim](https://github.com/mmemim) for the [Synthv French .json Dic
 
 - To download any .yaml dictionary, click on the filename and then click on the download icon in the upper left corner of the file browser, as shown in the image below.
 
-![dl](https://user-images.githubusercontent.com/92255161/216503673-be812287-8c2f-42f8-82dd-a108b9eceb52.png) style="border: 1px solid black"
+![dl](https://user-images.githubusercontent.com/92255161/216503673-be812287-8c2f-42f8-82dd-a108b9eceb52.png)
 
 - If it doesn't show up like that, click Raw...
 
