@@ -89,7 +89,7 @@ credits for [mmemim](https://github.com/mmemim) for the [Synthv French .json Dic
 ![WordEntries](https://i.imgur.com/MsXgO0o.png)
 
 ### Spanish Dictionary Usage
-- You can input `español` with `~` after the spanish word in the notes to utilize the Spanish dictionary. **Note that rolled r's or `rr` doesn't support by default on the dictionary itself, if you voibecank has a rolled r extras, you can add them to the dictionary by specifying the phoneme to the symbols list and replacing the `dx, dx` phoneme. If you vb doesn't have rolled r extras, you can find a way to do them, mine I just as many `r q r q` or `r/dx` then glottals to the rolled r part of the word**
+- You can input `español` with `~` after the spanish word in the notes to utilize the Spanish dictionary. **Note that rolled r's or `rr` doesn't support by default on the dictionary itself, if your voibecank have a rolled r extras, you can add them to the dictionary by specifying the phoneme to the symbol list and replacing the `dx, dx` phoneme with the rolled r phoneme. If your vb doesn't have rolled r extras, you can find a way to do them, mine I just add as many `r q r q` or `r/dx` then glottals to the rolled r part of the word**
 ![spa 2](https://user-images.githubusercontent.com/92255161/222963332-be424bc0-88eb-4aee-86d1-43fb048191fd.png)
 - Rolled r's with r's and glottal magic ✨✨
 ![spa rr](https://user-images.githubusercontent.com/92255161/222963387-f97f236e-12c3-4e73-9adb-76d78a37d12e.png)
