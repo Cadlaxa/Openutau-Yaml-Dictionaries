@@ -1,0 +1,4535 @@
+%YAML 1.2
+---
+#Dictionary extension for En-Delta/X-sampa voicebanks
+#Japanese (Hiragana, Katakana, romaji), Korean (Hangul, Romaja), Chinese Pinyin, Cantonese Jyutping, French, and Spanish are currently supported.
+#More languages to support soon.
+#This dictionary is being updated regularly so download the latest one here:
+#https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries.git
+#Mirror link:
+#https://mega.nz/folder/BjhATYZb#s3dYIDZxlBRG7TF0QBG6Xw
+
+#phoneme [ao] is converted as [o], if the vb has problems on the pronunciation, change it to [O/Q]
+#steps in changing a phoneme: use notepad, find this types of config (X = will be your phoneme here)
+#and type the configs without the parenthesis on find then, replace it with your desired phoneme
+#([X,) (, X,) (,X])
+
+#phoneme [q] or glottal stop on arpasing might be an issue to the vb, inputs such as [kk a] have
+#glottal input (q, k, A), manually type the desired phoneme on OU then lengthen the VC/CC to emulate a stop/glottal
+
+symbols:
+#Delta-style (X-SAMPA) symbols
+  - {symbol: a, type: vowel}
+  - {symbol: e, type: vowel}
+  - {symbol: i, type: vowel}
+  - {symbol: o, type: vowel}
+  - {symbol: u, type: vowel}
+  - {symbol: A, type: vowel}
+  - {symbol: E, type: vowel}
+  - {symbol: I, type: vowel}
+  - {symbol: O, type: vowel}
+  - {symbol: U, type: vowel}
+  - {symbol: '{', type: vowel}
+  - {symbol: V, type: vowel}
+  - {symbol: 3, type: vowel}
+  - {symbol: aI, type: vowel}
+  - {symbol: eI, type: vowel}
+  - {symbol: OI, type: vowel}
+  - {symbol: aU, type: vowel}
+  - {symbol: oU, type: vowel}
+  - {symbol: tS, type: affricate}
+  - {symbol: D, type: fricative}
+  - {symbol: h, type: aspirate}
+  - {symbol: dZ, type: affricate}
+  - {symbol: N, type: nasal}
+  - {symbol: S, type: fricative}
+  - {symbol: T, type: fricative}
+  - {symbol: j, type: semivowel}
+  - {symbol: Z, type: fricative}
+#Arpasing
+  - {symbol: aa, type: vowel}
+  - {symbol: ae, type: vowel}
+  - {symbol: ah, type: vowel}
+  - {symbol: ao, type: vowel}
+  - {symbol: aw, type: vowel}
+  - {symbol: ay, type: vowel}
+  - {symbol: b, type: stop}
+  - {symbol: ch, type: affricate}
+  - {symbol: d, type: stop}
+  - {symbol: dh, type: fricative}
+  - {symbol: eh, type: vowel}
+  - {symbol: er, type: vowel}
+  - {symbol: ey, type: vowel}
+  - {symbol: f, type: fricative}
+  - {symbol: g, type: stop}
+  - {symbol: hh, type: aspirate}
+  - {symbol: ih, type: vowel}
+  - {symbol: iy, type: vowel}
+  - {symbol: jh, type: affricate}
+  - {symbol: k, type: stop}
+  - {symbol: l, type: liquid}
+  - {symbol: m, type: nasal}
+  - {symbol: n, type: nasal}
+  - {symbol: ng, type: nasal}
+  - {symbol: ow, type: vowel}
+  - {symbol: oy, type: vowel}
+  - {symbol: p, type: stop}
+  - {symbol: r, type: liquid}
+  - {symbol: s, type: fricative}
+  - {symbol: sh, type: fricative}
+  - {symbol: t, type: stop}
+  - {symbol: th, type: fricative}
+  - {symbol: uh, type: vowel}
+  - {symbol: uw, type: vowel}
+  - {symbol: v, type: fricative}
+  - {symbol: w, type: semivowel}
+  - {symbol: y, type: semivowel}
+  - {symbol: z, type: fricative}
+  - {symbol: zh, type: fricative}
+  #bonus symbols
+  - {symbol: e@, type: vowel}
+  - {symbol: e@n, type: vowel}
+  - {symbol: e@m, type: vowel}
+  - {symbol: eN, type: vowel}
+  - {symbol: IN, type: vowel}
+  - {symbol: Ar, type: vowel}
+  - {symbol: Er, type: vowel}
+  - {symbol: Ir, type: vowel}
+  - {symbol: Or, type: vowel}
+  - {symbol: Ur, type: vowel}
+  - {symbol: ir, type: vowel}
+  - {symbol: ur, type: vowel}
+  - {symbol: Q, type: vowel}
+  - {symbol: 1, type: vowel}
+  - {symbol: Ol, type: vowel}
+  - {symbol: aUn, type: vowel}
+  - {symbol: '@r', type: vowel}
+  - {symbol: '@l', type: vowel}
+  - {symbol: '@m', type: vowel}
+  - {symbol: '@n', type: vowel}
+  - {symbol: '@N', type: vowel}
+  - {symbol: '@', type: vowel}
+  - {symbol: 4, type: tap}
+  - {symbol: W, type: fricative}
+  - {symbol: 't_}', type: stop}
+
+entries:
+  - grapheme: openutau
+    phonemes: [ow, p, ah, n, uw, t, aw]
+
+#single letter phoneme
+  - grapheme: b
+    phonemes: [b]
+  - grapheme: cl
+    phonemes: [q]
+  - grapheme: k
+    phonemes: [k]
+  - grapheme: d
+    phonemes: [d]
+  - grapheme: D
+    phonemes: [D]
+  - grapheme: dr
+    phonemes: [dr]
+  - grapheme: 4
+    phonemes: [4]
+  - grapheme: f
+    phonemes: [f]
+  - grapheme: g
+    phonemes: [g]
+  - grapheme: h
+    phonemes: [h]
+  - grapheme: hh
+    phonemes: [h]
+  - grapheme: j
+    phonemes: [dZ]
+  - grapheme: dZ
+    phonemes: [dZ]
+  - grapheme: l
+    phonemes: [l]
+  - grapheme: m
+    phonemes: [m]
+  - grapheme: n
+    phonemes: [n]
+  - grapheme: N
+    phonemes: [N]
+  - grapheme: p
+    phonemes: [p]
+  - grapheme: q
+    phonemes: [q]
+  - grapheme: r
+    phonemes: [r]
+  - grapheme: dx
+    phonemes: [4]
+  - grapheme: s
+    phonemes: [s]
+  - grapheme: S
+    phonemes: [S]
+  - grapheme: t
+    phonemes: [t]
+  - grapheme: T
+    phonemes: [T]
+  - grapheme: tr
+    phonemes: [tr]
+  - grapheme: v
+    phonemes: [v]
+  - grapheme: w
+    phonemes: [w]
+  - grapheme: y
+    phonemes: [j]
+  - grapheme: z
+    phonemes: [z]
+  - grapheme: Z
+    phonemes: [Z]
+
+
+#Cantonese (Jyutping)
+  - grapheme: a\
+    phonemes: [V]
+  - grapheme: A\
+    phonemes: [V]
+  - grapheme: aai\
+    phonemes: [aI]
+  - grapheme: aak\
+    phonemes: [V, k]
+  - grapheme: aam\
+    phonemes: ['@', m]
+  - grapheme: aan\
+    phonemes: ['@', n]
+  - grapheme: aang\
+    phonemes: ['@', N]
+  - grapheme: aap\
+    phonemes: [V, p]
+  - grapheme: aat\
+    phonemes: [V, t]
+  - grapheme: aau\
+    phonemes: [V, u]
+  - grapheme: ai\
+    phonemes: ['@', i]
+  - grapheme: ak\
+    phonemes: [V, k]
+  - grapheme: am\
+    phonemes: ['@', m]
+  - grapheme: an\
+    phonemes: ['@', n]
+  - grapheme: ang\
+    phonemes: ['@', N]
+  - grapheme: ap\
+    phonemes: [V, p]
+  - grapheme: at\
+    phonemes: [V, t]
+  - grapheme: au\
+    phonemes: ['@', u]
+  - grapheme: e\
+    phonemes: [E]
+  - grapheme: ei\
+    phonemes: [eI]
+  - grapheme: ek\
+    phonemes: [E, k]
+  - grapheme: em\
+    phonemes: [E, m]
+  - grapheme: en\
+    phonemes: [E, n]
+  - grapheme: eng\
+    phonemes: [E, N]
+  - grapheme: eo\
+    phonemes: [V]
+  - grapheme: eoi\
+    phonemes: ['@', i]
+  - grapheme: eok\
+    phonemes: [V, k]
+  - grapheme: eom\
+    phonemes: ['@', m]
+  - grapheme: eon\
+    phonemes: ['@', n]
+  - grapheme: eong\
+    phonemes: ['@', N]
+  - grapheme: eop\
+    phonemes: [V, p]
+  - grapheme: eot\
+    phonemes: [V, t]
+  - grapheme: eou\
+    phonemes: ['@', u]
+  - grapheme: ep\
+    phonemes: [E, p]
+  - grapheme: et\
+    phonemes: [E, t]
+  - grapheme: eu\
+    phonemes: [E, u]
+  - grapheme: i\
+    phonemes: [i]
+  - grapheme: ik\
+    phonemes: [I, k]
+  - grapheme: im\
+    phonemes: [i, m]
+  - grapheme: in\
+    phonemes: [i, n]
+  - grapheme: ing\
+    phonemes: [I, N]
+  - grapheme: ip\
+    phonemes: [i, p]
+  - grapheme: it\
+    phonemes: [i, t]
+  - grapheme: iu\
+    phonemes: [i, u]
+  - grapheme: o\
+    phonemes: [O]
+  - grapheme: oe\
+    phonemes: [V]
+  - grapheme: oei\
+    phonemes: [aI]
+  - grapheme: oek\
+    phonemes: [V, k]
+  - grapheme: oem\
+    phonemes: ['@', m]
+  - grapheme: oen\
+    phonemes: ['@', n]
+  - grapheme: oeng\
+    phonemes: ['@', N]
+  - grapheme: oep\
+    phonemes: [V, p]
+  - grapheme: oet\
+    phonemes: [V, t]
+  - grapheme: oeu\
+    phonemes: ['@', u]
+  - grapheme: oi\
+    phonemes: [OI]
+  - grapheme: ok\
+    phonemes: [O, k]
+  - grapheme: om\
+    phonemes: [O, m]
+  - grapheme: on\
+    phonemes: [O, n]
+  - grapheme: ong\
+    phonemes: [O, N]
+  - grapheme: op\
+    phonemes: [O, p]
+  - grapheme: ot\
+    phonemes: [O, t]
+  - grapheme: ou\
+    phonemes: [oU]
+  - grapheme: u\
+    phonemes: [u]
+  - grapheme: ui\
+    phonemes: [u, i]
+  - grapheme: uk\
+    phonemes: [U, k]
+  - grapheme: um\
+    phonemes: [u, m]
+  - grapheme: un\
+    phonemes: [u, n]
+  - grapheme: ung\
+    phonemes: [U, N]
+  - grapheme: up\
+    phonemes: [u, p]
+  - grapheme: ut\
+    phonemes: [u, t]
+  - grapheme: yu\
+    phonemes: [I]
+  - grapheme: yui\
+    phonemes: [j, I]
+  - grapheme: yuk\
+    phonemes: [I, k]
+  - grapheme: yum\
+    phonemes: [I, m]
+  - grapheme: yun\
+    phonemes: [I, n]
+  - grapheme: yung\
+    phonemes: [I, N]
+  - grapheme: yup\
+    phonemes: [I, p]
+  - grapheme: yut\
+    phonemes: [I, t]
+  - grapheme: yu\1
+    phonemes: [j]
+  - grapheme: yui\1
+    phonemes: [j, i]
+  - grapheme: yuk\1
+    phonemes: [j, k]
+  - grapheme: yum\1
+    phonemes: [j, m]
+  - grapheme: yun\1
+    phonemes: [j, n]
+  - grapheme: yung\1
+    phonemes: [j, N]
+  - grapheme: yup\1
+    phonemes: [j, p]
+  - grapheme: yut\1
+    phonemes: [j, t]
+  - grapheme: yuu\
+    phonemes: [j, u]
+  - grapheme: ba\
+    phonemes: [b, V]
+  - grapheme: baa\
+    phonemes: [b, V]
+  - grapheme: baai\
+    phonemes: [b, aI]
+  - grapheme: baak\
+    phonemes: [b, V, k]
+  - grapheme: baam\
+    phonemes: [b, '@', m]
+  - grapheme: baan\
+    phonemes: [b, '@', n]
+  - grapheme: baang\
+    phonemes: [b, '@', N]
+  - grapheme: baap\
+    phonemes: [b, V, p]
+  - grapheme: baat\
+    phonemes: [b, V, t]
+  - grapheme: baau\
+    phonemes: [b, V, u]
+  - grapheme: bai\
+    phonemes: [b, '@', i]
+  - grapheme: bak\
+    phonemes: [b, V, k]
+  - grapheme: bam\
+    phonemes: [b, '@', m]
+  - grapheme: ban\
+    phonemes: [b, '@', n]
+  - grapheme: bang\
+    phonemes: [b, '@', N]
+  - grapheme: bap\
+    phonemes: [b, V, p]
+  - grapheme: bat\
+    phonemes: [b, V, t]
+  - grapheme: bau\
+    phonemes: [b, '@', u]
+  - grapheme: be\
+    phonemes: [b, E]
+  - grapheme: bei\
+    phonemes: [b, eI]
+  - grapheme: bek\
+    phonemes: [b, E, k]
+  - grapheme: bem\
+    phonemes: [b, E, m]
+  - grapheme: ben\
+    phonemes: [b, E, n]
+  - grapheme: beng\
+    phonemes: [b, E, N]
+  - grapheme: beo\
+    phonemes: [b, '@']
+  - grapheme: beoi\
+    phonemes: [b, '@', i]
+  - grapheme: beok\
+    phonemes: [b, '@', k]
+  - grapheme: beom\
+    phonemes: [b, '@', m]
+  - grapheme: beon\
+    phonemes: [b, '@', n]
+  - grapheme: beong\
+    phonemes: [b, '@', N]
+  - grapheme: beop\
+    phonemes: [b, '@', p]
+  - grapheme: beot\
+    phonemes: [b, '@', t]
+  - grapheme: beou\
+    phonemes: [b, '@', u]
+  - grapheme: bep\
+    phonemes: [b, E, p]
+  - grapheme: bet\
+    phonemes: [b, E, t]
+  - grapheme: beu\
+    phonemes: [b, E, u]
+  - grapheme: bi\
+    phonemes: [b, i]
+  - grapheme: bik\
+    phonemes: [b, I, k]
+  - grapheme: bim\
+    phonemes: [b, i, m]
+  - grapheme: bin\
+    phonemes: [b, i, n]
+  - grapheme: bing\
+    phonemes: [b, I, N]
+  - grapheme: bip\
+    phonemes: [b, i, p]
+  - grapheme: bit\
+    phonemes: [b, i, t]
+  - grapheme: biu\
+    phonemes: [b, i, u]
+  - grapheme: bo\
+    phonemes: [b, O]
+  - grapheme: boe\
+    phonemes: [b, V]
+  - grapheme: boei\
+    phonemes: [b, aI]
+  - grapheme: boek\
+    phonemes: [b, V, k]
+  - grapheme: boem\
+    phonemes: [b, '@', m]
+  - grapheme: boen\
+    phonemes: [b, '@', n]
+  - grapheme: boeng\
+    phonemes: [b, '@', N]
+  - grapheme: boep\
+    phonemes: [b, V, p]
+  - grapheme: boet\
+    phonemes: [b, V, t]
+  - grapheme: boeu\
+    phonemes: [b, '@', u]
+  - grapheme: boi\
+    phonemes: [b, OI]
+  - grapheme: bok\
+    phonemes: [b, O, k]
+  - grapheme: bom\
+    phonemes: [b, O, m]
+  - grapheme: bon\
+    phonemes: [b, O, n]
+  - grapheme: bong\
+    phonemes: [b, O, N]
+  - grapheme: bop\
+    phonemes: [b, O, p]
+  - grapheme: bot\
+    phonemes: [b, O, t]
+  - grapheme: bou\
+    phonemes: [b, oU]
+  - grapheme: bu\
+    phonemes: [b, u]
+  - grapheme: bui\
+    phonemes: [b, u, i]
+  - grapheme: buk\
+    phonemes: [b, U, k]
+  - grapheme: bum\
+    phonemes: [b, u, m]
+  - grapheme: bun\
+    phonemes: [b, u, n]
+  - grapheme: bung\
+    phonemes: [b, U, N]
+  - grapheme: bup\
+    phonemes: [b, u, p]
+  - grapheme: but\
+    phonemes: [b, u, t]
+  - grapheme: byu\
+    phonemes: [b, I]
+  - grapheme: byui\
+    phonemes: [b, j, I]
+  - grapheme: byuk\
+    phonemes: [b, I, k]
+  - grapheme: byum\
+    phonemes: [b, I, m]
+  - grapheme: byun\
+    phonemes: [b, I, n]
+  - grapheme: byung\
+    phonemes: [b, I, N]
+  - grapheme: byup\
+    phonemes: [b, I, p]
+  - grapheme: byut\
+    phonemes: [b, I, t]
+  - grapheme: byu\1
+    phonemes: [b, j]
+  - grapheme: byui\1
+    phonemes: [b, j, i]
+  - grapheme: byuk\1
+    phonemes: [b, j, k]
+  - grapheme: byum\1
+    phonemes: [b, j, m]
+  - grapheme: byun\1
+    phonemes: [b, j, n]
+  - grapheme: byung\1
+    phonemes: [b, j, N]
+  - grapheme: byup\1
+    phonemes: [b, j, p]
+  - grapheme: byut\1
+    phonemes: [b, j, t]
+  - grapheme: byuu\
+    phonemes: [b, j, u]
+  - grapheme: ca\
+    phonemes: [t, s, V]
+  - grapheme: caa\
+    phonemes: [t, s, V]
+  - grapheme: caai\
+    phonemes: [t, s, aI]
+  - grapheme: caak\
+    phonemes: [t, s, V, k]
+  - grapheme: caam\
+    phonemes: [t, s, '@', m]
+  - grapheme: caan\
+    phonemes: [t, s, '@', n]
+  - grapheme: caang\
+    phonemes: [t, s, '@', N]
+  - grapheme: caap\
+    phonemes: [t, s, V, p]
+  - grapheme: caat\
+    phonemes: [t, s, V, t]
+  - grapheme: caau\
+    phonemes: [t, s, V, u]
+  - grapheme: cai\
+    phonemes: [t, s, '@', i]
+  - grapheme: cak\
+    phonemes: [t, s, V, k]
+  - grapheme: cam\
+    phonemes: [t, s, '@', m]
+  - grapheme: can\
+    phonemes: [t, s, '@', n]
+  - grapheme: cang\
+    phonemes: [t, s, '@', N]
+  - grapheme: cap\
+    phonemes: [t, s, V, p]
+  - grapheme: cat\
+    phonemes: [t, s, V, t]
+  - grapheme: cau\
+    phonemes: [t, s, '@', u]
+  - grapheme: ce\
+    phonemes: [t, s, E]
+  - grapheme: cei\
+    phonemes: [t, s, eI]
+  - grapheme: cek\
+    phonemes: [t, s, E, k]
+  - grapheme: cem\
+    phonemes: [t, s, E, m]
+  - grapheme: cen\
+    phonemes: [t, s, E, n]
+  - grapheme: ceng\
+    phonemes: [t, s, E, N]
+  - grapheme: ceo\
+    phonemes: [t, s, '@']
+  - grapheme: ceoi\
+    phonemes: [t, s, '@', i]
+  - grapheme: ceok\
+    phonemes: [t, s, '@', k]
+  - grapheme: ceom\
+    phonemes: [t, s, '@', m]
+  - grapheme: ceon\
+    phonemes: [t, s, '@', n]
+  - grapheme: ceong\
+    phonemes: [t, s, '@', N]
+  - grapheme: ceop\
+    phonemes: [t, s, '@', p]
+  - grapheme: ceot\
+    phonemes: [t, s, '@', t]
+  - grapheme: ceou\
+    phonemes: [t, s, '@', u]
+  - grapheme: cep\
+    phonemes: [t, s, E, p]
+  - grapheme: cet\
+    phonemes: [t, s, E, t]
+  - grapheme: ceu\
+    phonemes: [t, s, E, u]
+  - grapheme: ci\
+    phonemes: [t, s, i]
+  - grapheme: cik\
+    phonemes: [t, s, I, k]
+  - grapheme: cim\
+    phonemes: [t, s, i, m]
+  - grapheme: cin\
+    phonemes: [t, s, i, n]
+  - grapheme: cing\
+    phonemes: [t, s, I, N]
+  - grapheme: cip\
+    phonemes: [t, s, i, p]
+  - grapheme: cit\
+    phonemes: [t, s, i, t]
+  - grapheme: ciu\
+    phonemes: [t, s, i, u]
+  - grapheme: co\
+    phonemes: [t, s, O]
+  - grapheme: coe\
+    phonemes: [t, s, V]
+  - grapheme: coei\
+    phonemes: [t, s, aI]
+  - grapheme: coek\
+    phonemes: [t, s, V, k]
+  - grapheme: coem\
+    phonemes: [t, s, '@', m]
+  - grapheme: coen\
+    phonemes: [t, s, '@', n]
+  - grapheme: coeng\
+    phonemes: [t, s, '@', N]
+  - grapheme: coep\
+    phonemes: [t, s, V, p]
+  - grapheme: coet\
+    phonemes: [t, s, V, t]
+  - grapheme: coeu\
+    phonemes: [t, s, '@', u]
+  - grapheme: coi\
+    phonemes: [t, s, OI]
+  - grapheme: cok\
+    phonemes: [t, s, O, k]
+  - grapheme: com\
+    phonemes: [t, s, O, m]
+  - grapheme: con\
+    phonemes: [t, s, O, n]
+  - grapheme: cong\
+    phonemes: [t, s, O, N]
+  - grapheme: cop\
+    phonemes: [t, s, O, p]
+  - grapheme: cot\
+    phonemes: [t, s, O, t]
+  - grapheme: cou\
+    phonemes: [t, s, oU]
+  - grapheme: cu\
+    phonemes: [t, s, u]
+  - grapheme: cui\
+    phonemes: [t, s, u, i]
+  - grapheme: cuk\
+    phonemes: [t, s, U, k]
+  - grapheme: cum\
+    phonemes: [t, s, u, m]
+  - grapheme: cun\
+    phonemes: [t, s, u, n]
+  - grapheme: cung\
+    phonemes: [t, s, U, N]
+  - grapheme: cup\
+    phonemes: [t, s, u, p]
+  - grapheme: cut\
+    phonemes: [t, s, u, t]
+  - grapheme: cyu\
+    phonemes: [t, s, I]
+  - grapheme: cyui\
+    phonemes: [t, s, j, I]
+  - grapheme: cyuk\
+    phonemes: [t, s, I, k]
+  - grapheme: cyum\
+    phonemes: [t, s, I, m]
+  - grapheme: cyun\
+    phonemes: [t, s, I, n]
+  - grapheme: cyung\
+    phonemes: [t, s, I, N]
+  - grapheme: cyup\
+    phonemes: [t, s, I, p]
+  - grapheme: cyut\
+    phonemes: [t, s, I, t]
+  - grapheme: cyu\1
+    phonemes: [t, s, j]
+  - grapheme: cyui\1
+    phonemes: [t, s, j, i]
+  - grapheme: cyuk\1
+    phonemes: [t, s, j, k]
+  - grapheme: cyum\1
+    phonemes: [t, s, j, m]
+  - grapheme: cyun\1
+    phonemes: [t, s, j, n]
+  - grapheme: cyung\1
+    phonemes: [t, s, j, N]
+  - grapheme: cyup\1
+    phonemes: [t, s, j, p]
+  - grapheme: cyut\1
+    phonemes: [t, s, j, t]
+  - grapheme: cyuu\
+    phonemes: [t, s, j, u]
+  - grapheme: cha\
+    phonemes: [tS, V]
+  - grapheme: chaa\
+    phonemes: [tS, V]
+  - grapheme: chaai\
+    phonemes: [tS, aI]
+  - grapheme: chaak\
+    phonemes: [tS, V, k]
+  - grapheme: chaam\
+    phonemes: [tS, '@', m]
+  - grapheme: chaan\
+    phonemes: [tS, '@', n]
+  - grapheme: chaang\
+    phonemes: [tS, '@', N]
+  - grapheme: chaap\
+    phonemes: [tS, V, p]
+  - grapheme: chaat\
+    phonemes: [tS, V, t]
+  - grapheme: chaau\
+    phonemes: [tS, V, u]
+  - grapheme: chai\
+    phonemes: [tS, '@', i]
+  - grapheme: chak\
+    phonemes: [tS, V, k]
+  - grapheme: cham\
+    phonemes: [tS, '@', m]
+  - grapheme: chan\
+    phonemes: [tS, '@', n]
+  - grapheme: chang\
+    phonemes: [tS, '@', N]
+  - grapheme: chap\
+    phonemes: [tS, V, p]
+  - grapheme: chat\
+    phonemes: [tS, V, t]
+  - grapheme: chau\
+    phonemes: [tS, '@', u]
+  - grapheme: che\
+    phonemes: [tS, E]
+  - grapheme: chei\
+    phonemes: [tS, eI]
+  - grapheme: chek\
+    phonemes: [tS, E, k]
+  - grapheme: chem\
+    phonemes: [tS, E, m]
+  - grapheme: chen\
+    phonemes: [tS, E, n]
+  - grapheme: cheng\
+    phonemes: [tS, E, N]
+  - grapheme: cheo\
+    phonemes: [tS, '@']
+  - grapheme: cheoi\
+    phonemes: [tS, '@', i]
+  - grapheme: cheok\
+    phonemes: [tS, '@', k]
+  - grapheme: cheom\
+    phonemes: [tS, '@', m]
+  - grapheme: cheon\
+    phonemes: [tS, '@', n]
+  - grapheme: cheong\
+    phonemes: [tS, '@', N]
+  - grapheme: cheop\
+    phonemes: [tS, '@', p]
+  - grapheme: cheot\
+    phonemes: [tS, '@', t]
+  - grapheme: cheou\
+    phonemes: [tS, '@', u]
+  - grapheme: chep\
+    phonemes: [tS, E, p]
+  - grapheme: chet\
+    phonemes: [tS, E, t]
+  - grapheme: cheu\
+    phonemes: [tS, E, u]
+  - grapheme: chi\
+    phonemes: [tS, i]
+  - grapheme: chik\
+    phonemes: [tS, I, k]
+  - grapheme: chim\
+    phonemes: [tS, i, m]
+  - grapheme: chin\
+    phonemes: [tS, i, n]
+  - grapheme: ching\
+    phonemes: [tS, I, N]
+  - grapheme: chip\
+    phonemes: [tS, i, p]
+  - grapheme: chit\
+    phonemes: [tS, i, t]
+  - grapheme: chiu\
+    phonemes: [tS, i, u]
+  - grapheme: cho\
+    phonemes: [tS, O]
+  - grapheme: choe\
+    phonemes: [tS, V]
+  - grapheme: choei\
+    phonemes: [tS, aI]
+  - grapheme: choek\
+    phonemes: [tS, V, k]
+  - grapheme: choem\
+    phonemes: [tS, '@', m]
+  - grapheme: choen\
+    phonemes: [tS, '@', n]
+  - grapheme: choeng\
+    phonemes: [tS, '@', N]
+  - grapheme: choep\
+    phonemes: [tS, V, p]
+  - grapheme: choet\
+    phonemes: [tS, V, t]
+  - grapheme: choeu\
+    phonemes: [tS, '@', u]
+  - grapheme: choi\
+    phonemes: [tS, OI]
+  - grapheme: chok\
+    phonemes: [tS, O, k]
+  - grapheme: chom\
+    phonemes: [tS, O, m]
+  - grapheme: chon\
+    phonemes: [tS, O, n]
+  - grapheme: chong\
+    phonemes: [tS, O, N]
+  - grapheme: chop\
+    phonemes: [tS, O, p]
+  - grapheme: chot\
+    phonemes: [tS, O, t]
+  - grapheme: chou\
+    phonemes: [tS, oU]
+  - grapheme: chu\
+    phonemes: [tS, u]
+  - grapheme: chui\
+    phonemes: [tS, u, i]
+  - grapheme: chuk\
+    phonemes: [tS, U, k]
+  - grapheme: chum\
+    phonemes: [tS, u, m]
+  - grapheme: chun\
+    phonemes: [tS, u, n]
+  - grapheme: chung\
+    phonemes: [tS, U, N]
+  - grapheme: chup\
+    phonemes: [tS, u, p]
+  - grapheme: chut\
+    phonemes: [tS, u, t]
+  - grapheme: chyu\
+    phonemes: [tS, I]
+  - grapheme: chyui\
+    phonemes: [tS, j, I]
+  - grapheme: chyuk\
+    phonemes: [tS, I, k]
+  - grapheme: chyum\
+    phonemes: [tS, I, m]
+  - grapheme: chyun\
+    phonemes: [tS, I, n]
+  - grapheme: chyung\
+    phonemes: [tS, I, N]
+  - grapheme: chyup\
+    phonemes: [tS, I, p]
+  - grapheme: chyut\
+    phonemes: [tS, I, t]
+  - grapheme: chyu\1
+    phonemes: [tS, j]
+  - grapheme: chyui\1
+    phonemes: [tS, j, i]
+  - grapheme: chyuk\1
+    phonemes: [tS, j, k]
+  - grapheme: chyum\1
+    phonemes: [tS, j, m]
+  - grapheme: chyun\1
+    phonemes: [tS, j, n]
+  - grapheme: chyung\1
+    phonemes: [tS, j, N]
+  - grapheme: chyup\1
+    phonemes: [tS, j, p]
+  - grapheme: chyut\1
+    phonemes: [tS, j, t]
+  - grapheme: chyuu\
+    phonemes: [tS, j, u]
+  - grapheme: da\
+    phonemes: [d, V]
+  - grapheme: daa\
+    phonemes: [d, V]
+  - grapheme: daai\
+    phonemes: [d, aI]
+  - grapheme: daak\
+    phonemes: [d, V, k]
+  - grapheme: daam\
+    phonemes: [d, '@', m]
+  - grapheme: daan\
+    phonemes: [d, '@', n]
+  - grapheme: daang\
+    phonemes: [d, '@', N]
+  - grapheme: daap\
+    phonemes: [d, V, p]
+  - grapheme: daat\
+    phonemes: [d, V, t]
+  - grapheme: daau\
+    phonemes: [d, V, u]
+  - grapheme: dai\
+    phonemes: [d, '@', i]
+  - grapheme: dak\
+    phonemes: [d, V, k]
+  - grapheme: dam\
+    phonemes: [d, '@', m]
+  - grapheme: dan\
+    phonemes: [d, '@', n]
+  - grapheme: dang\
+    phonemes: [d, '@', N]
+  - grapheme: dap\
+    phonemes: [d, V, p]
+  - grapheme: dat\
+    phonemes: [d, V, t]
+  - grapheme: dau\
+    phonemes: [d, '@', u]
+  - grapheme: de\
+    phonemes: [d, E]
+  - grapheme: dei\
+    phonemes: [d, eI]
+  - grapheme: dek\
+    phonemes: [d, E, k]
+  - grapheme: dem\
+    phonemes: [d, E, m]
+  - grapheme: den\
+    phonemes: [d, E, n]
+  - grapheme: deng\
+    phonemes: [d, E, N]
+  - grapheme: deo\
+    phonemes: [d, '@']
+  - grapheme: deoi\
+    phonemes: [d, '@', i]
+  - grapheme: deok\
+    phonemes: [d, '@', k]
+  - grapheme: deom\
+    phonemes: [d, '@', m]
+  - grapheme: deon\
+    phonemes: [d, '@', n]
+  - grapheme: deong\
+    phonemes: [d, '@', N]
+  - grapheme: deop\
+    phonemes: [d, '@', p]
+  - grapheme: deot\
+    phonemes: [d, '@', t]
+  - grapheme: deou\
+    phonemes: [d, '@', u]
+  - grapheme: dep\
+    phonemes: [d, E, p]
+  - grapheme: det\
+    phonemes: [d, E, t]
+  - grapheme: deu\
+    phonemes: [d, E, u]
+  - grapheme: di\
+    phonemes: [d, i]
+  - grapheme: dik\
+    phonemes: [d, I, k]
+  - grapheme: dim\
+    phonemes: [d, i, m]
+  - grapheme: din\
+    phonemes: [d, i, n]
+  - grapheme: ding\
+    phonemes: [d, I, N]
+  - grapheme: dip\
+    phonemes: [d, i, p]
+  - grapheme: dit\
+    phonemes: [d, i, t]
+  - grapheme: diu\
+    phonemes: [d, i, u]
+  - grapheme: do\
+    phonemes: [d, O]
+  - grapheme: doe\
+    phonemes: [d, V]
+  - grapheme: doei\
+    phonemes: [d, aI]
+  - grapheme: doek\
+    phonemes: [d, V, k]
+  - grapheme: doem\
+    phonemes: [d, '@', m]
+  - grapheme: doen\
+    phonemes: [d, '@', n]
+  - grapheme: doeng\
+    phonemes: [d, '@', N]
+  - grapheme: doep\
+    phonemes: [d, V, p]
+  - grapheme: doet\
+    phonemes: [d, V, t]
+  - grapheme: doeu\
+    phonemes: [d, '@', u]
+  - grapheme: doi\
+    phonemes: [d, OI]
+  - grapheme: dok\
+    phonemes: [d, O, k]
+  - grapheme: dom\
+    phonemes: [d, O, m]
+  - grapheme: don\
+    phonemes: [d, O, n]
+  - grapheme: dong\
+    phonemes: [d, O, N]
+  - grapheme: dop\
+    phonemes: [d, O, p]
+  - grapheme: dot\
+    phonemes: [d, O, t]
+  - grapheme: dou\
+    phonemes: [d, oU]
+  - grapheme: du\
+    phonemes: [d, u]
+  - grapheme: dui\
+    phonemes: [d, u, i]
+  - grapheme: duk\
+    phonemes: [d, U, k]
+  - grapheme: dum\
+    phonemes: [d, u, m]
+  - grapheme: dun\
+    phonemes: [d, u, n]
+  - grapheme: dung\
+    phonemes: [d, U, N]
+  - grapheme: dup\
+    phonemes: [d, u, p]
+  - grapheme: dut\
+    phonemes: [d, u, t]
+  - grapheme: dyu\
+    phonemes: [d, I]
+  - grapheme: dyui\
+    phonemes: [d, j, I]
+  - grapheme: dyuk\
+    phonemes: [d, I, k]
+  - grapheme: dyum\
+    phonemes: [d, I, m]
+  - grapheme: dyun\
+    phonemes: [d, I, n]
+  - grapheme: dyung\
+    phonemes: [d, I, N]
+  - grapheme: dyup\
+    phonemes: [d, I, p]
+  - grapheme: dyut\
+    phonemes: [d, I, t]
+  - grapheme: dyu\1
+    phonemes: [d, j]
+  - grapheme: dyui\1
+    phonemes: [d, j, i]
+  - grapheme: dyuk\1
+    phonemes: [d, j, k]
+  - grapheme: dyum\1
+    phonemes: [d, j, m]
+  - grapheme: dyun\1
+    phonemes: [d, j, n]
+  - grapheme: dyung\1
+    phonemes: [d, j, N]
+  - grapheme: dyup\1
+    phonemes: [d, j, p]
+  - grapheme: dyut\1
+    phonemes: [d, j, t]
+  - grapheme: dyuu\
+    phonemes: [d, j, u]
+  - grapheme: fa\
+    phonemes: [f, V]
+  - grapheme: faa\
+    phonemes: [f, V]
+  - grapheme: faai\
+    phonemes: [f, aI]
+  - grapheme: faak\
+    phonemes: [f, V, k]
+  - grapheme: faam\
+    phonemes: [f, '@', m]
+  - grapheme: faan\
+    phonemes: [f, '@', n]
+  - grapheme: faang\
+    phonemes: [f, '@', N]
+  - grapheme: faap\
+    phonemes: [f, V, p]
+  - grapheme: faat\
+    phonemes: [f, V, t]
+  - grapheme: faau\
+    phonemes: [f, V, u]
+  - grapheme: fai\
+    phonemes: [f, '@', i]
+  - grapheme: fak\
+    phonemes: [f, V, k]
+  - grapheme: fam\
+    phonemes: [f, '@', m]
+  - grapheme: fan\
+    phonemes: [f, '@', n]
+  - grapheme: fang\
+    phonemes: [f, '@', N]
+  - grapheme: fap\
+    phonemes: [f, V, p]
+  - grapheme: fat\
+    phonemes: [f, V, t]
+  - grapheme: fau\
+    phonemes: [f, '@', u]
+  - grapheme: fe\
+    phonemes: [f, E]
+  - grapheme: fei\
+    phonemes: [f, eI]
+  - grapheme: fek\
+    phonemes: [f, E, k]
+  - grapheme: fem\
+    phonemes: [f, E, m]
+  - grapheme: fen\
+    phonemes: [f, E, n]
+  - grapheme: feng\
+    phonemes: [f, E, N]
+  - grapheme: feo\
+    phonemes: [f, V]
+  - grapheme: feoi\
+    phonemes: [f, '@', i]
+  - grapheme: feok\
+    phonemes: [f, V, k]
+  - grapheme: feom\
+    phonemes: [f, '@', m]
+  - grapheme: feon\
+    phonemes: [f, '@', n]
+  - grapheme: feong\
+    phonemes: [f, '@', N]
+  - grapheme: feop\
+    phonemes: [f, V, p]
+  - grapheme: feot\
+    phonemes: [f, V, t]
+  - grapheme: feou\
+    phonemes: [f, '@', u]
+  - grapheme: fep\
+    phonemes: [f, E, p]
+  - grapheme: fet\
+    phonemes: [f, E, t]
+  - grapheme: feu\
+    phonemes: [f, E, u]
+  - grapheme: fi\
+    phonemes: [f, i]
+  - grapheme: fik\
+    phonemes: [f, I, k]
+  - grapheme: fim\
+    phonemes: [f, i, m]
+  - grapheme: fin\
+    phonemes: [f, i, n]
+  - grapheme: fing\
+    phonemes: [f, I, N]
+  - grapheme: fip\
+    phonemes: [f, i, p]
+  - grapheme: fit\
+    phonemes: [f, i, t]
+  - grapheme: fiu\
+    phonemes: [f, i, u]
+  - grapheme: fo\
+    phonemes: [f, O]
+  - grapheme: foe\
+    phonemes: [f, '@']
+  - grapheme: foei\
+    phonemes: [f, '@', i]
+  - grapheme: foek\
+    phonemes: [f, '@', k]
+  - grapheme: foem\
+    phonemes: [f, '@', m]
+  - grapheme: foen\
+    phonemes: [f, '@', n]
+  - grapheme: foeng\
+    phonemes: [f, '@', N]
+  - grapheme: foep\
+    phonemes: [f, '@', p]
+  - grapheme: foet\
+    phonemes: [f, '@', t]
+  - grapheme: foeu\
+    phonemes: [f, '@', u]
+  - grapheme: foi\
+    phonemes: [f, OI]
+  - grapheme: fok\
+    phonemes: [f, O, k]
+  - grapheme: fom\
+    phonemes: [f, O, m]
+  - grapheme: fon\
+    phonemes: [f, O, n]
+  - grapheme: fong\
+    phonemes: [f, O, N]
+  - grapheme: fop\
+    phonemes: [f, O, p]
+  - grapheme: fot\
+    phonemes: [f, O, t]
+  - grapheme: fou\
+    phonemes: [f, oU]
+  - grapheme: fu\
+    phonemes: [f, u]
+  - grapheme: fui\
+    phonemes: [f, u, i]
+  - grapheme: fuk\
+    phonemes: [f, U, k]
+  - grapheme: fum\
+    phonemes: [f, u, m]
+  - grapheme: fun\
+    phonemes: [f, u, n]
+  - grapheme: fung\
+    phonemes: [f, U, N]
+  - grapheme: fup\
+    phonemes: [f, u, p]
+  - grapheme: fut\
+    phonemes: [f, u, t]
+  - grapheme: fyu\
+    phonemes: [f, I]
+  - grapheme: fyui\
+    phonemes: [f, j, I]
+  - grapheme: fyuk\
+    phonemes: [f, I, k]
+  - grapheme: fyum\
+    phonemes: [f, I, m]
+  - grapheme: fyun\
+    phonemes: [f, I, n]
+  - grapheme: fyung\
+    phonemes: [f, I, N]
+  - grapheme: fyup\
+    phonemes: [f, I, p]
+  - grapheme: fyut\
+    phonemes: [f, I, t]
+  - grapheme: fyu\1
+    phonemes: [f, j]
+  - grapheme: fyui\1
+    phonemes: [f, j, i]
+  - grapheme: fyuk\1
+    phonemes: [f, j, k]
+  - grapheme: fyum\1
+    phonemes: [f, j, m]
+  - grapheme: fyun\1
+    phonemes: [f, j, n]
+  - grapheme: fyung\1
+    phonemes: [f, j, N]
+  - grapheme: fyup\1
+    phonemes: [f, j, p]
+  - grapheme: fyut\1
+    phonemes: [f, j, t]
+  - grapheme: fyuu\
+    phonemes: [f, j, u]
+  - grapheme: ga\
+    phonemes: [g, V]
+  - grapheme: gaa\
+    phonemes: [g, V]
+  - grapheme: gaai\
+    phonemes: [g, aI]
+  - grapheme: gaak\
+    phonemes: [g, V, k]
+  - grapheme: gaam\
+    phonemes: [g, '@', m]
+  - grapheme: gaan\
+    phonemes: [g, '@', n]
+  - grapheme: gaang\
+    phonemes: [g, '@', N]
+  - grapheme: gaap\
+    phonemes: [g, V, p]
+  - grapheme: gaat\
+    phonemes: [g, V, t]
+  - grapheme: gaau\
+    phonemes: [g, V, u]
+  - grapheme: gai\
+    phonemes: [g, '@', i]
+  - grapheme: gak\
+    phonemes: [g, V, k]
+  - grapheme: gam\
+    phonemes: [g, '@', m]
+  - grapheme: gan\
+    phonemes: [g, '@', n]
+  - grapheme: gang\
+    phonemes: [g, '@', N]
+  - grapheme: gap\
+    phonemes: [g, V, p]
+  - grapheme: gat\
+    phonemes: [g, V, t]
+  - grapheme: gau\
+    phonemes: [g, '@', u]
+  - grapheme: ge\
+    phonemes: [g, E]
+  - grapheme: gei\
+    phonemes: [g, eI]
+  - grapheme: gek\
+    phonemes: [g, E, k]
+  - grapheme: gem\
+    phonemes: [g, E, m]
+  - grapheme: gen\
+    phonemes: [g, E, n]
+  - grapheme: geng\
+    phonemes: [g, E, N]
+  - grapheme: geo\
+    phonemes: [g, '@']
+  - grapheme: geoi\
+    phonemes: [g, '@', i]
+  - grapheme: geok\
+    phonemes: [g, '@', k]
+  - grapheme: geom\
+    phonemes: [g, '@', m]
+  - grapheme: geon\
+    phonemes: [g, '@', n]
+  - grapheme: geong\
+    phonemes: [g, '@', N]
+  - grapheme: geop\
+    phonemes: [g, '@', p]
+  - grapheme: geot\
+    phonemes: [g, '@', t]
+  - grapheme: geou\
+    phonemes: [g, '@', u]
+  - grapheme: gep\
+    phonemes: [g, E, p]
+  - grapheme: get\
+    phonemes: [g, E, t]
+  - grapheme: geu\
+    phonemes: [g, E, u]
+  - grapheme: gi\
+    phonemes: [g, i]
+  - grapheme: gik\
+    phonemes: [g, I, k]
+  - grapheme: gim\
+    phonemes: [g, i, m]
+  - grapheme: gin\
+    phonemes: [g, i, n]
+  - grapheme: ging\
+    phonemes: [g, I, N]
+  - grapheme: gip\
+    phonemes: [g, i, p]
+  - grapheme: git\
+    phonemes: [g, i, t]
+  - grapheme: giu\
+    phonemes: [g, i, u]
+  - grapheme: go\
+    phonemes: [g, O]
+  - grapheme: goe\
+    phonemes: [g, V]
+  - grapheme: goei\
+    phonemes: [g, aI]
+  - grapheme: goek\
+    phonemes: [g, V, k]
+  - grapheme: goem\
+    phonemes: [g, '@', m]
+  - grapheme: goen\
+    phonemes: [g, '@', n]
+  - grapheme: goeng\
+    phonemes: [g, '@', N]
+  - grapheme: goep\
+    phonemes: [g, V, p]
+  - grapheme: goet\
+    phonemes: [g, V, t]
+  - grapheme: goeu\
+    phonemes: [g, '@', u]
+  - grapheme: goi\
+    phonemes: [g, OI]
+  - grapheme: gok\
+    phonemes: [g, O, k]
+  - grapheme: gom\
+    phonemes: [g, O, m]
+  - grapheme: gon\
+    phonemes: [g, O, n]
+  - grapheme: gong\
+    phonemes: [g, O, N]
+  - grapheme: gop\
+    phonemes: [g, O, p]
+  - grapheme: got\
+    phonemes: [g, O, t]
+  - grapheme: gou\
+    phonemes: [g, oU]
+  - grapheme: gu\
+    phonemes: [g, u]
+  - grapheme: gui\
+    phonemes: [g, u, i]
+  - grapheme: guk\
+    phonemes: [g, U, k]
+  - grapheme: gum\
+    phonemes: [g, u, m]
+  - grapheme: gun\
+    phonemes: [g, u, n]
+  - grapheme: gung\
+    phonemes: [g, U, N]
+  - grapheme: gup\
+    phonemes: [g, u, p]
+  - grapheme: gut\
+    phonemes: [g, u, t]
+  - grapheme: gyu\
+    phonemes: [g, I]
+  - grapheme: gyui\
+    phonemes: [g, j, I]
+  - grapheme: gyuk\
+    phonemes: [g, I, k]
+  - grapheme: gyum\
+    phonemes: [g, I, m]
+  - grapheme: gyun\
+    phonemes: [g, I, n]
+  - grapheme: gyung\
+    phonemes: [g, I, N]
+  - grapheme: gyup\
+    phonemes: [g, I, p]
+  - grapheme: gyut\
+    phonemes: [g, I, t]
+  - grapheme: gyu\1
+    phonemes: [g, j]
+  - grapheme: gyui\1
+    phonemes: [g, j, i]
+  - grapheme: gyuk\1
+    phonemes: [g, j, k]
+  - grapheme: gyum\1
+    phonemes: [g, j, m]
+  - grapheme: gyun\1
+    phonemes: [g, j, n]
+  - grapheme: gyung\1
+    phonemes: [g, j, N]
+  - grapheme: gyup\1
+    phonemes: [g, j, p]
+  - grapheme: gyut\1
+    phonemes: [g, j, t]
+  - grapheme: gyuu\
+    phonemes: [g, j, u]
+  - grapheme: gwa\
+    phonemes: [g, w, V]
+  - grapheme: gwaa\
+    phonemes: [g, w, V]
+  - grapheme: gwaai\
+    phonemes: [g, w, aI]
+  - grapheme: gwaak\
+    phonemes: [g, w, V, k]
+  - grapheme: gwaam\
+    phonemes: [g, w, '@', m]
+  - grapheme: gwaan\
+    phonemes: [g, w, '@', n]
+  - grapheme: gwaang\
+    phonemes: [g, w, '@', N]
+  - grapheme: gwaap\
+    phonemes: [g, w, V, p]
+  - grapheme: gwaat\
+    phonemes: [g, w, V, t]
+  - grapheme: gwaau\
+    phonemes: [g, w, V, u]
+  - grapheme: gwai\
+    phonemes: [g, w, '@', i]
+  - grapheme: gwak\
+    phonemes: [g, w, V, k]
+  - grapheme: gwam\
+    phonemes: [g, w, '@', m]
+  - grapheme: gwan\
+    phonemes: [g, w, '@', n]
+  - grapheme: gwang\
+    phonemes: [g, w, '@', N]
+  - grapheme: gwap\
+    phonemes: [g, w, V, p]
+  - grapheme: gwat\
+    phonemes: [g, w, V, t]
+  - grapheme: gwau\
+    phonemes: [g, w, '@', u]
+  - grapheme: gwe\
+    phonemes: [g, w, E]
+  - grapheme: gwei\
+    phonemes: [g, w, eI]
+  - grapheme: gwek\
+    phonemes: [g, w, E, k]
+  - grapheme: gwem\
+    phonemes: [g, w, E, m]
+  - grapheme: gwen\
+    phonemes: [g, w, E, n]
+  - grapheme: gweng\
+    phonemes: [g, w, E, N]
+  - grapheme: gweo\
+    phonemes: [g, w, '@']
+  - grapheme: gweoi\
+    phonemes: [g, w, '@', i]
+  - grapheme: gweok\
+    phonemes: [g, w, '@', k]
+  - grapheme: gweom\
+    phonemes: [g, w, '@', m]
+  - grapheme: gweon\
+    phonemes: [g, w, '@', n]
+  - grapheme: gweong\
+    phonemes: [g, w, '@', N]
+  - grapheme: gweop\
+    phonemes: [g, w, '@', p]
+  - grapheme: gweot\
+    phonemes: [g, w, '@', t]
+  - grapheme: gweou\
+    phonemes: [g, w, '@', u]
+  - grapheme: gwep\
+    phonemes: [g, w, E, p]
+  - grapheme: gwet\
+    phonemes: [g, w, E, t]
+  - grapheme: gweu\
+    phonemes: [g, w, E, u]
+  - grapheme: gwi\
+    phonemes: [g, w, i]
+  - grapheme: gwik\
+    phonemes: [g, w, I, k]
+  - grapheme: gwim\
+    phonemes: [g, w, i, m]
+  - grapheme: gwin\
+    phonemes: [g, w, i, n]
+  - grapheme: gwing\
+    phonemes: [g, w, I, N]
+  - grapheme: gwip\
+    phonemes: [g, w, i, p]
+  - grapheme: gwit\
+    phonemes: [g, w, i, t]
+  - grapheme: gwiu\
+    phonemes: [g, w, i, u]
+  - grapheme: gwo\
+    phonemes: [g, w, O]
+  - grapheme: gwoe\
+    phonemes: [g, w, V]
+  - grapheme: gwoei\
+    phonemes: [g, w, aI]
+  - grapheme: gwoek\
+    phonemes: [g, w, V, k]
+  - grapheme: gwoem\
+    phonemes: [g, w, '@', m]
+  - grapheme: gwoen\
+    phonemes: [g, w, '@', n]
+  - grapheme: gwoeng\
+    phonemes: [g, w, '@', N]
+  - grapheme: gwoep\
+    phonemes: [g, w, V, p]
+  - grapheme: gwoet\
+    phonemes: [g, w, V, t]
+  - grapheme: gwoeu\
+    phonemes: [g, w, '@', u]
+  - grapheme: gwoi\
+    phonemes: [g, w, OI]
+  - grapheme: gwok\
+    phonemes: [g, w, O, k]
+  - grapheme: gwom\
+    phonemes: [g, w, O, m]
+  - grapheme: gwon\
+    phonemes: [g, w, O, n]
+  - grapheme: gwong\
+    phonemes: [g, w, O, N]
+  - grapheme: gwop\
+    phonemes: [g, w, O, p]
+  - grapheme: gwot\
+    phonemes: [g, w, O, t]
+  - grapheme: gwou\
+    phonemes: [g, w, oU]
+  - grapheme: gwu\
+    phonemes: [g, w, u]
+  - grapheme: gwui\
+    phonemes: [g, w, u, i]
+  - grapheme: gwuk\
+    phonemes: [g, w, U, k]
+  - grapheme: gwum\
+    phonemes: [g, w, u, m]
+  - grapheme: gwun\
+    phonemes: [g, w, u, n]
+  - grapheme: gwung\
+    phonemes: [g, w, U, N]
+  - grapheme: gwup\
+    phonemes: [g, w, u, p]
+  - grapheme: gwut\
+    phonemes: [g, w, u, t]
+  - grapheme: gwyu\
+    phonemes: [g, w, I]
+  - grapheme: gwyui\
+    phonemes: [g, w, j, I]
+  - grapheme: gwyuk\
+    phonemes: [g, w, I, k]
+  - grapheme: gwyum\
+    phonemes: [g, w, I, m]
+  - grapheme: gwyun\
+    phonemes: [g, w, I, n]
+  - grapheme: gwyung\
+    phonemes: [g, w, I, N]
+  - grapheme: gwyup\
+    phonemes: [g, w, I, p]
+  - grapheme: gwyut\
+    phonemes: [g, w, I, t]
+  - grapheme: gwyu\1
+    phonemes: [g, w, j]
+  - grapheme: gwyui\1
+    phonemes: [g, w, j, i]
+  - grapheme: gwyuk\1
+    phonemes: [g, w, j, k]
+  - grapheme: gwyum\1
+    phonemes: [g, w, j, m]
+  - grapheme: gwyun\1
+    phonemes: [g, w, j, n]
+  - grapheme: gwyung\1
+    phonemes: [g, w, j, N]
+  - grapheme: gwyup\1
+    phonemes: [g, w, j, p]
+  - grapheme: gwyut\1
+    phonemes: [g, w, j, t]
+  - grapheme: gwyuu\
+    phonemes: [g, w, j, u]
+  - grapheme: gya\
+    phonemes: [g, j, V]
+  - grapheme: gyaa\
+    phonemes: [g, j, V]
+  - grapheme: gyaai\
+    phonemes: [g, j, aI]
+  - grapheme: gyaak\
+    phonemes: [g, j, V, k]
+  - grapheme: gyaam\
+    phonemes: [g, j, '@', m]
+  - grapheme: gyaan\
+    phonemes: [g, j, '@', n]
+  - grapheme: gyaang\
+    phonemes: [g, j, '@', N]
+  - grapheme: gyaap\
+    phonemes: [g, j, V, p]
+  - grapheme: gyaat\
+    phonemes: [g, j, V, t]
+  - grapheme: gyaau\
+    phonemes: [g, j, V, u]
+  - grapheme: gyai\
+    phonemes: [g, j, '@', i]
+  - grapheme: gyak\
+    phonemes: [g, j, V, k]
+  - grapheme: gyam\
+    phonemes: [g, j, '@', m]
+  - grapheme: gyan\
+    phonemes: [g, j, '@', n]
+  - grapheme: gyang\
+    phonemes: [g, j, '@', N]
+  - grapheme: gyap\
+    phonemes: [g, j, V, p]
+  - grapheme: gyat\
+    phonemes: [g, j, V, t]
+  - grapheme: gyau\
+    phonemes: [g, j, '@', u]
+  - grapheme: gye\
+    phonemes: [g, j, E]
+  - grapheme: gyei\
+    phonemes: [g, j, eI]
+  - grapheme: gyek\
+    phonemes: [g, j, E, k]
+  - grapheme: gyem\
+    phonemes: [g, j, E, m]
+  - grapheme: gyen\
+    phonemes: [g, j, E, n]
+  - grapheme: gyeng\
+    phonemes: [g, j, E, N]
+  - grapheme: gyeo\
+    phonemes: [g, j, '@']
+  - grapheme: gyeoi\
+    phonemes: [g, j, '@', i]
+  - grapheme: gyeok\
+    phonemes: [g, j, '@', k]
+  - grapheme: gyeom\
+    phonemes: [g, j, '@', m]
+  - grapheme: gyeon\
+    phonemes: [g, j, '@', n]
+  - grapheme: gyeong\
+    phonemes: [g, j, '@', N]
+  - grapheme: gyeop\
+    phonemes: [g, j, '@', p]
+  - grapheme: gyeot\
+    phonemes: [g, j, '@', t]
+  - grapheme: gyeou\
+    phonemes: [g, j, '@', u]
+  - grapheme: gyep\
+    phonemes: [g, j, E, p]
+  - grapheme: gyet\
+    phonemes: [g, j, E, t]
+  - grapheme: gyeu\
+    phonemes: [g, j, E, u]
+  - grapheme: gyi\
+    phonemes: [g, j, i]
+  - grapheme: gyik\
+    phonemes: [g, j, I, k]
+  - grapheme: gyim\
+    phonemes: [g, j, i, m]
+  - grapheme: gyin\
+    phonemes: [g, j, i, n]
+  - grapheme: gying\
+    phonemes: [g, j, I, N]
+  - grapheme: gyip\
+    phonemes: [g, j, i, p]
+  - grapheme: gyit\
+    phonemes: [g, j, i, t]
+  - grapheme: gyiu\
+    phonemes: [g, j, i, u]
+  - grapheme: gyo\
+    phonemes: [g, j, O]
+  - grapheme: gyoe\
+    phonemes: [g, j, V]
+  - grapheme: gyoei\
+    phonemes: [g, j, aI]
+  - grapheme: gyoek\
+    phonemes: [g, j, V, k]
+  - grapheme: gyoem\
+    phonemes: [g, j, '@', m]
+  - grapheme: gyoen\
+    phonemes: [g, j, '@', n]
+  - grapheme: gyoeng\
+    phonemes: [g, j, '@', N]
+  - grapheme: gyoep\
+    phonemes: [g, j, V, p]
+  - grapheme: gyoet\
+    phonemes: [g, j, V, t]
+  - grapheme: gyoeu\
+    phonemes: [g, j, '@', u]
+  - grapheme: gyoi\
+    phonemes: [g, j, OI]
+  - grapheme: gyok\
+    phonemes: [g, j, O, k]
+  - grapheme: gyom\
+    phonemes: [g, j, O, m]
+  - grapheme: gyon\
+    phonemes: [g, j, O, n]
+  - grapheme: gyong\
+    phonemes: [g, j, O, N]
+  - grapheme: gyop\
+    phonemes: [g, j, O, p]
+  - grapheme: gyot\
+    phonemes: [g, j, O, t]
+  - grapheme: gyou\
+    phonemes: [g, j, oU]
+  - grapheme: gyu\
+    phonemes: [g, j, u]
+  - grapheme: gyui\
+    phonemes: [g, j, u, i]
+  - grapheme: gyuk\
+    phonemes: [g, j, U, k]
+  - grapheme: gyum\
+    phonemes: [g, j, u, m]
+  - grapheme: gyun\
+    phonemes: [g, j, u, n]
+  - grapheme: gyung\
+    phonemes: [g, j, U, N]
+  - grapheme: gyup\
+    phonemes: [g, j, u, p]
+  - grapheme: gyut\
+    phonemes: [g, j, u, t]
+  - grapheme: gyyu\
+    phonemes: [g, j, I]
+  - grapheme: gyyui\
+    phonemes: [g, j, j, I]
+  - grapheme: gyyuk\
+    phonemes: [g, j, I, k]
+  - grapheme: gyyum\
+    phonemes: [g, j, I, m]
+  - grapheme: gyyun\
+    phonemes: [g, j, I, n]
+  - grapheme: gyyung\
+    phonemes: [g, j, I, N]
+  - grapheme: gyyup\
+    phonemes: [g, j, I, p]
+  - grapheme: gyyut\
+    phonemes: [g, j, I, t]
+  - grapheme: gyyu\1
+    phonemes: [g, j, j]
+  - grapheme: gyyui\1
+    phonemes: [g, j, j, i]
+  - grapheme: gyyuk\1
+    phonemes: [g, j, j, k]
+  - grapheme: gyyum\1
+    phonemes: [g, j, j, m]
+  - grapheme: gyyun\1
+    phonemes: [g, j, j, n]
+  - grapheme: gyyung\1
+    phonemes: [g, j, j, N]
+  - grapheme: gyyup\1
+    phonemes: [g, j, j, p]
+  - grapheme: gyyut\1
+    phonemes: [g, j, j, t]
+  - grapheme: gyyuu\
+    phonemes: [g, j, j, u]
+  - grapheme: ha\
+    phonemes: [h, V]
+  - grapheme: haa\
+    phonemes: [h, V]
+  - grapheme: haai\
+    phonemes: [h, aI]
+  - grapheme: haak\
+    phonemes: [h, V, k]
+  - grapheme: haam\
+    phonemes: [h, '@', m]
+  - grapheme: haan\
+    phonemes: [h, '@', n]
+  - grapheme: haang\
+    phonemes: [h, '@', N]
+  - grapheme: haap\
+    phonemes: [h, V, p]
+  - grapheme: haat\
+    phonemes: [h, V, t]
+  - grapheme: haau\
+    phonemes: [h, V, u]
+  - grapheme: hai\
+    phonemes: [h, '@', i]
+  - grapheme: hak\
+    phonemes: [h, V, k]
+  - grapheme: ham\
+    phonemes: [h, '@', m]
+  - grapheme: han\
+    phonemes: [h, '@', n]
+  - grapheme: hang\
+    phonemes: [h, '@', N]
+  - grapheme: hap\
+    phonemes: [h, V, p]
+  - grapheme: hat\
+    phonemes: [h, V, t]
+  - grapheme: hau\
+    phonemes: [h, '@', u]
+  - grapheme: he\
+    phonemes: [h, E]
+  - grapheme: hei\
+    phonemes: [h, eI]
+  - grapheme: hek\
+    phonemes: [h, E, k]
+  - grapheme: hem\
+    phonemes: [h, E, m]
+  - grapheme: hen\
+    phonemes: [h, E, n]
+  - grapheme: heng\
+    phonemes: [h, E, N]
+  - grapheme: heo\
+    phonemes: [h, '@']
+  - grapheme: heoi\
+    phonemes: [h, '@', i]
+  - grapheme: heok\
+    phonemes: [h, '@', k]
+  - grapheme: heom\
+    phonemes: [h, '@', m]
+  - grapheme: heon\
+    phonemes: [h, '@', n]
+  - grapheme: heong\
+    phonemes: [h, '@', N]
+  - grapheme: heop\
+    phonemes: [h, '@', p]
+  - grapheme: heot\
+    phonemes: [h, '@', t]
+  - grapheme: heou\
+    phonemes: [h, '@', u]
+  - grapheme: hep\
+    phonemes: [h, E, p]
+  - grapheme: het\
+    phonemes: [h, E, t]
+  - grapheme: heu\
+    phonemes: [h, E, u]
+  - grapheme: hi\
+    phonemes: [h, i]
+  - grapheme: hik\
+    phonemes: [h, I, k]
+  - grapheme: him\
+    phonemes: [h, i, m]
+  - grapheme: hin\
+    phonemes: [h, i, n]
+  - grapheme: hing\
+    phonemes: [h, I, N]
+  - grapheme: hip\
+    phonemes: [h, i, p]
+  - grapheme: hit\
+    phonemes: [h, i, t]
+  - grapheme: hiu\
+    phonemes: [h, i, u]
+  - grapheme: ho\
+    phonemes: [h, O]
+  - grapheme: hoe\
+    phonemes: [h, V]
+  - grapheme: hoei\
+    phonemes: [h, aI]
+  - grapheme: hoek\
+    phonemes: [h, V, k]
+  - grapheme: hoem\
+    phonemes: [h, '@', m]
+  - grapheme: hoen\
+    phonemes: [h, '@', n]
+  - grapheme: hoeng\
+    phonemes: [h, '@', N]
+  - grapheme: hoep\
+    phonemes: [h, V, p]
+  - grapheme: hoet\
+    phonemes: [h, V, t]
+  - grapheme: hoeu\
+    phonemes: [h, '@', u]
+  - grapheme: hoi\
+    phonemes: [h, OI]
+  - grapheme: hok\
+    phonemes: [h, O, k]
+  - grapheme: hom\
+    phonemes: [h, O, m]
+  - grapheme: hon\
+    phonemes: [h, O, n]
+  - grapheme: hong\
+    phonemes: [h, O, N]
+  - grapheme: hop\
+    phonemes: [h, O, p]
+  - grapheme: hot\
+    phonemes: [h, O, t]
+  - grapheme: hou\
+    phonemes: [h, oU]
+  - grapheme: hu\
+    phonemes: [h, u]
+  - grapheme: hui\
+    phonemes: [h, u, i]
+  - grapheme: huk\
+    phonemes: [h, U, k]
+  - grapheme: hum\
+    phonemes: [h, u, m]
+  - grapheme: hun\
+    phonemes: [h, u, n]
+  - grapheme: hung\
+    phonemes: [h, U, N]
+  - grapheme: hup\
+    phonemes: [h, u, p]
+  - grapheme: hut\
+    phonemes: [h, u, t]
+  - grapheme: hyu\
+    phonemes: [h, I]
+  - grapheme: hyui\
+    phonemes: [h, j, I]
+  - grapheme: hyuk\
+    phonemes: [h, I, k]
+  - grapheme: hyum\
+    phonemes: [h, I, m]
+  - grapheme: hyun\
+    phonemes: [h, I, n]
+  - grapheme: hyung\
+    phonemes: [h, I, N]
+  - grapheme: hyup\
+    phonemes: [h, I, p]
+  - grapheme: hyut\
+    phonemes: [h, I, t]
+  - grapheme: hyu\1
+    phonemes: [h, j]
+  - grapheme: hyui\1
+    phonemes: [h, j, i]
+  - grapheme: hyuk\1
+    phonemes: [h, j, k]
+  - grapheme: hyum\1
+    phonemes: [h, j, m]
+  - grapheme: hyun\1
+    phonemes: [h, j, n]
+  - grapheme: hyung\1
+    phonemes: [h, j, N]
+  - grapheme: hyup\1
+    phonemes: [h, j, p]
+  - grapheme: hyut\1
+    phonemes: [h, j, t]
+  - grapheme: hyuu\
+    phonemes: [h, j, u]
+  - grapheme: ja\
+    phonemes: [j, V]
+  - grapheme: jaa\
+    phonemes: [j, V]
+  - grapheme: jaai\
+    phonemes: [j, aI]
+  - grapheme: jaak\
+    phonemes: [j, V, k]
+  - grapheme: jaam\
+    phonemes: [j, '@', m]
+  - grapheme: jaan\
+    phonemes: [j, '@', n]
+  - grapheme: jaang\
+    phonemes: [j, '@', N]
+  - grapheme: jaap\
+    phonemes: [j, V, p]
+  - grapheme: jaat\
+    phonemes: [j, V, t]
+  - grapheme: jaau\
+    phonemes: [j, V, u]
+  - grapheme: jai\
+    phonemes: [j, '@', i]
+  - grapheme: jak\
+    phonemes: [j, V, k]
+  - grapheme: jam\
+    phonemes: [j, '@', m]
+  - grapheme: jan\
+    phonemes: [j, '@', n]
+  - grapheme: jang\
+    phonemes: [j, '@', N]
+  - grapheme: jap\
+    phonemes: [j, V, p]
+  - grapheme: jat\
+    phonemes: [j, V, t]
+  - grapheme: jau\
+    phonemes: [j, '@', u]
+  - grapheme: je\
+    phonemes: [j, E]
+  - grapheme: jei\
+    phonemes: [j, eI]
+  - grapheme: jek\
+    phonemes: [j, E, k]
+  - grapheme: jem\
+    phonemes: [j, E, m]
+  - grapheme: jen\
+    phonemes: [j, E, n]
+  - grapheme: jeng\
+    phonemes: [j, E, N]
+  - grapheme: jeo\
+    phonemes: [j, '@']
+  - grapheme: jeoi\
+    phonemes: [j, '@', i]
+  - grapheme: jeok\
+    phonemes: [j, '@', k]
+  - grapheme: jeom\
+    phonemes: [j, '@', m]
+  - grapheme: jeon\
+    phonemes: [j, '@', n]
+  - grapheme: jeong\
+    phonemes: [j, '@', N]
+  - grapheme: jeop\
+    phonemes: [j, '@', p]
+  - grapheme: jeot\
+    phonemes: [j, '@', t]
+  - grapheme: jeou\
+    phonemes: [j, '@', u]
+  - grapheme: jep\
+    phonemes: [j, E, p]
+  - grapheme: jet\
+    phonemes: [j, E, t]
+  - grapheme: jeu\
+    phonemes: [j, E, u]
+  - grapheme: ji\
+    phonemes: [j, i]
+  - grapheme: jik\
+    phonemes: [j, I, k]
+  - grapheme: jim\
+    phonemes: [j, i, m]
+  - grapheme: jin\
+    phonemes: [j, i, n]
+  - grapheme: jing\
+    phonemes: [j, I, N]
+  - grapheme: jip\
+    phonemes: [j, i, p]
+  - grapheme: jit\
+    phonemes: [j, i, t]
+  - grapheme: jiu\
+    phonemes: [j, i, u]
+  - grapheme: jo\
+    phonemes: [j, O]
+  - grapheme: joe\
+    phonemes: [j, V]
+  - grapheme: joei\
+    phonemes: [j, aI]
+  - grapheme: joek\
+    phonemes: [j, V, k]
+  - grapheme: joem\
+    phonemes: [j, '@', m]
+  - grapheme: joen\
+    phonemes: [j, '@', n]
+  - grapheme: joeng\
+    phonemes: [j, '@', N]
+  - grapheme: joep\
+    phonemes: [j, V, p]
+  - grapheme: joet\
+    phonemes: [j, V, t]
+  - grapheme: joeu\
+    phonemes: [j, '@', u]
+  - grapheme: joi\
+    phonemes: [j, OI]
+  - grapheme: jok\
+    phonemes: [j, O, k]
+  - grapheme: jom\
+    phonemes: [j, O, m]
+  - grapheme: jon\
+    phonemes: [j, O, n]
+  - grapheme: jong\
+    phonemes: [j, O, N]
+  - grapheme: jop\
+    phonemes: [j, O, p]
+  - grapheme: jot\
+    phonemes: [j, O, t]
+  - grapheme: jou\
+    phonemes: [j, oU]
+  - grapheme: ju\
+    phonemes: [j, u]
+  - grapheme: jui\
+    phonemes: [j, u, i]
+  - grapheme: juk\
+    phonemes: [j, U, k]
+  - grapheme: jum\
+    phonemes: [j, u, m]
+  - grapheme: jun\
+    phonemes: [j, u, n]
+  - grapheme: jung\
+    phonemes: [j, U, N]
+  - grapheme: jup\
+    phonemes: [j, u, p]
+  - grapheme: jut\
+    phonemes: [j, u, t]
+  - grapheme: jyu\
+    phonemes: [j, I]
+  - grapheme: jyui\
+    phonemes: [j, I]
+  - grapheme: jyuk\
+    phonemes: [j, I, k]
+  - grapheme: jyum\
+    phonemes: [j, I, m]
+  - grapheme: jyun\
+    phonemes: [j, I, n]
+  - grapheme: jyung\
+    phonemes: [j, I, N]
+  - grapheme: jyup\
+    phonemes: [j, I, p]
+  - grapheme: jyut\
+    phonemes: [j, I, t]
+  - grapheme: jyu\1
+    phonemes: [j]
+  - grapheme: jyui\1
+    phonemes: [j, i]
+  - grapheme: jyuk\1
+    phonemes: [j, k]
+  - grapheme: jyum\1
+    phonemes: [j, m]
+  - grapheme: jyun\1
+    phonemes: [j, n]
+  - grapheme: jyung\1
+    phonemes: [j, N]
+  - grapheme: jyup\1
+    phonemes: [j, p]
+  - grapheme: jyut\1
+    phonemes: [j, t]
+  - grapheme: jyuu\
+    phonemes: [j, u]
+  - grapheme: ka\
+    phonemes: [k, V]
+  - grapheme: kaa\
+    phonemes: [k, V]
+  - grapheme: kaai\
+    phonemes: [k, aI]
+  - grapheme: kaak\
+    phonemes: [k, V, k]
+  - grapheme: kaam\
+    phonemes: [k, '@', m]
+  - grapheme: kaan\
+    phonemes: [k, '@', n]
+  - grapheme: kaang\
+    phonemes: [k, '@', N]
+  - grapheme: kaap\
+    phonemes: [k, V, p]
+  - grapheme: kaat\
+    phonemes: [k, V, t]
+  - grapheme: kaau\
+    phonemes: [k, V, u]
+  - grapheme: kai\
+    phonemes: [k, '@', i]
+  - grapheme: kak\
+    phonemes: [k, V, k]
+  - grapheme: kam\
+    phonemes: [k, '@', m]
+  - grapheme: kan\
+    phonemes: [k, '@', n]
+  - grapheme: kang\
+    phonemes: [k, '@', N]
+  - grapheme: kap\
+    phonemes: [k, V, p]
+  - grapheme: kat\
+    phonemes: [k, V, t]
+  - grapheme: kau\
+    phonemes: [k, '@', u]
+  - grapheme: ke\
+    phonemes: [k, E]
+  - grapheme: kei\
+    phonemes: [k, eI]
+  - grapheme: kek\
+    phonemes: [k, E, k]
+  - grapheme: kem\
+    phonemes: [k, E, m]
+  - grapheme: ken\
+    phonemes: [k, E, n]
+  - grapheme: keng\
+    phonemes: [k, E, N]
+  - grapheme: keo\
+    phonemes: [k, '@']
+  - grapheme: keoi\
+    phonemes: [k, '@', i]
+  - grapheme: keok\
+    phonemes: [k, '@', k]
+  - grapheme: keom\
+    phonemes: [k, '@', m]
+  - grapheme: keon\
+    phonemes: [k, '@', n]
+  - grapheme: keong\
+    phonemes: [k, '@', N]
+  - grapheme: keop\
+    phonemes: [k, '@', p]
+  - grapheme: keot\
+    phonemes: [k, '@', t]
+  - grapheme: keou\
+    phonemes: [k, '@', u]
+  - grapheme: kep\
+    phonemes: [k, E, p]
+  - grapheme: ket\
+    phonemes: [k, E, t]
+  - grapheme: keu\
+    phonemes: [k, E, u]
+  - grapheme: ki\
+    phonemes: [k, i]
+  - grapheme: kik\
+    phonemes: [k, I, k]
+  - grapheme: kim\
+    phonemes: [k, i, m]
+  - grapheme: kin\
+    phonemes: [k, i, n]
+  - grapheme: king\
+    phonemes: [k, I, N]
+  - grapheme: kip\
+    phonemes: [k, i, p]
+  - grapheme: kit\
+    phonemes: [k, i, t]
+  - grapheme: kiu\
+    phonemes: [k, i, u]
+  - grapheme: ko\
+    phonemes: [k, O]
+  - grapheme: koe\
+    phonemes: [k, V]
+  - grapheme: koei\
+    phonemes: [k, aI]
+  - grapheme: koek\
+    phonemes: [k, V, k]
+  - grapheme: koem\
+    phonemes: [k, '@', m]
+  - grapheme: koen\
+    phonemes: [k, '@', n]
+  - grapheme: koeng\
+    phonemes: [k, '@', N]
+  - grapheme: koep\
+    phonemes: [k, V, p]
+  - grapheme: koet\
+    phonemes: [k, V, t]
+  - grapheme: koeu\
+    phonemes: [k, '@', u]
+  - grapheme: koi\
+    phonemes: [k, OI]
+  - grapheme: kok\
+    phonemes: [k, O, k]
+  - grapheme: kom\
+    phonemes: [k, O, m]
+  - grapheme: kon\
+    phonemes: [k, O, n]
+  - grapheme: kong\
+    phonemes: [k, O, N]
+  - grapheme: kop\
+    phonemes: [k, O, p]
+  - grapheme: kot\
+    phonemes: [k, O, t]
+  - grapheme: kou\
+    phonemes: [k, oU]
+  - grapheme: ku\
+    phonemes: [k, u]
+  - grapheme: kui\
+    phonemes: [k, u, i]
+  - grapheme: kuk\
+    phonemes: [k, U, k]
+  - grapheme: kum\
+    phonemes: [k, u, m]
+  - grapheme: kun\
+    phonemes: [k, u, n]
+  - grapheme: kung\
+    phonemes: [k, U, N]
+  - grapheme: kup\
+    phonemes: [k, u, p]
+  - grapheme: kut\
+    phonemes: [k, u, t]
+  - grapheme: kyu\
+    phonemes: [k, I]
+  - grapheme: kyui\
+    phonemes: [k, j, I]
+  - grapheme: kyuk\
+    phonemes: [k, I, k]
+  - grapheme: kyum\
+    phonemes: [k, I, m]
+  - grapheme: kyun\
+    phonemes: [k, I, n]
+  - grapheme: kyung\
+    phonemes: [k, I, N]
+  - grapheme: kyup\
+    phonemes: [k, I, p]
+  - grapheme: kyut\
+    phonemes: [k, I, t]
+  - grapheme: kyu\1
+    phonemes: [k, j]
+  - grapheme: kyui\1
+    phonemes: [k, j, i]
+  - grapheme: kyuk\1
+    phonemes: [k, j, k]
+  - grapheme: kyum\1
+    phonemes: [k, j, m]
+  - grapheme: kyun\1
+    phonemes: [k, j, n]
+  - grapheme: kyung\1
+    phonemes: [k, j, N]
+  - grapheme: kyup\1
+    phonemes: [k, j, p]
+  - grapheme: kyut\1
+    phonemes: [k, j, t]
+  - grapheme: kyuu\
+    phonemes: [k, j, u]
+  - grapheme: kwa\
+    phonemes: [k, w, V]
+  - grapheme: kwaa\
+    phonemes: [k, w, V]
+  - grapheme: kwaai\
+    phonemes: [k, w, aI]
+  - grapheme: kwaak\
+    phonemes: [k, w, V, k]
+  - grapheme: kwaam\
+    phonemes: [k, w, '@', m]
+  - grapheme: kwaan\
+    phonemes: [k, w, '@', n]
+  - grapheme: kwaang\
+    phonemes: [k, w, '@', N]
+  - grapheme: kwaap\
+    phonemes: [k, w, V, p]
+  - grapheme: kwaat\
+    phonemes: [k, w, V, t]
+  - grapheme: kwaau\
+    phonemes: [k, w, V, u]
+  - grapheme: kwai\
+    phonemes: [k, w, '@', i]
+  - grapheme: kwak\
+    phonemes: [k, w, V, k]
+  - grapheme: kwam\
+    phonemes: [k, w, '@', m]
+  - grapheme: kwan\
+    phonemes: [k, w, '@', n]
+  - grapheme: kwang\
+    phonemes: [k, w, '@', N]
+  - grapheme: kwap\
+    phonemes: [k, w, V, p]
+  - grapheme: kwat\
+    phonemes: [k, w, V, t]
+  - grapheme: kwau\
+    phonemes: [k, w, '@', u]
+  - grapheme: kwe\
+    phonemes: [k, w, E]
+  - grapheme: kwei\
+    phonemes: [k, w, eI]
+  - grapheme: kwek\
+    phonemes: [k, w, E, k]
+  - grapheme: kwem\
+    phonemes: [k, w, E, m]
+  - grapheme: kwen\
+    phonemes: [k, w, E, n]
+  - grapheme: kweng\
+    phonemes: [k, w, E, N]
+  - grapheme: kweo\
+    phonemes: [k, w, '@']
+  - grapheme: kweoi\
+    phonemes: [k, w, '@', i]
+  - grapheme: kweok\
+    phonemes: [k, w, '@', k]
+  - grapheme: kweom\
+    phonemes: [k, w, '@', m]
+  - grapheme: kweon\
+    phonemes: [k, w, '@', n]
+  - grapheme: kweong\
+    phonemes: [k, w, '@', N]
+  - grapheme: kweop\
+    phonemes: [k, w, '@', p]
+  - grapheme: kweot\
+    phonemes: [k, w, '@', t]
+  - grapheme: kweou\
+    phonemes: [k, w, '@', u]
+  - grapheme: kwep\
+    phonemes: [k, w, E, p]
+  - grapheme: kwet\
+    phonemes: [k, w, E, t]
+  - grapheme: kweu\
+    phonemes: [k, w, E, u]
+  - grapheme: kwi\
+    phonemes: [k, w, i]
+  - grapheme: kwik\
+    phonemes: [k, w, I, k]
+  - grapheme: kwim\
+    phonemes: [k, w, i, m]
+  - grapheme: kwin\
+    phonemes: [k, w, i, n]
+  - grapheme: kwing\
+    phonemes: [k, w, I, N]
+  - grapheme: kwip\
+    phonemes: [k, w, i, p]
+  - grapheme: kwit\
+    phonemes: [k, w, i, t]
+  - grapheme: kwiu\
+    phonemes: [k, w, i, u]
+  - grapheme: kwo\
+    phonemes: [k, w, O]
+  - grapheme: kwoe\
+    phonemes: [k, w, V]
+  - grapheme: kwoei\
+    phonemes: [k, w, aI]
+  - grapheme: kwoek\
+    phonemes: [k, w, V, k]
+  - grapheme: kwoem\
+    phonemes: [k, w, '@', m]
+  - grapheme: kwoen\
+    phonemes: [k, w, '@', n]
+  - grapheme: kwoeng\
+    phonemes: [k, w, '@', N]
+  - grapheme: kwoep\
+    phonemes: [k, w, V, p]
+  - grapheme: kwoet\
+    phonemes: [k, w, V, t]
+  - grapheme: kwoeu\
+    phonemes: [k, w, '@', u]
+  - grapheme: kwoi\
+    phonemes: [k, w, OI]
+  - grapheme: kwok\
+    phonemes: [k, w, O, k]
+  - grapheme: kwom\
+    phonemes: [k, w, O, m]
+  - grapheme: kwon\
+    phonemes: [k, w, O, n]
+  - grapheme: kwong\
+    phonemes: [k, w, O, N]
+  - grapheme: kwop\
+    phonemes: [k, w, O, p]
+  - grapheme: kwot\
+    phonemes: [k, w, O, t]
+  - grapheme: kwou\
+    phonemes: [k, w, oU]
+  - grapheme: kwu\
+    phonemes: [k, w, u]
+  - grapheme: kwui\
+    phonemes: [k, w, u, i]
+  - grapheme: kwuk\
+    phonemes: [k, w, U, k]
+  - grapheme: kwum\
+    phonemes: [k, w, u, m]
+  - grapheme: kwun\
+    phonemes: [k, w, u, n]
+  - grapheme: kwung\
+    phonemes: [k, w, U, N]
+  - grapheme: kwup\
+    phonemes: [k, w, u, p]
+  - grapheme: kwut\
+    phonemes: [k, w, u, t]
+  - grapheme: kwyu\
+    phonemes: [k, w, I]
+  - grapheme: kwyui\
+    phonemes: [k, w, j, I]
+  - grapheme: kwyuk\
+    phonemes: [k, w, I, k]
+  - grapheme: kwyum\
+    phonemes: [k, w, I, m]
+  - grapheme: kwyun\
+    phonemes: [k, w, I, n]
+  - grapheme: kwyung\
+    phonemes: [k, w, I, N]
+  - grapheme: kwyup\
+    phonemes: [k, w, I, p]
+  - grapheme: kwyut\
+    phonemes: [k, w, I, t]
+  - grapheme: kwyu\1
+    phonemes: [k, w, j]
+  - grapheme: kwyui\1
+    phonemes: [k, w, j, i]
+  - grapheme: kwyuk\1
+    phonemes: [k, w, j, k]
+  - grapheme: kwyum\1
+    phonemes: [k, w, j, m]
+  - grapheme: kwyun\1
+    phonemes: [k, w, j, n]
+  - grapheme: kwyung\1
+    phonemes: [k, w, j, N]
+  - grapheme: kwyup\1
+    phonemes: [k, w, j, p]
+  - grapheme: kwyut\1
+    phonemes: [k, w, j, t]
+  - grapheme: kwyuu\
+    phonemes: [k, w, j, u]
+  - grapheme: la\
+    phonemes: [l, V]
+  - grapheme: laa\
+    phonemes: [l, V]
+  - grapheme: laai\
+    phonemes: [l, aI]
+  - grapheme: laak\
+    phonemes: [l, V, k]
+  - grapheme: laam\
+    phonemes: [l, '@', m]
+  - grapheme: laan\
+    phonemes: [l, '@', n]
+  - grapheme: laang\
+    phonemes: [l, '@', N]
+  - grapheme: laap\
+    phonemes: [l, V, p]
+  - grapheme: laat\
+    phonemes: [l, V, t]
+  - grapheme: laau\
+    phonemes: [l, V, u]
+  - grapheme: lai\
+    phonemes: [l, '@', i]
+  - grapheme: lak\
+    phonemes: [l, V, k]
+  - grapheme: lam\
+    phonemes: [l, '@', m]
+  - grapheme: lan\
+    phonemes: [l, '@', n]
+  - grapheme: lang\
+    phonemes: [l, '@', N]
+  - grapheme: lap\
+    phonemes: [l, V, p]
+  - grapheme: lat\
+    phonemes: [l, V, t]
+  - grapheme: lau\
+    phonemes: [l, '@', u]
+  - grapheme: le\
+    phonemes: [l, E]
+  - grapheme: lei\
+    phonemes: [l, eI]
+  - grapheme: lek\
+    phonemes: [l, E, k]
+  - grapheme: lem\
+    phonemes: [l, E, m]
+  - grapheme: len\
+    phonemes: [l, E, n]
+  - grapheme: leng\
+    phonemes: [l, E, N]
+  - grapheme: leo\
+    phonemes: [l, '@']
+  - grapheme: leoi\
+    phonemes: [l, '@', i]
+  - grapheme: leok\
+    phonemes: [l, '@', k]
+  - grapheme: leom\
+    phonemes: [l, '@', m]
+  - grapheme: leon\
+    phonemes: [l, '@', n]
+  - grapheme: leong\
+    phonemes: [l, '@', N]
+  - grapheme: leop\
+    phonemes: [l, '@', p]
+  - grapheme: leot\
+    phonemes: [l, '@', t]
+  - grapheme: leou\
+    phonemes: [l, '@', u]
+  - grapheme: lep\
+    phonemes: [l, E, p]
+  - grapheme: let\
+    phonemes: [l, E, t]
+  - grapheme: leu\
+    phonemes: [l, E, u]
+  - grapheme: li\
+    phonemes: [l, i]
+  - grapheme: lik\
+    phonemes: [l, I, k]
+  - grapheme: lim\
+    phonemes: [l, i, m]
+  - grapheme: lin\
+    phonemes: [l, i, n]
+  - grapheme: ling\
+    phonemes: [l, I, N]
+  - grapheme: lip\
+    phonemes: [l, i, p]
+  - grapheme: lit\
+    phonemes: [l, i, t]
+  - grapheme: liu\
+    phonemes: [l, i, u]
+  - grapheme: lo\
+    phonemes: [l, O]
+  - grapheme: loe\
+    phonemes: [l, V]
+  - grapheme: loei\
+    phonemes: [l, aI]
+  - grapheme: loek\
+    phonemes: [l, V, k]
+  - grapheme: loem\
+    phonemes: [l, '@', m]
+  - grapheme: loen\
+    phonemes: [l, '@', n]
+  - grapheme: loeng\
+    phonemes: [l, '@', N]
+  - grapheme: loep\
+    phonemes: [l, V, p]
+  - grapheme: loet\
+    phonemes: [l, V, t]
+  - grapheme: loeu\
+    phonemes: [l, '@', u]
+  - grapheme: loi\
+    phonemes: [l, OI]
+  - grapheme: lok\
+    phonemes: [l, O, k]
+  - grapheme: lom\
+    phonemes: [l, O, m]
+  - grapheme: lon\
+    phonemes: [l, O, n]
+  - grapheme: long\
+    phonemes: [l, O, N]
+  - grapheme: lop\
+    phonemes: [l, O, p]
+  - grapheme: lot\
+    phonemes: [l, O, t]
+  - grapheme: lou\
+    phonemes: [l, oU]
+  - grapheme: lu\
+    phonemes: [l, u]
+  - grapheme: lui\
+    phonemes: [l, u, i]
+  - grapheme: luk\
+    phonemes: [l, U, k]
+  - grapheme: lum\
+    phonemes: [l, u, m]
+  - grapheme: lun\
+    phonemes: [l, u, n]
+  - grapheme: lung\
+    phonemes: [l, U, N]
+  - grapheme: lup\
+    phonemes: [l, u, p]
+  - grapheme: lut\
+    phonemes: [l, u, t]
+  - grapheme: lyu\
+    phonemes: [l, I]
+  - grapheme: lyui\
+    phonemes: [l, j, I]
+  - grapheme: lyuk\
+    phonemes: [l, I, k]
+  - grapheme: lyum\
+    phonemes: [l, I, m]
+  - grapheme: lyun\
+    phonemes: [l, I, n]
+  - grapheme: lyung\
+    phonemes: [l, I, N]
+  - grapheme: lyup\
+    phonemes: [l, I, p]
+  - grapheme: lyut\
+    phonemes: [l, I, t]
+  - grapheme: lyu\1
+    phonemes: [l, j]
+  - grapheme: lyui\1
+    phonemes: [l, j, i]
+  - grapheme: lyuk\1
+    phonemes: [l, j, k]
+  - grapheme: lyum\1
+    phonemes: [l, j, m]
+  - grapheme: lyun\1
+    phonemes: [l, j, n]
+  - grapheme: lyung\1
+    phonemes: [l, j, N]
+  - grapheme: lyup\1
+    phonemes: [l, j, p]
+  - grapheme: lyut\1
+    phonemes: [l, j, t]
+  - grapheme: lyuu\
+    phonemes: [l, j, u]
+  - grapheme: ma\
+    phonemes: [m, V]
+  - grapheme: maa\
+    phonemes: [m, V]
+  - grapheme: maai\
+    phonemes: [m, aI]
+  - grapheme: maak\
+    phonemes: [m, V, k]
+  - grapheme: maam\
+    phonemes: [m, '@', m]
+  - grapheme: maan\
+    phonemes: [m, '@', n]
+  - grapheme: maang\
+    phonemes: [m, '@', N]
+  - grapheme: maap\
+    phonemes: [m, V, p]
+  - grapheme: maat\
+    phonemes: [m, V, t]
+  - grapheme: maau\
+    phonemes: [m, V, u]
+  - grapheme: mai\
+    phonemes: [m, '@', i]
+  - grapheme: mak\
+    phonemes: [m, V, k]
+  - grapheme: mam\
+    phonemes: [m, '@', m]
+  - grapheme: man\
+    phonemes: [m, '@', n]
+  - grapheme: mang\
+    phonemes: [m, '@', N]
+  - grapheme: map\
+    phonemes: [m, V, p]
+  - grapheme: mat\
+    phonemes: [m, V, t]
+  - grapheme: mau\
+    phonemes: [m, '@', u]
+  - grapheme: me\
+    phonemes: [m, E]
+  - grapheme: mei\
+    phonemes: [m, eI]
+  - grapheme: mek\
+    phonemes: [m, E, k]
+  - grapheme: mem\
+    phonemes: [m, E, m]
+  - grapheme: men\
+    phonemes: [m, E, n]
+  - grapheme: meng\
+    phonemes: [m, E, N]
+  - grapheme: meo\
+    phonemes: [m, '@']
+  - grapheme: meoi\
+    phonemes: [m, '@', i]
+  - grapheme: meok\
+    phonemes: [m, '@', k]
+  - grapheme: meom\
+    phonemes: [m, '@', m]
+  - grapheme: meon\
+    phonemes: [m, '@', n]
+  - grapheme: meong\
+    phonemes: [m, '@', N]
+  - grapheme: meop\
+    phonemes: [m, '@', p]
+  - grapheme: meot\
+    phonemes: [m, '@', t]
+  - grapheme: meou\
+    phonemes: [m, '@', u]
+  - grapheme: mep\
+    phonemes: [m, E, p]
+  - grapheme: met\
+    phonemes: [m, E, t]
+  - grapheme: meu\
+    phonemes: [m, E, u]
+  - grapheme: mi\
+    phonemes: [m, i]
+  - grapheme: mik\
+    phonemes: [m, I, k]
+  - grapheme: mim\
+    phonemes: [m, i, m]
+  - grapheme: min\
+    phonemes: [m, i, n]
+  - grapheme: ming\
+    phonemes: [m, I, N]
+  - grapheme: mip\
+    phonemes: [m, i, p]
+  - grapheme: mit\
+    phonemes: [m, i, t]
+  - grapheme: miu\
+    phonemes: [m, i, u]
+  - grapheme: mo\
+    phonemes: [m, O]
+  - grapheme: moe\
+    phonemes: [m, V]
+  - grapheme: moei\
+    phonemes: [m, aI]
+  - grapheme: moek\
+    phonemes: [m, V, k]
+  - grapheme: moem\
+    phonemes: [m, '@', m]
+  - grapheme: moen\
+    phonemes: [m, '@', n]
+  - grapheme: moeng\
+    phonemes: [m, '@', N]
+  - grapheme: moep\
+    phonemes: [m, V, p]
+  - grapheme: moet\
+    phonemes: [m, V, t]
+  - grapheme: moeu\
+    phonemes: [m, '@', u]
+  - grapheme: moi\
+    phonemes: [m, OI]
+  - grapheme: mok\
+    phonemes: [m, O, k]
+  - grapheme: mom\
+    phonemes: [m, O, m]
+  - grapheme: mon\
+    phonemes: [m, O, n]
+  - grapheme: mong\
+    phonemes: [m, O, N]
+  - grapheme: mop\
+    phonemes: [m, O, p]
+  - grapheme: mot\
+    phonemes: [m, O, t]
+  - grapheme: mou\
+    phonemes: [m, oU]
+  - grapheme: mu\
+    phonemes: [m, u]
+  - grapheme: mui\
+    phonemes: [m, u, i]
+  - grapheme: muk\
+    phonemes: [m, U, k]
+  - grapheme: mum\
+    phonemes: [m, u, m]
+  - grapheme: mun\
+    phonemes: [m, u, n]
+  - grapheme: mung\
+    phonemes: [m, U, N]
+  - grapheme: mup\
+    phonemes: [m, u, p]
+  - grapheme: mut\
+    phonemes: [m, u, t]
+  - grapheme: myu\
+    phonemes: [m, I]
+  - grapheme: myui\
+    phonemes: [m, j, I]
+  - grapheme: myuk\
+    phonemes: [m, I, k]
+  - grapheme: myum\
+    phonemes: [m, I, m]
+  - grapheme: myun\
+    phonemes: [m, I, n]
+  - grapheme: myung\
+    phonemes: [m, I, N]
+  - grapheme: myup\
+    phonemes: [m, I, p]
+  - grapheme: myut\
+    phonemes: [m, I, t]
+  - grapheme: myu\1
+    phonemes: [m, j]
+  - grapheme: myui\1
+    phonemes: [m, j, i]
+  - grapheme: myuk\1
+    phonemes: [m, j, k]
+  - grapheme: myum\1
+    phonemes: [m, j, m]
+  - grapheme: myun\1
+    phonemes: [m, j, n]
+  - grapheme: myung\1
+    phonemes: [m, j, N]
+  - grapheme: myup\1
+    phonemes: [m, j, p]
+  - grapheme: myut\1
+    phonemes: [m, j, t]
+  - grapheme: myuu\
+    phonemes: [m, j, u]
+  - grapheme: na\
+    phonemes: [n, V]
+  - grapheme: naa\
+    phonemes: [n, V]
+  - grapheme: naai\
+    phonemes: [n, aI]
+  - grapheme: naak\
+    phonemes: [n, V, k]
+  - grapheme: naam\
+    phonemes: [n, '@', m]
+  - grapheme: naan\
+    phonemes: [n, '@', n]
+  - grapheme: naang\
+    phonemes: [n, '@', N]
+  - grapheme: naap\
+    phonemes: [n, V, p]
+  - grapheme: naat\
+    phonemes: [n, V, t]
+  - grapheme: naau\
+    phonemes: [n, V, u]
+  - grapheme: nai\
+    phonemes: [n, '@', i]
+  - grapheme: nak\
+    phonemes: [n, V, k]
+  - grapheme: nam\
+    phonemes: [n, '@', m]
+  - grapheme: nan\
+    phonemes: [n, '@', n]
+  - grapheme: nang\
+    phonemes: [n, '@', N]
+  - grapheme: nap\
+    phonemes: [n, V, p]
+  - grapheme: nat\
+    phonemes: [n, V, t]
+  - grapheme: nau\
+    phonemes: [n, '@', u]
+  - grapheme: ne\
+    phonemes: [n, E]
+  - grapheme: nei\
+    phonemes: [n, eI]
+  - grapheme: nek\
+    phonemes: [n, E, k]
+  - grapheme: nem\
+    phonemes: [n, E, m]
+  - grapheme: nen\
+    phonemes: [n, E, n]
+  - grapheme: neng\
+    phonemes: [n, E, N]
+  - grapheme: neo\
+    phonemes: [n, '@']
+  - grapheme: neoi\
+    phonemes: [n, '@', i]
+  - grapheme: neok\
+    phonemes: [n, '@', k]
+  - grapheme: neom\
+    phonemes: [n, '@', m]
+  - grapheme: neon\
+    phonemes: [n, '@', n]
+  - grapheme: neong\
+    phonemes: [n, '@', N]
+  - grapheme: neop\
+    phonemes: [n, '@', p]
+  - grapheme: neot\
+    phonemes: [n, '@', t]
+  - grapheme: neou\
+    phonemes: [n, '@', u]
+  - grapheme: nep\
+    phonemes: [n, E, p]
+  - grapheme: net\
+    phonemes: [n, E, t]
+  - grapheme: neu\
+    phonemes: [n, E, u]
+  - grapheme: ni\
+    phonemes: [n, i]
+  - grapheme: nik\
+    phonemes: [n, I, k]
+  - grapheme: nim\
+    phonemes: [n, i, m]
+  - grapheme: nin\
+    phonemes: [n, i, n]
+  - grapheme: ning\
+    phonemes: [n, I, N]
+  - grapheme: nip\
+    phonemes: [n, i, p]
+  - grapheme: nit\
+    phonemes: [n, i, t]
+  - grapheme: niu\
+    phonemes: [n, i, u]
+  - grapheme: no\
+    phonemes: [n, O]
+  - grapheme: noe\
+    phonemes: [n, V]
+  - grapheme: noei\
+    phonemes: [n, aI]
+  - grapheme: noek\
+    phonemes: [n, V, k]
+  - grapheme: noem\
+    phonemes: [n, '@', m]
+  - grapheme: noen\
+    phonemes: [n, '@', n]
+  - grapheme: noeng\
+    phonemes: [n, '@', N]
+  - grapheme: noep\
+    phonemes: [n, V, p]
+  - grapheme: noet\
+    phonemes: [n, V, t]
+  - grapheme: noeu\
+    phonemes: [n, '@', u]
+  - grapheme: noi\
+    phonemes: [n, OI]
+  - grapheme: nok\
+    phonemes: [n, O, k]
+  - grapheme: nom\
+    phonemes: [n, O, m]
+  - grapheme: non\
+    phonemes: [n, O, n]
+  - grapheme: nong\
+    phonemes: [n, O, N]
+  - grapheme: nop\
+    phonemes: [n, O, p]
+  - grapheme: not\
+    phonemes: [n, O, t]
+  - grapheme: nou\
+    phonemes: [n, oU]
+  - grapheme: nu\
+    phonemes: [n, u]
+  - grapheme: nui\
+    phonemes: [n, u, i]
+  - grapheme: nuk\
+    phonemes: [n, U, k]
+  - grapheme: num\
+    phonemes: [n, u, m]
+  - grapheme: nun\
+    phonemes: [n, u, n]
+  - grapheme: nung\
+    phonemes: [n, U, N]
+  - grapheme: nup\
+    phonemes: [n, u, p]
+  - grapheme: nut\
+    phonemes: [n, u, t]
+  - grapheme: nyu\
+    phonemes: [n, I]
+  - grapheme: nyui\
+    phonemes: [n, j, I]
+  - grapheme: nyuk\
+    phonemes: [n, I, k]
+  - grapheme: nyum\
+    phonemes: [n, I, m]
+  - grapheme: nyun\
+    phonemes: [n, I, n]
+  - grapheme: nyung\
+    phonemes: [n, I, N]
+  - grapheme: nyup\
+    phonemes: [n, I, p]
+  - grapheme: nyut\
+    phonemes: [n, I, t]
+  - grapheme: nyu\1
+    phonemes: [n, j]
+  - grapheme: nyui\1
+    phonemes: [n, j, i]
+  - grapheme: nyuk\1
+    phonemes: [n, j, k]
+  - grapheme: nyum\1
+    phonemes: [n, j, m]
+  - grapheme: nyun\1
+    phonemes: [n, j, n]
+  - grapheme: nyung\1
+    phonemes: [n, j, N]
+  - grapheme: nyup\1
+    phonemes: [n, j, p]
+  - grapheme: nyut\1
+    phonemes: [n, j, t]
+  - grapheme: nyuu\
+    phonemes: [n, j, u]
+  - grapheme: nga\
+    phonemes: [N, V]
+  - grapheme: ngaa\
+    phonemes: [N, V]
+  - grapheme: ngaai\
+    phonemes: [N, aI]
+  - grapheme: ngaak\
+    phonemes: [N, V, k]
+  - grapheme: ngaam\
+    phonemes: [N, '@', m]
+  - grapheme: ngaan\
+    phonemes: [N, '@', n]
+  - grapheme: ngaang\
+    phonemes: [N, '@', N]
+  - grapheme: ngaap\
+    phonemes: [N, V, p]
+  - grapheme: ngaat\
+    phonemes: [N, V, t]
+  - grapheme: ngaau\
+    phonemes: [N, V, u]
+  - grapheme: ngai\
+    phonemes: [N, '@', i]
+  - grapheme: ngak\
+    phonemes: [N, V, k]
+  - grapheme: ngam\
+    phonemes: [N, '@', m]
+  - grapheme: ngan\
+    phonemes: [N, '@', n]
+  - grapheme: ngang\
+    phonemes: [N, '@', N]
+  - grapheme: ngap\
+    phonemes: [N, V, p]
+  - grapheme: ngat\
+    phonemes: [N, V, t]
+  - grapheme: ngau\
+    phonemes: [N, '@', u]
+  - grapheme: nge\
+    phonemes: [N, E]
+  - grapheme: ngei\
+    phonemes: [N, eI]
+  - grapheme: ngek\
+    phonemes: [N, E, k]
+  - grapheme: ngem\
+    phonemes: [N, E, m]
+  - grapheme: ngen\
+    phonemes: [N, E, n]
+  - grapheme: ngeng\
+    phonemes: [N, E, N]
+  - grapheme: ngeo\
+    phonemes: [N, '@']
+  - grapheme: ngeoi\
+    phonemes: [N, '@', i]
+  - grapheme: ngeok\
+    phonemes: [N, '@', k]
+  - grapheme: ngeom\
+    phonemes: [N, '@', m]
+  - grapheme: ngeon\
+    phonemes: [N, '@', n]
+  - grapheme: ngeong\
+    phonemes: [N, '@', N]
+  - grapheme: ngeop\
+    phonemes: [N, '@', p]
+  - grapheme: ngeot\
+    phonemes: [N, '@', t]
+  - grapheme: ngeou\
+    phonemes: [N, '@', u]
+  - grapheme: ngep\
+    phonemes: [N, E, p]
+  - grapheme: nget\
+    phonemes: [N, E, t]
+  - grapheme: ngeu\
+    phonemes: [N, E, u]
+  - grapheme: ngi\
+    phonemes: [N, i]
+  - grapheme: ngik\
+    phonemes: [N, I, k]
+  - grapheme: ngim\
+    phonemes: [N, i, m]
+  - grapheme: ngin\
+    phonemes: [N, i, n]
+  - grapheme: nging\
+    phonemes: [N, I, N]
+  - grapheme: ngip\
+    phonemes: [N, i, p]
+  - grapheme: ngit\
+    phonemes: [N, i, t]
+  - grapheme: ngiu\
+    phonemes: [N, i, u]
+  - grapheme: ngo\
+    phonemes: [N, O]
+  - grapheme: ngoe\
+    phonemes: [N, V]
+  - grapheme: ngoei\
+    phonemes: [N, aI]
+  - grapheme: ngoek\
+    phonemes: [N, V, k]
+  - grapheme: ngoem\
+    phonemes: [N, '@', m]
+  - grapheme: ngoen\
+    phonemes: [N, '@', n]
+  - grapheme: ngoeng\
+    phonemes: [N, '@', N]
+  - grapheme: ngoep\
+    phonemes: [N, V, p]
+  - grapheme: ngoet\
+    phonemes: [N, V, t]
+  - grapheme: ngoeu\
+    phonemes: [N, '@', u]
+  - grapheme: ngoi\
+    phonemes: [N, OI]
+  - grapheme: ngok\
+    phonemes: [N, O, k]
+  - grapheme: ngom\
+    phonemes: [N, O, m]
+  - grapheme: ngon\
+    phonemes: [N, O, n]
+  - grapheme: ngong\
+    phonemes: [N, O, N]
+  - grapheme: ngop\
+    phonemes: [N, O, p]
+  - grapheme: ngot\
+    phonemes: [N, O, t]
+  - grapheme: ngou\
+    phonemes: [N, oU]
+  - grapheme: ngu\
+    phonemes: [N, u]
+  - grapheme: ngui\
+    phonemes: [N, u, i]
+  - grapheme: nguk\
+    phonemes: [N, U, k]
+  - grapheme: ngum\
+    phonemes: [N, u, m]
+  - grapheme: ngun\
+    phonemes: [N, u, n]
+  - grapheme: ngung\
+    phonemes: [N, U, N]
+  - grapheme: ngup\
+    phonemes: [N, u, p]
+  - grapheme: ngut\
+    phonemes: [N, u, t]
+  - grapheme: ngyu\
+    phonemes: [N, I]
+  - grapheme: ngyui\
+    phonemes: [N, j, I]
+  - grapheme: ngyuk\
+    phonemes: [N, I, k]
+  - grapheme: ngyum\
+    phonemes: [N, I, m]
+  - grapheme: ngyun\
+    phonemes: [N, I, n]
+  - grapheme: ngyung\
+    phonemes: [N, I, N]
+  - grapheme: ngyup\
+    phonemes: [N, I, p]
+  - grapheme: ngyut\
+    phonemes: [N, I, t]
+  - grapheme: ngyu\1
+    phonemes: [N, j]
+  - grapheme: ngyui\1
+    phonemes: [N, j, i]
+  - grapheme: ngyuk\1
+    phonemes: [N, j, k]
+  - grapheme: ngyum\1
+    phonemes: [N, j, m]
+  - grapheme: ngyun\1
+    phonemes: [N, j, n]
+  - grapheme: ngyung\1
+    phonemes: [N, j, N]
+  - grapheme: ngyup\1
+    phonemes: [N, j, p]
+  - grapheme: ngyut\1
+    phonemes: [N, j, t]
+  - grapheme: ngyuu\
+    phonemes: [N, j, u]
+  - grapheme: pa\
+    phonemes: [p, V]
+  - grapheme: paa\
+    phonemes: [p, V]
+  - grapheme: paai\
+    phonemes: [p, aI]
+  - grapheme: paak\
+    phonemes: [p, V, k]
+  - grapheme: paam\
+    phonemes: [p, '@', m]
+  - grapheme: paan\
+    phonemes: [p, '@', n]
+  - grapheme: paang\
+    phonemes: [p, '@', N]
+  - grapheme: paap\
+    phonemes: [p, V, p]
+  - grapheme: paat\
+    phonemes: [p, V, t]
+  - grapheme: paau\
+    phonemes: [p, V, u]
+  - grapheme: pai\
+    phonemes: [p, '@', i]
+  - grapheme: pak\
+    phonemes: [p, V, k]
+  - grapheme: pam\
+    phonemes: [p, '@', m]
+  - grapheme: pan\
+    phonemes: [p, '@', n]
+  - grapheme: pang\
+    phonemes: [p, '@', N]
+  - grapheme: pap\
+    phonemes: [p, V, p]
+  - grapheme: pat\
+    phonemes: [p, V, t]
+  - grapheme: pau\
+    phonemes: [p, '@', u]
+  - grapheme: pe\
+    phonemes: [p, E]
+  - grapheme: pei\
+    phonemes: [p, eI]
+  - grapheme: pek\
+    phonemes: [p, E, k]
+  - grapheme: pem\
+    phonemes: [p, E, m]
+  - grapheme: pen\
+    phonemes: [p, E, n]
+  - grapheme: peng\
+    phonemes: [p, E, N]
+  - grapheme: peo\
+    phonemes: [p, V]
+  - grapheme: peoi\
+    phonemes: [p, '@', i]
+  - grapheme: peok\
+    phonemes: [p, V, k]
+  - grapheme: peom\
+    phonemes: [p, '@', m]
+  - grapheme: peon\
+    phonemes: [p, '@', n]
+  - grapheme: peong\
+    phonemes: [p, '@', N]
+  - grapheme: peop\
+    phonemes: [p, V, p]
+  - grapheme: peot\
+    phonemes: [p, V, t]
+  - grapheme: peou\
+    phonemes: [p, '@', u]
+  - grapheme: pep\
+    phonemes: [p, E, p]
+  - grapheme: pet\
+    phonemes: [p, E, t]
+  - grapheme: peu\
+    phonemes: [p, E, u]
+  - grapheme: pi\
+    phonemes: [p, i]
+  - grapheme: pik\
+    phonemes: [p, I, k]
+  - grapheme: pim\
+    phonemes: [p, i, m]
+  - grapheme: pin\
+    phonemes: [p, i, n]
+  - grapheme: ping\
+    phonemes: [p, I, N]
+  - grapheme: pip\
+    phonemes: [p, i, p]
+  - grapheme: pit\
+    phonemes: [p, i, t]
+  - grapheme: piu\
+    phonemes: [p, i, u]
+  - grapheme: po\
+    phonemes: [p, O]
+  - grapheme: poe\
+    phonemes: [p, '@']
+  - grapheme: poei\
+    phonemes: [p, aI]
+  - grapheme: poek\
+    phonemes: [p, '@', k]
+  - grapheme: poem\
+    phonemes: [p, '@', m]
+  - grapheme: poen\
+    phonemes: [p, '@', n]
+  - grapheme: poeng\
+    phonemes: [p, '@', N]
+  - grapheme: poep\
+    phonemes: [p, '@', p]
+  - grapheme: poet\
+    phonemes: [p, '@', t]
+  - grapheme: poeu\
+    phonemes: [p, '@', u]
+  - grapheme: poi\
+    phonemes: [p, OI]
+  - grapheme: pok\
+    phonemes: [p, O, k]
+  - grapheme: pom\
+    phonemes: [p, O, m]
+  - grapheme: pon\
+    phonemes: [p, O, n]
+  - grapheme: pong\
+    phonemes: [p, O, N]
+  - grapheme: pop\
+    phonemes: [p, O, p]
+  - grapheme: pot\
+    phonemes: [p, O, t]
+  - grapheme: pou\
+    phonemes: [p, oU]
+  - grapheme: pu\
+    phonemes: [p, u]
+  - grapheme: pui\
+    phonemes: [p, u, i]
+  - grapheme: puk\
+    phonemes: [p, U, k]
+  - grapheme: pum\
+    phonemes: [p, u, m]
+  - grapheme: pun\
+    phonemes: [p, u, n]
+  - grapheme: pung\
+    phonemes: [p, U, N]
+  - grapheme: pup\
+    phonemes: [p, u, p]
+  - grapheme: put\
+    phonemes: [p, u, t]
+  - grapheme: pyu\
+    phonemes: [p, I]
+  - grapheme: pyui\
+    phonemes: [p, j, I]
+  - grapheme: pyuk\
+    phonemes: [p, I, k]
+  - grapheme: pyum\
+    phonemes: [p, I, m]
+  - grapheme: pyun\
+    phonemes: [p, I, n]
+  - grapheme: pyung\
+    phonemes: [p, I, N]
+  - grapheme: pyup\
+    phonemes: [p, I, p]
+  - grapheme: pyut\
+    phonemes: [p, I, t]
+  - grapheme: pyu\1
+    phonemes: [p, j]
+  - grapheme: pyui\1
+    phonemes: [p, j, i]
+  - grapheme: pyuk\1
+    phonemes: [p, j, k]
+  - grapheme: pyum\1
+    phonemes: [p, j, m]
+  - grapheme: pyun\1
+    phonemes: [p, j, n]
+  - grapheme: pyung\1
+    phonemes: [p, j, N]
+  - grapheme: pyup\1
+    phonemes: [p, j, p]
+  - grapheme: pyut\1
+    phonemes: [p, j, t]
+  - grapheme: pyuu\
+    phonemes: [p, j, u]
+  - grapheme: sa\
+    phonemes: [s, V]
+  - grapheme: saa\
+    phonemes: [s, V]
+  - grapheme: saai\
+    phonemes: [s, aI]
+  - grapheme: saak\
+    phonemes: [s, V, k]
+  - grapheme: saam\
+    phonemes: [s, '@', m]
+  - grapheme: saan\
+    phonemes: [s, '@', n]
+  - grapheme: saang\
+    phonemes: [s, '@', N]
+  - grapheme: saap\
+    phonemes: [s, V, p]
+  - grapheme: saat\
+    phonemes: [s, V, t]
+  - grapheme: saau\
+    phonemes: [s, V, u]
+  - grapheme: sai\
+    phonemes: [s, '@', i]
+  - grapheme: sak\
+    phonemes: [s, V, k]
+  - grapheme: sam\
+    phonemes: [s, '@', m]
+  - grapheme: san\
+    phonemes: [s, '@', n]
+  - grapheme: sang\
+    phonemes: [s, '@', N]
+  - grapheme: sap\
+    phonemes: [s, V, p]
+  - grapheme: sat\
+    phonemes: [s, V, t]
+  - grapheme: sau\
+    phonemes: [s, '@', u]
+  - grapheme: se\
+    phonemes: [s, E]
+  - grapheme: sei\
+    phonemes: [s, eI]
+  - grapheme: sek\
+    phonemes: [s, E, k]
+  - grapheme: sem\
+    phonemes: [s, E, m]
+  - grapheme: sen\
+    phonemes: [s, E, n]
+  - grapheme: seng\
+    phonemes: [s, E, N]
+  - grapheme: seo\
+    phonemes: [s, '@']
+  - grapheme: seoi\
+    phonemes: [s, '@', i]
+  - grapheme: seok\
+    phonemes: [s, '@', k]
+  - grapheme: seom\
+    phonemes: [s, '@', m]
+  - grapheme: seon\
+    phonemes: [s, '@', n]
+  - grapheme: seong\
+    phonemes: [s, '@', N]
+  - grapheme: seop\
+    phonemes: [s, '@', p]
+  - grapheme: seot\
+    phonemes: [s, '@', t]
+  - grapheme: seou\
+    phonemes: [s, '@', u]
+  - grapheme: sep\
+    phonemes: [s, E, p]
+  - grapheme: set\
+    phonemes: [s, E, t]
+  - grapheme: seu\
+    phonemes: [s, E, u]
+  - grapheme: si\
+    phonemes: [s, i]
+  - grapheme: sik\
+    phonemes: [s, I, k]
+  - grapheme: sim\
+    phonemes: [s, i, m]
+  - grapheme: sin\
+    phonemes: [s, i, n]
+  - grapheme: sing\
+    phonemes: [s, I, N]
+  - grapheme: sip\
+    phonemes: [s, i, p]
+  - grapheme: sit\
+    phonemes: [s, i, t]
+  - grapheme: siu\
+    phonemes: [s, i, u]
+  - grapheme: so\
+    phonemes: [s, O]
+  - grapheme: soe\
+    phonemes: [s, V]
+  - grapheme: soei\
+    phonemes: [s, aI]
+  - grapheme: soek\
+    phonemes: [s, V, k]
+  - grapheme: soem\
+    phonemes: [s, '@', m]
+  - grapheme: soen\
+    phonemes: [s, '@', n]
+  - grapheme: soeng\
+    phonemes: [s, '@', N]
+  - grapheme: soep\
+    phonemes: [s, V, p]
+  - grapheme: soet\
+    phonemes: [s, V, t]
+  - grapheme: soeu\
+    phonemes: [s, '@', u]
+  - grapheme: soi\
+    phonemes: [s, OI]
+  - grapheme: sok\
+    phonemes: [s, O, k]
+  - grapheme: som\
+    phonemes: [s, O, m]
+  - grapheme: son\
+    phonemes: [s, O, n]
+  - grapheme: song\
+    phonemes: [s, O, N]
+  - grapheme: sop\
+    phonemes: [s, O, p]
+  - grapheme: sot\
+    phonemes: [s, O, t]
+  - grapheme: sou\
+    phonemes: [s, oU]
+  - grapheme: su\
+    phonemes: [s, u]
+  - grapheme: sui\
+    phonemes: [s, u, i]
+  - grapheme: suk\
+    phonemes: [s, U, k]
+  - grapheme: sum\
+    phonemes: [s, u, m]
+  - grapheme: sun\
+    phonemes: [s, u, n]
+  - grapheme: sung\
+    phonemes: [s, U, N]
+  - grapheme: sup\
+    phonemes: [s, u, p]
+  - grapheme: sut\
+    phonemes: [s, u, t]
+  - grapheme: syu\
+    phonemes: [s, I]
+  - grapheme: syui\
+    phonemes: [s, j, I]
+  - grapheme: syuk\
+    phonemes: [s, I, k]
+  - grapheme: syum\
+    phonemes: [s, I, m]
+  - grapheme: syun\
+    phonemes: [s, I, n]
+  - grapheme: syung\
+    phonemes: [s, I, N]
+  - grapheme: syup\
+    phonemes: [s, I, p]
+  - grapheme: syut\
+    phonemes: [s, I, t]
+  - grapheme: syu\1
+    phonemes: [s, j]
+  - grapheme: syui\1
+    phonemes: [s, j, i]
+  - grapheme: syuk\1
+    phonemes: [s, j, k]
+  - grapheme: syum\1
+    phonemes: [s, j, m]
+  - grapheme: syun\1
+    phonemes: [s, j, n]
+  - grapheme: syung\1
+    phonemes: [s, j, N]
+  - grapheme: syup\1
+    phonemes: [s, j, p]
+  - grapheme: syut\1
+    phonemes: [s, j, t]
+  - grapheme: syuu\
+    phonemes: [s, j, u]
+  - grapheme: sha\
+    phonemes: [S, V]
+  - grapheme: shaa\
+    phonemes: [S, V]
+  - grapheme: shaai\
+    phonemes: [S, aI]
+  - grapheme: shaak\
+    phonemes: [S, V, k]
+  - grapheme: shaam\
+    phonemes: [S, '@', m]
+  - grapheme: shaan\
+    phonemes: [S, '@', n]
+  - grapheme: shaang\
+    phonemes: [S, '@', N]
+  - grapheme: shaap\
+    phonemes: [S, V, p]
+  - grapheme: shaat\
+    phonemes: [S, V, t]
+  - grapheme: shaau\
+    phonemes: [S, V, u]
+  - grapheme: shai\
+    phonemes: [S, '@', i]
+  - grapheme: shak\
+    phonemes: [S, V, k]
+  - grapheme: sham\
+    phonemes: [S, '@', m]
+  - grapheme: shan\
+    phonemes: [S, '@', n]
+  - grapheme: shang\
+    phonemes: [S, '@', N]
+  - grapheme: shap\
+    phonemes: [S, V, p]
+  - grapheme: shat\
+    phonemes: [S, V, t]
+  - grapheme: shau\
+    phonemes: [S, '@', u]
+  - grapheme: she\
+    phonemes: [S, E]
+  - grapheme: shei\
+    phonemes: [S, eI]
+  - grapheme: shek\
+    phonemes: [S, E, k]
+  - grapheme: shem\
+    phonemes: [S, E, m]
+  - grapheme: shen\
+    phonemes: [S, E, n]
+  - grapheme: sheng\
+    phonemes: [S, E, N]
+  - grapheme: sheo\
+    phonemes: [S, '@']
+  - grapheme: sheoi\
+    phonemes: [S, '@', i]
+  - grapheme: sheok\
+    phonemes: [S, '@', k]
+  - grapheme: sheom\
+    phonemes: [S, '@', m]
+  - grapheme: sheon\
+    phonemes: [S, '@', n]
+  - grapheme: sheong\
+    phonemes: [S, '@', N]
+  - grapheme: sheop\
+    phonemes: [S, '@', p]
+  - grapheme: sheot\
+    phonemes: [S, '@', t]
+  - grapheme: sheou\
+    phonemes: [S, '@', u]
+  - grapheme: shep\
+    phonemes: [S, E, p]
+  - grapheme: shet\
+    phonemes: [S, E, t]
+  - grapheme: sheu\
+    phonemes: [S, E, u]
+  - grapheme: shi\
+    phonemes: [S, i]
+  - grapheme: shik\
+    phonemes: [S, I, k]
+  - grapheme: shim\
+    phonemes: [S, i, m]
+  - grapheme: shin\
+    phonemes: [S, i, n]
+  - grapheme: shing\
+    phonemes: [S, I, N]
+  - grapheme: ship\
+    phonemes: [S, i, p]
+  - grapheme: shit\
+    phonemes: [S, i, t]
+  - grapheme: shiu\
+    phonemes: [S, i, u]
+  - grapheme: sho\
+    phonemes: [S, O]
+  - grapheme: shoe\
+    phonemes: [S, V]
+  - grapheme: shoei\
+    phonemes: [S, aI]
+  - grapheme: shoek\
+    phonemes: [S, V, k]
+  - grapheme: shoem\
+    phonemes: [S, '@', m]
+  - grapheme: shoen\
+    phonemes: [S, '@', n]
+  - grapheme: shoeng\
+    phonemes: [S, '@', N]
+  - grapheme: shoep\
+    phonemes: [S, V, p]
+  - grapheme: shoet\
+    phonemes: [S, V, t]
+  - grapheme: shoeu\
+    phonemes: [S, '@', u]
+  - grapheme: shoi\
+    phonemes: [S, OI]
+  - grapheme: shok\
+    phonemes: [S, O, k]
+  - grapheme: shom\
+    phonemes: [S, O, m]
+  - grapheme: shon\
+    phonemes: [S, O, n]
+  - grapheme: shong\
+    phonemes: [S, O, N]
+  - grapheme: shop\
+    phonemes: [S, O, p]
+  - grapheme: shot\
+    phonemes: [S, O, t]
+  - grapheme: shou\
+    phonemes: [S, oU]
+  - grapheme: shu\
+    phonemes: [S, u]
+  - grapheme: shui\
+    phonemes: [S, u, i]
+  - grapheme: shuk\
+    phonemes: [S, U, k]
+  - grapheme: shum\
+    phonemes: [S, u, m]
+  - grapheme: shun\
+    phonemes: [S, u, n]
+  - grapheme: shung\
+    phonemes: [S, U, N]
+  - grapheme: shup\
+    phonemes: [S, u, p]
+  - grapheme: shut\
+    phonemes: [S, u, t]
+  - grapheme: shyu\
+    phonemes: [S, I]
+  - grapheme: shyui\
+    phonemes: [S, j, I]
+  - grapheme: shyuk\
+    phonemes: [S, I, k]
+  - grapheme: shyum\
+    phonemes: [S, I, m]
+  - grapheme: shyun\
+    phonemes: [S, I, n]
+  - grapheme: shyung\
+    phonemes: [S, I, N]
+  - grapheme: shyup\
+    phonemes: [S, I, p]
+  - grapheme: shyut\
+    phonemes: [S, I, t]
+  - grapheme: shyu\1
+    phonemes: [S, j]
+  - grapheme: shyui\1
+    phonemes: [S, j, i]
+  - grapheme: shyuk\1
+    phonemes: [S, j, k]
+  - grapheme: shyum\1
+    phonemes: [S, j, m]
+  - grapheme: shyun\1
+    phonemes: [S, j, n]
+  - grapheme: shyung\1
+    phonemes: [S, j, N]
+  - grapheme: shyup\1
+    phonemes: [S, j, p]
+  - grapheme: shyut\1
+    phonemes: [S, j, t]
+  - grapheme: shyuu\
+    phonemes: [S, j, u]
+  - grapheme: ta\
+    phonemes: [t, V]
+  - grapheme: taa\
+    phonemes: [t, V]
+  - grapheme: taai\
+    phonemes: [t, aI]
+  - grapheme: taak\
+    phonemes: [t, V, k]
+  - grapheme: taam\
+    phonemes: [t, '@', m]
+  - grapheme: taan\
+    phonemes: [t, '@', n]
+  - grapheme: taang\
+    phonemes: [t, '@', N]
+  - grapheme: taap\
+    phonemes: [t, V, p]
+  - grapheme: taat\
+    phonemes: [t, V, t]
+  - grapheme: taau\
+    phonemes: [t, V, u]
+  - grapheme: tai\
+    phonemes: [t, '@', i]
+  - grapheme: tak\
+    phonemes: [t, V, k]
+  - grapheme: tam\
+    phonemes: [t, '@', m]
+  - grapheme: tan\
+    phonemes: [t, '@', n]
+  - grapheme: tang\
+    phonemes: [t, '@', N]
+  - grapheme: tap\
+    phonemes: [t, V, p]
+  - grapheme: tat\
+    phonemes: [t, V, t]
+  - grapheme: tau\
+    phonemes: [t, '@', u]
+  - grapheme: te\
+    phonemes: [t, E]
+  - grapheme: tei\
+    phonemes: [t, eI]
+  - grapheme: tek\
+    phonemes: [t, E, k]
+  - grapheme: tem\
+    phonemes: [t, E, m]
+  - grapheme: ten\
+    phonemes: [t, E, n]
+  - grapheme: teng\
+    phonemes: [t, E, N]
+  - grapheme: teo\
+    phonemes: [t, '@']
+  - grapheme: teoi\
+    phonemes: [t, '@', i]
+  - grapheme: teok\
+    phonemes: [t, '@', k]
+  - grapheme: teom\
+    phonemes: [t, '@', m]
+  - grapheme: teon\
+    phonemes: [t, '@', n]
+  - grapheme: teong\
+    phonemes: [t, '@', N]
+  - grapheme: teop\
+    phonemes: [t, '@', p]
+  - grapheme: teot\
+    phonemes: [t, '@', t]
+  - grapheme: teou\
+    phonemes: [t, '@', u]
+  - grapheme: tep\
+    phonemes: [t, E, p]
+  - grapheme: tet\
+    phonemes: [t, E, t]
+  - grapheme: teu\
+    phonemes: [t, E, u]
+  - grapheme: ti\
+    phonemes: [t, i]
+  - grapheme: tik\
+    phonemes: [t, I, k]
+  - grapheme: tim\
+    phonemes: [t, i, m]
+  - grapheme: tin\
+    phonemes: [t, i, n]
+  - grapheme: ting\
+    phonemes: [t, I, N]
+  - grapheme: tip\
+    phonemes: [t, i, p]
+  - grapheme: tit\
+    phonemes: [t, i, t]
+  - grapheme: tiu\
+    phonemes: [t, i, u]
+  - grapheme: to\
+    phonemes: [t, O]
+  - grapheme: toe\
+    phonemes: [t, V]
+  - grapheme: toei\
+    phonemes: [t, aI]
+  - grapheme: toek\
+    phonemes: [t, V, k]
+  - grapheme: toem\
+    phonemes: [t, '@', m]
+  - grapheme: toen\
+    phonemes: [t, '@', n]
+  - grapheme: toeng\
+    phonemes: [t, '@', N]
+  - grapheme: toep\
+    phonemes: [t, V, p]
+  - grapheme: toet\
+    phonemes: [t, V, t]
+  - grapheme: toeu\
+    phonemes: [t, '@', u]
+  - grapheme: toi\
+    phonemes: [t, OI]
+  - grapheme: tok\
+    phonemes: [t, O, k]
+  - grapheme: tom\
+    phonemes: [t, O, m]
+  - grapheme: ton\
+    phonemes: [t, O, n]
+  - grapheme: tong\
+    phonemes: [t, O, N]
+  - grapheme: top\
+    phonemes: [t, O, p]
+  - grapheme: tot\
+    phonemes: [t, O, t]
+  - grapheme: tou\
+    phonemes: [t, oU]
+  - grapheme: tu\
+    phonemes: [t, u]
+  - grapheme: tui\
+    phonemes: [t, u, i]
+  - grapheme: tuk\
+    phonemes: [t, U, k]
+  - grapheme: tum\
+    phonemes: [t, u, m]
+  - grapheme: tun\
+    phonemes: [t, u, n]
+  - grapheme: tung\
+    phonemes: [t, U, N]
+  - grapheme: tup\
+    phonemes: [t, u, p]
+  - grapheme: tut\
+    phonemes: [t, u, t]
+  - grapheme: tyu\
+    phonemes: [t, I]
+  - grapheme: tyui\
+    phonemes: [t, j, I]
+  - grapheme: tyuk\
+    phonemes: [t, I, k]
+  - grapheme: tyum\
+    phonemes: [t, I, m]
+  - grapheme: tyun\
+    phonemes: [t, I, n]
+  - grapheme: tyung\
+    phonemes: [t, I, N]
+  - grapheme: tyup\
+    phonemes: [t, I, p]
+  - grapheme: tyut\
+    phonemes: [t, I, t]
+  - grapheme: tyu\1
+    phonemes: [t, j]
+  - grapheme: tyui\1
+    phonemes: [t, j, i]
+  - grapheme: tyuk\1
+    phonemes: [t, j, k]
+  - grapheme: tyum\1
+    phonemes: [t, j, m]
+  - grapheme: tyun\1
+    phonemes: [t, j, n]
+  - grapheme: tyung\1
+    phonemes: [t, j, N]
+  - grapheme: tyup\1
+    phonemes: [t, j, p]
+  - grapheme: tyut\1
+    phonemes: [t, j, t]
+  - grapheme: tyuu\
+    phonemes: [t, j, u]
+  - grapheme: wa\
+    phonemes: [w, V]
+  - grapheme: waa\
+    phonemes: [w, V]
+  - grapheme: waai\
+    phonemes: [w, aI]
+  - grapheme: waak\
+    phonemes: [w, V, k]
+  - grapheme: waam\
+    phonemes: [w, '@', m]
+  - grapheme: waan\
+    phonemes: [w, '@', n]
+  - grapheme: waang\
+    phonemes: [w, '@', N]
+  - grapheme: waap\
+    phonemes: [w, V, p]
+  - grapheme: waat\
+    phonemes: [w, V, t]
+  - grapheme: waau\
+    phonemes: [w, V, u]
+  - grapheme: wai\
+    phonemes: [w, '@', i]
+  - grapheme: wak\
+    phonemes: [w, V, k]
+  - grapheme: wam\
+    phonemes: [w, '@', m]
+  - grapheme: wan\
+    phonemes: [w, '@', n]
+  - grapheme: wang\
+    phonemes: [w, '@', N]
+  - grapheme: wap\
+    phonemes: [w, V, p]
+  - grapheme: wat\
+    phonemes: [w, V, t]
+  - grapheme: wau\
+    phonemes: [w, '@', u]
+  - grapheme: we\
+    phonemes: [w, E]
+  - grapheme: wei\
+    phonemes: [w, eI]
+  - grapheme: wek\
+    phonemes: [w, E, k]
+  - grapheme: wem\
+    phonemes: [w, E, m]
+  - grapheme: wen\
+    phonemes: [w, E, n]
+  - grapheme: weng\
+    phonemes: [w, E, N]
+  - grapheme: weo\
+    phonemes: [w, '@']
+  - grapheme: weoi\
+    phonemes: [w, '@', i]
+  - grapheme: weok\
+    phonemes: [w, '@', k]
+  - grapheme: weom\
+    phonemes: [w, '@', m]
+  - grapheme: weon\
+    phonemes: [w, '@', n]
+  - grapheme: weong\
+    phonemes: [w, '@', N]
+  - grapheme: weop\
+    phonemes: [w, '@', p]
+  - grapheme: weot\
+    phonemes: [w, '@', t]
+  - grapheme: weou\
+    phonemes: [w, '@', u]
+  - grapheme: wep\
+    phonemes: [w, E, p]
+  - grapheme: wet\
+    phonemes: [w, E, t]
+  - grapheme: weu\
+    phonemes: [w, E, u]
+  - grapheme: wi\
+    phonemes: [w, i]
+  - grapheme: wik\
+    phonemes: [w, I, k]
+  - grapheme: wim\
+    phonemes: [w, i, m]
+  - grapheme: win\
+    phonemes: [w, i, n]
+  - grapheme: wing\
+    phonemes: [w, I, N]
+  - grapheme: wip\
+    phonemes: [w, i, p]
+  - grapheme: wit\
+    phonemes: [w, i, t]
+  - grapheme: wiu\
+    phonemes: [w, i, u]
+  - grapheme: wo\
+    phonemes: [w, O]
+  - grapheme: woe\
+    phonemes: [w, V]
+  - grapheme: woei\
+    phonemes: [w, aI]
+  - grapheme: woek\
+    phonemes: [w, V, k]
+  - grapheme: woem\
+    phonemes: [w, '@', m]
+  - grapheme: woen\
+    phonemes: [w, '@', n]
+  - grapheme: woeng\
+    phonemes: [w, '@', N]
+  - grapheme: woep\
+    phonemes: [w, V, p]
+  - grapheme: woet\
+    phonemes: [w, V, t]
+  - grapheme: woeu\
+    phonemes: [w, '@', u]
+  - grapheme: woi\
+    phonemes: [w, OI]
+  - grapheme: wok\
+    phonemes: [w, O, k]
+  - grapheme: wom\
+    phonemes: [w, O, m]
+  - grapheme: won\
+    phonemes: [w, O, n]
+  - grapheme: wong\
+    phonemes: [w, O, N]
+  - grapheme: wop\
+    phonemes: [w, O, p]
+  - grapheme: wot\
+    phonemes: [w, O, t]
+  - grapheme: wou\
+    phonemes: [w, oU]
+  - grapheme: wu\
+    phonemes: [w, u]
+  - grapheme: wui\
+    phonemes: [w, u, i]
+  - grapheme: wuk\
+    phonemes: [w, U, k]
+  - grapheme: wum\
+    phonemes: [w, u, m]
+  - grapheme: wun\
+    phonemes: [w, u, n]
+  - grapheme: wung\
+    phonemes: [w, U, N]
+  - grapheme: wup\
+    phonemes: [w, u, p]
+  - grapheme: wut\
+    phonemes: [w, u, t]
+  - grapheme: wyu\
+    phonemes: [w, I]
+  - grapheme: wyui\
+    phonemes: [w, j, I]
+  - grapheme: wyuk\
+    phonemes: [w, I, k]
+  - grapheme: wyum\
+    phonemes: [w, I, m]
+  - grapheme: wyun\
+    phonemes: [w, I, n]
+  - grapheme: wyung\
+    phonemes: [w, I, N]
+  - grapheme: wyup\
+    phonemes: [w, I, p]
+  - grapheme: wyut\
+    phonemes: [w, I, t]
+  - grapheme: wyu\1
+    phonemes: [w, j]
+  - grapheme: wyui\1
+    phonemes: [w, j, i]
+  - grapheme: wyuk\1
+    phonemes: [w, j, k]
+  - grapheme: wyum\1
+    phonemes: [w, j, m]
+  - grapheme: wyun\1
+    phonemes: [w, j, n]
+  - grapheme: wyung\1
+    phonemes: [w, j, N]
+  - grapheme: wyup\1
+    phonemes: [w, j, p]
+  - grapheme: wyut\1
+    phonemes: [w, j, t]
+  - grapheme: wyuu\
+    phonemes: [w, j, u]
+  - grapheme: ya\
+    phonemes: [j, V]
+  - grapheme: yaa\
+    phonemes: [j, V]
+  - grapheme: yaai\
+    phonemes: [j, aI]
+  - grapheme: yaak\
+    phonemes: [j, V, k]
+  - grapheme: yaam\
+    phonemes: [j, '@', m]
+  - grapheme: yaan\
+    phonemes: [j, '@', n]
+  - grapheme: yaang\
+    phonemes: [j, '@', N]
+  - grapheme: yaap\
+    phonemes: [j, V, p]
+  - grapheme: yaat\
+    phonemes: [j, V, t]
+  - grapheme: yaau\
+    phonemes: [j, V, u]
+  - grapheme: yai\
+    phonemes: [j, '@', i]
+  - grapheme: yak\
+    phonemes: [j, V, k]
+  - grapheme: yam\
+    phonemes: [j, '@', m]
+  - grapheme: yan\
+    phonemes: [j, '@', n]
+  - grapheme: yang\
+    phonemes: [j, '@', N]
+  - grapheme: yap\
+    phonemes: [j, V, p]
+  - grapheme: yat\
+    phonemes: [j, V, t]
+  - grapheme: yau\
+    phonemes: [j, '@', u]
+  - grapheme: ye\
+    phonemes: [j, E]
+  - grapheme: yei\
+    phonemes: [j, eI]
+  - grapheme: yek\
+    phonemes: [j, E, k]
+  - grapheme: yem\
+    phonemes: [j, E, m]
+  - grapheme: yen\
+    phonemes: [j, E, n]
+  - grapheme: yeng\
+    phonemes: [j, E, N]
+  - grapheme: yeo\
+    phonemes: [j, '@']
+  - grapheme: yeoi\
+    phonemes: [j, '@', i]
+  - grapheme: yeok\
+    phonemes: [j, '@', k]
+  - grapheme: yeom\
+    phonemes: [j, '@', m]
+  - grapheme: yeon\
+    phonemes: [j, '@', n]
+  - grapheme: yeong\
+    phonemes: [j, '@', N]
+  - grapheme: yeop\
+    phonemes: [j, '@', p]
+  - grapheme: yeot\
+    phonemes: [j, '@', t]
+  - grapheme: yeou\
+    phonemes: [j, '@', u]
+  - grapheme: yep\
+    phonemes: [j, E, p]
+  - grapheme: yet\
+    phonemes: [j, E, t]
+  - grapheme: yeu\
+    phonemes: [j, E, u]
+  - grapheme: yi\
+    phonemes: [j, i]
+  - grapheme: yik\
+    phonemes: [j, I, k]
+  - grapheme: yim\
+    phonemes: [j, i, m]
+  - grapheme: yin\
+    phonemes: [j, i, n]
+  - grapheme: ying\
+    phonemes: [j, I, N]
+  - grapheme: yip\
+    phonemes: [j, i, p]
+  - grapheme: yit\
+    phonemes: [j, i, t]
+  - grapheme: yiu\
+    phonemes: [j, i, u]
+  - grapheme: yo\
+    phonemes: [j, O]
+  - grapheme: yoe\
+    phonemes: [j, V]
+  - grapheme: yoei\
+    phonemes: [j, aI]
+  - grapheme: yoek\
+    phonemes: [j, V, k]
+  - grapheme: yoem\
+    phonemes: [j, '@', m]
+  - grapheme: yoen\
+    phonemes: [j, '@', n]
+  - grapheme: yoeng\
+    phonemes: [j, '@', N]
+  - grapheme: yoep\
+    phonemes: [j, V, p]
+  - grapheme: yoet\
+    phonemes: [j, V, t]
+  - grapheme: yoeu\
+    phonemes: [j, '@', u]
+  - grapheme: yoi\
+    phonemes: [j, OI]
+  - grapheme: yok\
+    phonemes: [j, O, k]
+  - grapheme: yom\
+    phonemes: [j, O, m]
+  - grapheme: yon\
+    phonemes: [j, O, n]
+  - grapheme: yong\
+    phonemes: [j, O, N]
+  - grapheme: yop\
+    phonemes: [j, O, p]
+  - grapheme: yot\
+    phonemes: [j, O, t]
+  - grapheme: you\
+    phonemes: [j, oU]
+  - grapheme: yu\
+    phonemes: [j, u]
+  - grapheme: yui\
+    phonemes: [j, u, i]
+  - grapheme: yuk\
+    phonemes: [j, U, k]
+  - grapheme: yum\
+    phonemes: [j, u, m]
+  - grapheme: yun\
+    phonemes: [j, u, n]
+  - grapheme: yung\
+    phonemes: [j, U, N]
+  - grapheme: yup\
+    phonemes: [j, u, p]
+  - grapheme: yut\
+    phonemes: [j, u, t]
+  - grapheme: yyu\
+    phonemes: [j, u]
+  - grapheme: yyui\
+    phonemes: [j, u]
+  - grapheme: yyuk\
+    phonemes: [j, u, k]
+  - grapheme: yyum\
+    phonemes: [j, u, m]
+  - grapheme: yyun\
+    phonemes: [j, u, n]
+  - grapheme: yyung\
+    phonemes: [j, u, N]
+  - grapheme: yyup\
+    phonemes: [j, u, p]
+  - grapheme: yyut\
+    phonemes: [j, u, t]
+  - grapheme: yyu\1
+    phonemes: [j, j]
+  - grapheme: yyui\1
+    phonemes: [j, j, i]
+  - grapheme: yyuk\1
+    phonemes: [j, j, k]
+  - grapheme: yyum\1
+    phonemes: [j, j, m]
+  - grapheme: yyun\1
+    phonemes: [j, j, n]
+  - grapheme: yyung\1
+    phonemes: [j, j, N]
+  - grapheme: yyup\1
+    phonemes: [j, j, p]
+  - grapheme: yyut\1
+    phonemes: [j, j, t]
+  - grapheme: yyuu\
+    phonemes: [j, j, u]
+  - grapheme: za\
+    phonemes: [z, V]
+  - grapheme: zaa\
+    phonemes: [z, V]
+  - grapheme: zaai\
+    phonemes: [z, aI]
+  - grapheme: zaak\
+    phonemes: [z, V, k]
+  - grapheme: zaam\
+    phonemes: [z, '@', m]
+  - grapheme: zaan\
+    phonemes: [z, '@', n]
+  - grapheme: zaang\
+    phonemes: [z, '@', N]
+  - grapheme: zaap\
+    phonemes: [z, V, p]
+  - grapheme: zaat\
+    phonemes: [z, V, t]
+  - grapheme: zaau\
+    phonemes: [z, V, u]
+  - grapheme: zai\
+    phonemes: [z, '@', i]
+  - grapheme: zak\
+    phonemes: [z, V, k]
+  - grapheme: zam\
+    phonemes: [z, '@', m]
+  - grapheme: zan\
+    phonemes: [z, '@', n]
+  - grapheme: zang\
+    phonemes: [z, '@', N]
+  - grapheme: zap\
+    phonemes: [z, V, p]
+  - grapheme: zat\
+    phonemes: [z, V, t]
+  - grapheme: zau\
+    phonemes: [z, '@', u]
+  - grapheme: ze\
+    phonemes: [z, E]
+  - grapheme: zei\
+    phonemes: [z, eI]
+  - grapheme: zek\
+    phonemes: [z, E, k]
+  - grapheme: zem\
+    phonemes: [z, E, m]
+  - grapheme: zen\
+    phonemes: [z, E, n]
+  - grapheme: zeng\
+    phonemes: [z, E, N]
+  - grapheme: zeo\
+    phonemes: [z, '@']
+  - grapheme: zeoi\
+    phonemes: [z, '@', i]
+  - grapheme: zeok\
+    phonemes: [z, '@', k]
+  - grapheme: zeom\
+    phonemes: [z, '@', m]
+  - grapheme: zeon\
+    phonemes: [z, '@', n]
+  - grapheme: zeong\
+    phonemes: [z, '@', N]
+  - grapheme: zeop\
+    phonemes: [z, '@', p]
+  - grapheme: zeot\
+    phonemes: [z, '@', t]
+  - grapheme: zeou\
+    phonemes: [z, '@', u]
+  - grapheme: zep\
+    phonemes: [z, E, p]
+  - grapheme: zet\
+    phonemes: [z, E, t]
+  - grapheme: zeu\
+    phonemes: [z, E, u]
+  - grapheme: zi\
+    phonemes: [z, i]
+  - grapheme: zik\
+    phonemes: [z, I, k]
+  - grapheme: zim\
+    phonemes: [z, i, m]
+  - grapheme: zin\
+    phonemes: [z, i, n]
+  - grapheme: zing\
+    phonemes: [z, I, N]
+  - grapheme: zip\
+    phonemes: [z, i, p]
+  - grapheme: zit\
+    phonemes: [z, i, t]
+  - grapheme: ziu\
+    phonemes: [z, i, u]
+  - grapheme: zo\
+    phonemes: [z, O]
+  - grapheme: zoe\
+    phonemes: [z, V]
+  - grapheme: zoei\
+    phonemes: [z, aI]
+  - grapheme: zoek\
+    phonemes: [z, V, k]
+  - grapheme: zoem\
+    phonemes: [z, '@', m]
+  - grapheme: zoen\
+    phonemes: [z, '@', n]
+  - grapheme: zoeng\
+    phonemes: [z, '@', N]
+  - grapheme: zoep\
+    phonemes: [z, V, p]
+  - grapheme: zoet\
+    phonemes: [z, V, t]
+  - grapheme: zoeu\
+    phonemes: [z, '@', u]
+  - grapheme: zoi\
+    phonemes: [z, OI]
+  - grapheme: zok\
+    phonemes: [z, O, k]
+  - grapheme: zom\
+    phonemes: [z, O, m]
+  - grapheme: zon\
+    phonemes: [z, O, n]
+  - grapheme: zong\
+    phonemes: [z, O, N]
+  - grapheme: zop\
+    phonemes: [z, O, p]
+  - grapheme: zot\
+    phonemes: [z, O, t]
+  - grapheme: zou\
+    phonemes: [z, oU]
+  - grapheme: zu\
+    phonemes: [z, u]
+  - grapheme: zui\
+    phonemes: [z, u, i]
+  - grapheme: zuk\
+    phonemes: [z, U, k]
+  - grapheme: zum\
+    phonemes: [z, u, m]
+  - grapheme: zun\
+    phonemes: [z, u, n]
+  - grapheme: zung\
+    phonemes: [z, U, N]
+  - grapheme: zup\
+    phonemes: [z, u, p]
+  - grapheme: zut\
+    phonemes: [z, u, t]
+  - grapheme: zyu\
+    phonemes: [z, I]
+  - grapheme: zyui\
+    phonemes: [z, j, I]
+  - grapheme: zyuk\
+    phonemes: [z, I, k]
+  - grapheme: zyum\
+    phonemes: [z, I, m]
+  - grapheme: zyun\
+    phonemes: [z, I, n]
+  - grapheme: zyung\
+    phonemes: [z, I, N]
+  - grapheme: zyup\
+    phonemes: [z, I, p]
+  - grapheme: zyut\
+    phonemes: [z, I, t]
+  - grapheme: zyu\1
+    phonemes: [z, j]
+  - grapheme: zyui\1
+    phonemes: [z, j, i]
+  - grapheme: zyuk\1
+    phonemes: [z, j, k]
+  - grapheme: zyum\1
+    phonemes: [z, j, m]
+  - grapheme: zyun\1
+    phonemes: [z, j, n]
+  - grapheme: zyung\1
+    phonemes: [z, j, N]
+  - grapheme: zyup\1
+    phonemes: [z, j, p]
+  - grapheme: zyut\1
+    phonemes: [z, j, t]
+  - grapheme: zyuu\
+    phonemes: [z, j, u]
+  - grapheme: zha\
+    phonemes: [Z, V]
+  - grapheme: zhaa\
+    phonemes: [Z, V]
+  - grapheme: zhaai\
+    phonemes: [Z, aI]
+  - grapheme: zhaak\
+    phonemes: [Z, V, k]
+  - grapheme: zhaam\
+    phonemes: [Z, '@', m]
+  - grapheme: zhaan\
+    phonemes: [Z, '@', n]
+  - grapheme: zhaang\
+    phonemes: [Z, '@', N]
+  - grapheme: zhaap\
+    phonemes: [Z, V, p]
+  - grapheme: zhaat\
+    phonemes: [Z, V, t]
+  - grapheme: zhaau\
+    phonemes: [Z, V, u]
+  - grapheme: zhai\
+    phonemes: [Z, '@', i]
+  - grapheme: zhak\
+    phonemes: [Z, V, k]
+  - grapheme: zham\
+    phonemes: [Z, '@', m]
+  - grapheme: zhan\
+    phonemes: [Z, '@', n]
+  - grapheme: zhang\
+    phonemes: [Z, '@', N]
+  - grapheme: zhap\
+    phonemes: [Z, V, p]
+  - grapheme: zhat\
+    phonemes: [Z, V, t]
+  - grapheme: zhau\
+    phonemes: [Z, '@', u]
+  - grapheme: zhe\
+    phonemes: [Z, E]
+  - grapheme: zhei\
+    phonemes: [Z, eI]
+  - grapheme: zhek\
+    phonemes: [Z, E, k]
+  - grapheme: zhem\
+    phonemes: [Z, E, m]
+  - grapheme: zhen\
+    phonemes: [Z, E, n]
+  - grapheme: zheng\
+    phonemes: [Z, E, N]
+  - grapheme: zheo\
+    phonemes: [Z, '@']
+  - grapheme: zheoi\
+    phonemes: [Z, '@', i]
+  - grapheme: zheok\
+    phonemes: [Z, '@', k]
+  - grapheme: zheom\
+    phonemes: [Z, '@', m]
+  - grapheme: zheon\
+    phonemes: [Z, '@', n]
+  - grapheme: zheong\
+    phonemes: [Z, '@', N]
+  - grapheme: zheop\
+    phonemes: [Z, '@', p]
+  - grapheme: zheot\
+    phonemes: [Z, '@', t]
+  - grapheme: zheou\
+    phonemes: [Z, '@', u]
+  - grapheme: zhep\
+    phonemes: [Z, E, p]
+  - grapheme: zhet\
+    phonemes: [Z, E, t]
+  - grapheme: zheu\
+    phonemes: [Z, E, u]
+  - grapheme: zhi\
+    phonemes: [Z, i]
+  - grapheme: zhik\
+    phonemes: [Z, I, k]
+  - grapheme: zhim\
+    phonemes: [Z, i, m]
+  - grapheme: zhin\
+    phonemes: [Z, i, n]
+  - grapheme: zhing\
+    phonemes: [Z, I, N]
+  - grapheme: zhip\
+    phonemes: [Z, i, p]
+  - grapheme: zhit\
+    phonemes: [Z, i, t]
+  - grapheme: zhiu\
+    phonemes: [Z, i, u]
+  - grapheme: zho\
+    phonemes: [Z, O]
+  - grapheme: zhoe\
+    phonemes: [Z, V]
+  - grapheme: zhoei\
+    phonemes: [Z, aI]
+  - grapheme: zhoek\
+    phonemes: [Z, V, k]
+  - grapheme: zhoem\
+    phonemes: [Z, '@', m]
+  - grapheme: zhoen\
+    phonemes: [Z, '@', n]
+  - grapheme: zhoeng\
+    phonemes: [Z, '@', N]
+  - grapheme: zhoep\
+    phonemes: [Z, V, p]
+  - grapheme: zhoet\
+    phonemes: [Z, V, t]
+  - grapheme: zhoeu\
+    phonemes: [Z, '@', u]
+  - grapheme: zhoi\
+    phonemes: [Z, OI]
+  - grapheme: zhok\
+    phonemes: [Z, O, k]
+  - grapheme: zhom\
+    phonemes: [Z, O, m]
+  - grapheme: zhon\
+    phonemes: [Z, O, n]
+  - grapheme: zhong\
+    phonemes: [Z, O, N]
+  - grapheme: zhop\
+    phonemes: [Z, O, p]
+  - grapheme: zhot\
+    phonemes: [Z, O, t]
+  - grapheme: zhou\
+    phonemes: [Z, oU]
+  - grapheme: zhu\
+    phonemes: [Z, u]
+  - grapheme: zhui\
+    phonemes: [Z, u, i]
+  - grapheme: zhuk\
+    phonemes: [Z, U, k]
+  - grapheme: zhum\
+    phonemes: [Z, u, m]
+  - grapheme: zhun\
+    phonemes: [Z, u, n]
+  - grapheme: zhung\
+    phonemes: [Z, U, N]
+  - grapheme: zhup\
+    phonemes: [Z, u, p]
+  - grapheme: zhut\
+    phonemes: [Z, u, t]
+  - grapheme: zhyu\
+    phonemes: [Z, I]
+  - grapheme: zhyui\
+    phonemes: [Z, j, I]
+  - grapheme: zhyuk\
+    phonemes: [Z, I, k]
+  - grapheme: zhyum\
+    phonemes: [Z, I, m]
+  - grapheme: zhyun\
+    phonemes: [Z, I, n]
+  - grapheme: zhyung\
+    phonemes: [Z, I, N]
+  - grapheme: zhyup\
+    phonemes: [Z, I, p]
+  - grapheme: zhyut\
+    phonemes: [Z, I, t]
+  - grapheme: zhyu\1
+    phonemes: [Z, j]
+  - grapheme: zhyui\1
+    phonemes: [Z, j, i]
+  - grapheme: zhyuk\1
+    phonemes: [Z, j, k]
+  - grapheme: zhyum\1
+    phonemes: [Z, j, m]
+  - grapheme: zhyun\1
+    phonemes: [Z, j, n]
+  - grapheme: zhyung\1
+    phonemes: [Z, j, N]
+  - grapheme: zhyup\1
+    phonemes: [Z, j, p]
+  - grapheme: zhyut\1
+    phonemes: [Z, j, t]
+  - grapheme: zhyuu\
+    phonemes: [Z, j, u]
+

@@ -1,10 +1,12 @@
 %YAML 1.2
 ---
 #Dictionary extension for En-Delta/X-sampa voicebanks
-#Japanese (Hiragana, Katakana, romaji), Korean (Hangul, Romaja), Chinese Pinyin, French, and Spanish are currently supported.
+#Japanese (Hiragana, Katakana, romaji), Korean (Hangul, Romaja), Chinese Pinyin, Cantonese Jyutping, French, and Spanish are currently supported.
 #More languages to support soon.
 #This dictionary is being updated regularly so download the latest one here:
 #https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries.git
+#Mirror link:
+#https://mega.nz/folder/BjhATYZb#s3dYIDZxlBRG7TF0QBG6Xw
 
 #phoneme [ao] is converted as [o], if the vb has problems on the pronunciation, change it to [O/Q]
 #steps in changing a phoneme: use notepad, find this types of config (X = will be your phoneme here)
@@ -13,7 +15,7 @@
 
 #phoneme [q] or glottal stop on arpasing might be an issue to the vb, inputs such as [kk a] have
 #glottal input (q, k, A), manually type the desired phoneme on OU then lengthen the VC/CC to emulate a stop/glottal
-
+---
 symbols:
 #Delta-style (X-SAMPA) symbols
   - {symbol: a, type: vowel}
@@ -6230,7 +6232,7 @@ entries:
     phonemes: [t, j, u, b]
   - grapheme: tyut.
     phonemes: [t, j, u, d]
-  - grapheme: ae.
+  - grapheme: '{'.
     phonemes: [E]
   - grapheme: aek.
     phonemes: [E, g]
@@ -11279,7 +11281,7 @@ entries:
     phonemes: [E]
   - grapheme: o.
     phonemes: [O]
-  - grapheme: ae.
+  - grapheme: '{'.
     phonemes: [E]
   - grapheme: eu.
     phonemes: [U]
@@ -20896,9 +20898,9 @@ entries:
   - grapheme: N.
     phonemes: [n]
   - grapheme: ng.
-    phonemes: [N]
+    phonemes: [ng]
   - grapheme: ngG.
-    phonemes: [N]
+    phonemes: [ng]
   - grapheme: l.
     phonemes: [4]
   - grapheme: L.

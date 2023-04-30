@@ -1,10 +1,12 @@
 %YAML 1.2
 ---
 #Dictionary extension for En-Delta/X-sampa voicebanks
-#Japanese (Hiragana, Katakana, romaji), Korean (Hangul, Romaja), Chinese Pinyin, French, and Spanish are currently supported.
+#Japanese (Hiragana, Katakana, romaji), Korean (Hangul, Romaja), Chinese Pinyin, Cantonese Jyutping, French, and Spanish are currently supported.
 #More languages to support soon.
 #This dictionary is being updated regularly so download the latest one here:
 #https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries.git
+#Mirror link:
+#https://mega.nz/folder/BjhATYZb#s3dYIDZxlBRG7TF0QBG6Xw
 
 #phoneme [ao] is converted as [o], if the vb has problems on the pronunciation, change it to [O/Q]
 #steps in changing a phoneme: use notepad, find this types of config (X = will be your phoneme here)
@@ -1839,7 +1841,7 @@ entries:
   - grapheme: uo/
     phonemes: [w, O]
   - grapheme: v/1
-    phonemes: [y]
+    phonemes: [j]
   - grapheme: van/
     phonemes: [w, E, n]
   - grapheme: ve/
@@ -2959,43 +2961,43 @@ entries:
   - grapheme: siong/
     phonemes: [s, j, O, N]
   - grapheme: bou/1
-    phonemes: [b, '@', uh]
+    phonemes: [b, '@', U]
   - grapheme: pou/1
-    phonemes: [p, '@', uh]
+    phonemes: [p, '@', U]
   - grapheme: mou/1
-    phonemes: [m, '@', uh]
+    phonemes: [m, '@', U]
   - grapheme: fou/1
-    phonemes: [f, '@', uh]
+    phonemes: [f, '@', U]
   - grapheme: dou/
-    phonemes: [d, '@', uh]
+    phonemes: [d, '@', U]
   - grapheme: tou/1
-    phonemes: [t, '@', uh]
+    phonemes: [t, '@', U]
   - grapheme: nou/1
-    phonemes: [n, '@', uh]
+    phonemes: [n, '@', U]
   - grapheme: lou/1
-    phonemes: [l, '@', uh]
+    phonemes: [l, '@', U]
   - grapheme: gou/1
-    phonemes: [g, '@', uh]
+    phonemes: [g, '@', U]
   - grapheme: kou/1
-    phonemes: [k, '@', uh]
+    phonemes: [k, '@', U]
   - grapheme: hou/1
-    phonemes: [h, '@', uh]
+    phonemes: [h, '@', U]
   - grapheme: zhou/1
-    phonemes: [dZ, '@', uh]
+    phonemes: [dZ, '@', U]
   - grapheme: chou/1
-    phonemes: [tS, '@', uh]
+    phonemes: [tS, '@', U]
   - grapheme: shou/1
-    phonemes: [S, '@', uh]
+    phonemes: [S, '@', U]
   - grapheme: rou/
-    phonemes: [r, '@', uh]
+    phonemes: [r, '@', U]
   - grapheme: rou/1
-    phonemes: [Z, '@', uh]
+    phonemes: [Z, '@', U]
   - grapheme: zou/1
-    phonemes: [z, '@', uh]
+    phonemes: [z, '@', U]
   - grapheme: cou/1
-    phonemes: [t, s, '@', uh]
+    phonemes: [t, s, '@', U]
   - grapheme: sou/1
-    phonemes: [s, '@', uh]
+    phonemes: [s, '@', U]
   - grapheme: er/
     phonemes: [3]
   - grapheme: er/1
