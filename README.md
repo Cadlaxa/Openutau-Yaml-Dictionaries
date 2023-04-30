@@ -1,9 +1,9 @@
 # Openutau Yaml Dictionaries
 Openutau Yaml Dictionaries for Arpasing, En VCCV, Delta phonemizers, En Enunu, and En EnunuX/EnunuX to support Japanese, Korean, Chinese, and French (more languages to support soon)
  
-`English to Japanese`, `English to Korean`, `English to Chinese`, `English to French`, and `English to Spanish` (languages auxiliary support for now) for Arpasing, En VCCV, Delta banks, and Enunu/Enunux English banks for [Openutau](https://www.openutau.com/) .yaml dictionaries, tweaked based on [Slidingwall's synth dictionary](https://github.com/Slidingwall/synthv-dictionaries).
+`English to Japanese`, `English to Korean`, `English to Chinese`, `English to Cantonese`,`English to French`, and `English to Spanish` (languages auxiliary support for now) for Arpasing, En VCCV, Delta banks, and Enunu/Enunux English banks for [Openutau](https://www.openutau.com/) .yaml dictionaries, tweaked based on [Slidingwall's synth dictionary](https://github.com/Slidingwall/synthv-dictionaries).
 
-#### 📍 As of now, the bigger the `.yaml` file, the slower Openutau changes the phonemes or any changes in general, as of Ou doesn't supports yet the dictionary picking like on Synthv, for now, you can choose and download the single language dictionary or the compiled one.
+#### 📍 As of now, the bigger the `.yaml` file, the slower Openutau changes the phonemes or any changes in general, as of Ou doesn't supports yet the dictionary picking like on Synthv, for now, you can choose and download the single language dictionary or the compiled one. You can customize the dictionary as you please.
 
 ## Credits
 credits for [mmemim](https://github.com/mmemim) for the [Synthv French .json Dictionary](https://github.com/mmemim/OpenUTAU-French-Dictionary). Credits to [Halo/BagelHero](https://github.com/BagelHero) & Mim for the [Ou En VCCV Custom Dictionary](https://github.com/mmemim/OU-EN-VCCV-Custom-Dictionary) and credits to [Lotte's](https://github.com/lottev1991) [Spanish cmudict](https://github.com/lottev1991/OpenUTAU-Spanish-Dictionary) for the en2sp base.
@@ -20,6 +20,7 @@ credits for [mmemim](https://github.com/mmemim) for the [Synthv French .json Dic
     - **[Japanese](https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries#japanese-dictionary-usage)**
     - **[Korean](https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries#korean-dictionary-usage)**
     - **[Chinese](https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries#chinese-dictionary-usage)**
+    - **[Cantonese](https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries#cantonese-dictionary-usage)**
     - **[French](https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries#french-dictionary-usage)**
     - **[Spanish](https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries#spanish-dictionary-usage)**
 - **[How to edit dictionary to fit a specific voicebank](https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries#how-to-edit-dictionary-to-fit-a-specific-voicebank)**
@@ -75,6 +76,11 @@ credits for [mmemim](https://github.com/mmemim) for the [Synthv French .json Dic
 - Multiple pronunciation variations
 
 ![ch new](https://user-images.githubusercontent.com/92255161/222963424-75319578-a70f-4222-816e-4246a95bbae5.png)
+
+### Cantonese Dictionary Usage
+- Only `Jyutping` characters with `\` after the word to utilize the Cantonese dictionary. Multiple pronunciations aresupported. eg: `yuk\` as `[y, ih, k]`, `yuk\1` as `[y, k]`, `byui\1` as `[b, y, ih]`, `byui\1` as `[b, y, iy]`.
+
+![canto](https://user-images.githubusercontent.com/92255161/235335471-fa60737a-cdc4-4711-9f34-cb5762d30da6.png)
 
 ### French Dictionary Usage
 - You can input `French`, with `*` after the word in the notes to utilize the French dictionary. Based with [mmemim's](https://github.com/mmemim) [Synthv French .json Dictionary](https://github.com/mmemim/OpenUTAU-French-Dictionary), If you want to say words like l'année or j'en you'll have to split them in two notes l' + année and j' + en as shown below.
