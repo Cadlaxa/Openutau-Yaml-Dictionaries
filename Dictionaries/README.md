@@ -1,8 +1,12 @@
 # Changelog
 ---
+**`(5/3/23)`**
+- **Fixed En VCCV and En Delta grapheme error**
+- **Updated En Delta .yaml phoneme list**
+
 **`(4/30/23)`**
 - **Added English to Cantonese Dictionary**
-- **Fixed wrong phoneme dictionary input for VCCV and Delta**
+- **Fixed wrong phoneme dictionary input for En VCCV and En Delta**
 - **Removed vowel accents for spanish and french, now you can input them without any hassle**
 - **As of April 30, 2023, I will no longer update the enunu dictionaries because they already use the arpasing one, (same with enunux)**
 
