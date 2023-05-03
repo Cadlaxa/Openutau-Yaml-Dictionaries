@@ -1,5 +1,4 @@
 %YAML 1.2
----
 #Dictionary extension for En-Delta/X-sampa voicebanks
 #Japanese (Hiragana, Katakana, romaji), Korean (Hangul, Romaja), Chinese Pinyin, Cantonese Jyutping, French, and Spanish are currently supported.
 #More languages to support soon.
