@@ -17,19 +17,19 @@
 #glottal input (q, k, A), manually type the desired phoneme on OU then lengthen the VC/CC to emulate a stop/glottal
 ---
 symbols:
-#Delta-style (X-SVMPV) symbols
+#Delta-style (X-SAMPA) symbols
   - {symbol: a, type: vowel}
   - {symbol: e, type: vowel}
   - {symbol: i, type: vowel}
-  - {symbol: O, type: vowel}
+  - {symbol: o, type: vowel}
   - {symbol: u, type: vowel}
-  - {symbol: V, type: vowel}
+  - {symbol: A, type: vowel}
   - {symbol: E, type: vowel}
   - {symbol: I, type: vowel}
   - {symbol: O, type: vowel}
   - {symbol: U, type: vowel}
   - {symbol: '{', type: vowel}
-  - {symbol: A, type: vowel}
+  - {symbol: V, type: vowel}
   - {symbol: 3, type: vowel}
   - {symbol: aI, type: vowel}
   - {symbol: eI, type: vowel}
@@ -45,11 +45,11 @@ symbols:
   - {symbol: T, type: fricative}
   - {symbol: j, type: semivowel}
   - {symbol: Z, type: fricative}
-#Vrpasing
+#Arpasing
   - {symbol: aa, type: vowel}
   - {symbol: ae, type: vowel}
   - {symbol: ah, type: vowel}
-  - {symbol: aO, type: vowel}
+  - {symbol: ao, type: vowel}
   - {symbol: aw, type: vowel}
   - {symbol: ay, type: vowel}
   - {symbol: b, type: stop}
@@ -91,13 +91,26 @@ symbols:
   - {symbol: e@m, type: vowel}
   - {symbol: eN, type: vowel}
   - {symbol: IN, type: vowel}
-  - {symbol: Vr, type: vowel}
+  - {symbol: Ar, type: vowel}
+  - {symbol: Qr, type: vowel}
   - {symbol: Er, type: vowel}
   - {symbol: Ir, type: vowel}
   - {symbol: Or, type: vowel}
   - {symbol: Ur, type: vowel}
   - {symbol: ir, type: vowel}
   - {symbol: ur, type: vowel}
+  - {symbol: aIr, type: vowel}
+  - {symbol: aUr, type: vowel}
+  - {symbol: A@, type: vowel}
+  - {symbol: Q@, type: vowel}
+  - {symbol: E@, type: vowel}
+  - {symbol: I@, type: vowel}
+  - {symbol: O@, type: vowel}
+  - {symbol: U@, type: vowel}
+  - {symbol: i@, type: vowel}
+  - {symbol: u@, type: vowel}
+  - {symbol: aI@, type: vowel}
+  - {symbol: aU@, type: vowel}
   - {symbol: Q, type: vowel}
   - {symbol: 1, type: vowel}
   - {symbol: Ol, type: vowel}
@@ -108,6 +121,42 @@ symbols:
   - {symbol: '@n', type: vowel}
   - {symbol: '@N', type: vowel}
   - {symbol: '@', type: vowel}
+  - {symbol: y, type: vowel}
+  - {symbol: I\, type: vowel}
+  - {symbol: M, type: vowel}
+  - {symbol: U\, type: vowel}
+  - {symbol: Y, type: vowel}
+  - {symbol: '@\', type: vowel}
+  - {symbol: '@`', type: vowel}
+  - {symbol: 3`, type: vowel}
+  - {symbol: A`, type: vowel}
+  - {symbol: Q`, type: vowel}
+  - {symbol: E`, type: vowel}
+  - {symbol: I`, type: vowel}
+  - {symbol: O`, type: vowel}
+  - {symbol: U`, type: vowel}
+  - {symbol: i`, type: vowel}
+  - {symbol: u`, type: vowel}
+  - {symbol: aI`, type: vowel}
+  - {symbol: aU`, type: vowel}
+  - {symbol: '}', type: vowel}
+  - {symbol: 2, type: vowel}
+  - {symbol: 3\, type: vowel}
+  - {symbol: 6, type: vowel}
+  - {symbol: 7, type: vowel}
+  - {symbol: 8, type: vowel}
+  - {symbol: 9, type: vowel}
+  - {symbol: '&', type: vowel}
+  - {symbol: '{~', type: vowel}
+  - {symbol: I~, type: vowel}
+  - {symbol: aU~, type: vowel}
+  - {symbol: VI, type: vowel}
+  - {symbol: VU, type: vowel}
+  - {symbol: '@U', type: vowel}
+  - {symbol: 'i:', type: vowel}
+  - {symbol: 'u:', type: vowel}
+  - {symbol: 'O:', type: vowel}
+  - {symbol: e@0, type: vowel}
   - {symbol: 4, type: tap}
   - {symbol: W, type: fricative}
   - {symbol: 't_}', type: stop}

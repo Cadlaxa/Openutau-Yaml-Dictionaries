@@ -16744,7 +16744,7 @@ entries:
     phonemes: [t, y, o, b]
   - grapheme: tyut.
     phonemes: [t, y, o, d]
-  - grapheme: '@'.
+  - grapheme: ae.
     phonemes: [e]
   - grapheme: aek.
     phonemes: [e, g]
@@ -21793,7 +21793,7 @@ entries:
     phonemes: [e]
   - grapheme: o.
     phonemes: [9]
-  - grapheme: '@'.
+  - grapheme: ae.
     phonemes: [e]
   - grapheme: eu.
     phonemes: [6]
