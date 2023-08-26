@@ -1,7 +1,7 @@
 # Openutau Yaml Dictionaries
 Openutau Yaml Dictionaries for Arpasing, En VCCV, Delta phonemizers, En Enunu, and En EnunuX/EnunuX to support Japanese, Korean, Chinese, and French (more languages to support soon)
 
- #### 📍 When using this dictionaries with Arpasing banks with few or missing phonemes especially with Arpasing 0.1.0 and 0.2.0 banks, I recommend using my [Syllable-Based ARPAsing Phonemizer]()
+ #### 📍 When using this dictionaries with Arpasing banks with few or missing phonemes especially with `Arpasing 0.1.0` and `0.2.0 banks`, I recommend using my [Syllable-Based ARPAsing Phonemizer](https://github.com/Cadlaxa/Syllable-Based-ARPAsing-Phonemizer)
 
 `English to Japanese`, `English to Korean`, `English to Chinese`, `English to Cantonese`,`English to French`, and `English to Spanish` (languages auxiliary support for now) for Arpasing, En VCCV, Delta banks, and Enunu/Enunux English banks for [Openutau](https://www.openutau.com/) .yaml dictionaries, tweaked based on [Slidingwall's synth dictionary](https://github.com/Slidingwall/synthv-dictionaries).
 
