@@ -1,5 +1,10 @@
 # Changelog
 ---
+**`(9/2/23)`**
+- **Updated En Delta to En Xsampa**
+- **Updated En Xsampa Phoneme list**
+- **En Xsampa uses Arpabet (see dev notes on .yaml file)**
+  
 **`(5/3/23)`**
 - **Fixed En VCCV and En Delta grapheme error**
 - **Updated En Delta .yaml phoneme list**
