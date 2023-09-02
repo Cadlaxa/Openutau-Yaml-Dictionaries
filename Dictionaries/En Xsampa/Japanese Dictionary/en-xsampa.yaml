@@ -1,0 +1,2405 @@
+%YAML 1.2
+#Dictionary extension for En Xsampa voicebanks
+#Japanese (Hiragana, Katakana, romaji), Korean (Hangul, Romaja), Chinese Pinyin, Cantonese Jyutping, French, and Spanish are currently supported.
+#More languages to support soon.
+#This dictionary is being updated regularly so download the latest one here:
+#https://github.com/Cadlaxa/Openutau-Yaml-Dictionaries.git
+#Mirror link:
+#https://mega.nz/folder/BjhATYZb#s3dYIDZxlBRG7TF0QBG6Xw
+
+# This Dictionary uses Arpabet, you can edit them to Xsampa, (both phonetic systems work)
+---
+symbols:
+#Delta-style (X-SAMPA) symbols
+  - {symbol: a, type: vowel}
+  - {symbol: e, type: vowel}
+  - {symbol: i, type: vowel}
+  - {symbol: o, type: vowel}
+  - {symbol: u, type: vowel}
+  - {symbol: A, type: vowel}
+  - {symbol: E, type: vowel}
+  - {symbol: I, type: vowel}
+  - {symbol: O, type: vowel}
+  - {symbol: U, type: vowel}
+  - {symbol: '{', type: vowel}
+  - {symbol: V, type: vowel}
+  - {symbol: 3, type: vowel}
+  - {symbol: aI, type: vowel}
+  - {symbol: eI, type: vowel}
+  - {symbol: OI, type: vowel}
+  - {symbol: aU, type: vowel}
+  - {symbol: oU, type: vowel}
+  - {symbol: tS, type: affricate}
+  - {symbol: D, type: fricative}
+  - {symbol: h, type: aspirate}
+  - {symbol: dZ, type: affricate}
+  - {symbol: N, type: nasal}
+  - {symbol: S, type: fricative}
+  - {symbol: T, type: fricative}
+  - {symbol: j, type: semivowel}
+  - {symbol: Z, type: fricative}
+#Arpasing
+  - {symbol: aa, type: vowel}
+  - {symbol: ae, type: vowel}
+  - {symbol: ah, type: vowel}
+  - {symbol: ao, type: vowel}
+  - {symbol: aw, type: vowel}
+  - {symbol: ay, type: vowel}
+  - {symbol: b, type: stop}
+  - {symbol: ch, type: affricate}
+  - {symbol: d, type: stop}
+  - {symbol: dh, type: fricative}
+  - {symbol: eh, type: vowel}
+  - {symbol: er, type: vowel}
+  - {symbol: ey, type: vowel}
+  - {symbol: f, type: fricative}
+  - {symbol: g, type: stop}
+  - {symbol: hh, type: aspirate}
+  - {symbol: ih, type: vowel}
+  - {symbol: iy, type: vowel}
+  - {symbol: jh, type: affricate}
+  - {symbol: k, type: stop}
+  - {symbol: l, type: liquid}
+  - {symbol: m, type: nasal}
+  - {symbol: n, type: nasal}
+  - {symbol: ng, type: nasal}
+  - {symbol: ow, type: vowel}
+  - {symbol: oy, type: vowel}
+  - {symbol: p, type: stop}
+  - {symbol: r, type: liquid}
+  - {symbol: s, type: fricative}
+  - {symbol: sh, type: fricative}
+  - {symbol: t, type: stop}
+  - {symbol: th, type: fricative}
+  - {symbol: uh, type: vowel}
+  - {symbol: uw, type: vowel}
+  - {symbol: v, type: fricative}
+  - {symbol: w, type: semivowel}
+  - {symbol: y, type: semivowel}
+  - {symbol: z, type: fricative}
+  - {symbol: zh, type: fricative}
+  #bonus symbols
+  - {symbol: e@, type: vowel}
+  - {symbol: e@n, type: vowel}
+  - {symbol: e@m, type: vowel}
+  - {symbol: eN, type: vowel}
+  - {symbol: IN, type: vowel}
+  - {symbol: Ar, type: vowel}
+  - {symbol: Qr, type: vowel}
+  - {symbol: Er, type: vowel}
+  - {symbol: Ir, type: vowel}
+  - {symbol: Or, type: vowel}
+  - {symbol: Ur, type: vowel}
+  - {symbol: ir, type: vowel}
+  - {symbol: ur, type: vowel}
+  - {symbol: aIr, type: vowel}
+  - {symbol: aUr, type: vowel}
+  - {symbol: A@, type: vowel}
+  - {symbol: Q@, type: vowel}
+  - {symbol: E@, type: vowel}
+  - {symbol: I@, type: vowel}
+  - {symbol: O@, type: vowel}
+  - {symbol: U@, type: vowel}
+  - {symbol: i@, type: vowel}
+  - {symbol: u@, type: vowel}
+  - {symbol: aI@, type: vowel}
+  - {symbol: aU@, type: vowel}
+  - {symbol: Q, type: vowel}
+  - {symbol: 1, type: vowel}
+  - {symbol: Ol, type: vowel}
+  - {symbol: aUn, type: vowel}
+  - {symbol: '@r', type: vowel}
+  - {symbol: '@l', type: vowel}
+  - {symbol: '@m', type: vowel}
+  - {symbol: '@n', type: vowel}
+  - {symbol: '@N', type: vowel}
+  - {symbol: '@', type: vowel}
+  - {symbol: y, type: vowel}
+  - {symbol: I\, type: vowel}
+  - {symbol: M, type: vowel}
+  - {symbol: U\, type: vowel}
+  - {symbol: Y, type: vowel}
+  - {symbol: '@\', type: vowel}
+  - {symbol: '@`', type: vowel}
+  - {symbol: 3`, type: vowel}
+  - {symbol: A`, type: vowel}
+  - {symbol: Q`, type: vowel}
+  - {symbol: E`, type: vowel}
+  - {symbol: I`, type: vowel}
+  - {symbol: O`, type: vowel}
+  - {symbol: U`, type: vowel}
+  - {symbol: i`, type: vowel}
+  - {symbol: u`, type: vowel}
+  - {symbol: aI`, type: vowel}
+  - {symbol: aU`, type: vowel}
+  - {symbol: '}', type: vowel}
+  - {symbol: 2, type: vowel}
+  - {symbol: 3\, type: vowel}
+  - {symbol: 6, type: vowel}
+  - {symbol: 7, type: vowel}
+  - {symbol: 8, type: vowel}
+  - {symbol: 9, type: vowel}
+  - {symbol: '&', type: vowel}
+  - {symbol: '{~', type: vowel}
+  - {symbol: I~, type: vowel}
+  - {symbol: aU~, type: vowel}
+  - {symbol: VI, type: vowel}
+  - {symbol: VU, type: vowel}
+  - {symbol: '@U', type: vowel}
+  - {symbol: 'i:', type: vowel}
+  - {symbol: 'u:', type: vowel}
+  - {symbol: 'O:', type: vowel}
+  - {symbol: e@0, type: vowel}
+  - {symbol: 4, type: tap}
+  - {symbol: W, type: fricative}
+  - {symbol: 't_}', type: stop}
+
+entries:
+  - grapheme: openutau
+    phonemes: [ow, p, eh, n, q, uw, t, ah, q, uw]
+
+
+#single letter phoneme
+  - grapheme: b
+    phonemes: [b]
+  - grapheme: cl
+    phonemes: [q]
+  - grapheme: k
+    phonemes: [k]
+  - grapheme: d
+    phonemes: [d]
+  - grapheme: dh
+    phonemes: [dh]
+  - grapheme: dr
+    phonemes: [dr]
+  - grapheme: dx
+    phonemes: [dx]
+  - grapheme: f
+    phonemes: [f]
+  - grapheme: g
+    phonemes: [g]
+  - grapheme: h
+    phonemes: [hh]
+  - grapheme: hh
+    phonemes: [hh]
+  - grapheme: j
+    phonemes: [jh]
+  - grapheme: jh
+    phonemes: [jh]
+  - grapheme: l
+    phonemes: [l]
+  - grapheme: m
+    phonemes: [m]
+  - grapheme: n
+    phonemes: [n]
+  - grapheme: ng
+    phonemes: [ng]
+  - grapheme: p
+    phonemes: [p]
+  - grapheme: q
+    phonemes: [q]
+  - grapheme: r
+    phonemes: [r]
+  - grapheme: rr
+    phonemes: [dx]
+  - grapheme: s
+    phonemes: [s]
+  - grapheme: sh
+    phonemes: [sh]
+  - grapheme: t
+    phonemes: [t]
+  - grapheme: th
+    phonemes: [th]
+  - grapheme: tr
+    phonemes: [tr]
+  - grapheme: v
+    phonemes: [v]
+  - grapheme: w
+    phonemes: [w]
+  - grapheme: y
+    phonemes: [y]
+  - grapheme: z
+    phonemes: [z]
+  - grapheme: zh
+    phonemes: [zh]
+
+#Japanese (hiragana)
+  - grapheme: ヴぁ
+    phonemes: [v, ah]
+  - grapheme: ヴぃ
+    phonemes: [v, iy]
+  - grapheme: ヴぇ
+    phonemes: [v, eh]
+  - grapheme: ヴぉ
+    phonemes: [v, ao]
+  - grapheme: ヴ
+    phonemes: [v, uw]
+  - grapheme: ゔぁ
+    phonemes: [v, ah]
+  - grapheme: ゔぃ
+    phonemes: [v, iy]
+  - grapheme: ゔぇ
+    phonemes: [v, eh]
+  - grapheme: ゔ
+    phonemes: [v, uw]
+  - grapheme: ゔぉ
+    phonemes: [v, ao]
+  - grapheme: きゃ
+    phonemes: [k, y, ah]
+  - grapheme: きゅ
+    phonemes: [k, y, uw]
+  - grapheme: きぇ
+    phonemes: [k, y, eh]
+  - grapheme: きょ
+    phonemes: [k, y, ao]
+  - grapheme: ぎゃ
+    phonemes: [g, y, ah]
+  - grapheme: ぎゅ
+    phonemes: [g, y, uw]
+  - grapheme: ぎぇ
+    phonemes: [g, y, eh]
+  - grapheme: ぎょ
+    phonemes: [g, y, ao]
+  - grapheme: しゃ
+    phonemes: [sh, ah]
+  - grapheme: しゅ
+    phonemes: [sh, uw]
+  - grapheme: しぇ
+    phonemes: [sh, eh]
+  - grapheme: しょ
+    phonemes: [sh, ao]
+  - grapheme: じゃ
+    phonemes: [jh, ah]
+  - grapheme: じゅ
+    phonemes: [jh, uw]
+  - grapheme: じぇ
+    phonemes: [jh, eh]
+  - grapheme: じょ
+    phonemes: [jh, ao]
+  - grapheme: ちゃ
+    phonemes: [ch, ah]
+  - grapheme: ちゅ
+    phonemes: [ch, uw]
+  - grapheme: ちぇ
+    phonemes: [ch, eh]
+  - grapheme: ちょ
+    phonemes: [ch, ao]
+  - grapheme: つぁ
+    phonemes: [t, s, ah]
+  - grapheme: つぃ
+    phonemes: [t, s, iy]
+  - grapheme: つぇ
+    phonemes: [t, s, eh]
+  - grapheme: つぉ
+    phonemes: [t, s, ao]
+  - grapheme: にゃ
+    phonemes: [n, y, ah]
+  - grapheme: にゅ
+    phonemes: [n, y, uw]
+  - grapheme: にぇ
+    phonemes: [n, y, eh]
+  - grapheme: にょ
+    phonemes: [n, y, ao]
+  - grapheme: ひゃ
+    phonemes: [hh, y, ah]
+  - grapheme: ひゅ
+    phonemes: [hh, y, uw]
+  - grapheme: ひぇ
+    phonemes: [hh, y, eh]
+  - grapheme: ひょ
+    phonemes: [hh, y, ao]
+  - grapheme: ぴゃ
+    phonemes: [p, y, ah]
+  - grapheme: ぴゅ
+    phonemes: [p, y, uw]
+  - grapheme: ぴぇ
+    phonemes: [p, y, eh]
+  - grapheme: ぴょ
+    phonemes: [p, y, ao]
+  - grapheme: びゃ
+    phonemes: [b, y, ah]
+  - grapheme: びゅ
+    phonemes: [b, y, uw]
+  - grapheme: びぇ
+    phonemes: [b, y, eh]
+  - grapheme: びょ
+    phonemes: [b, y, ao]
+  - grapheme: みゃ
+    phonemes: [m, y, ah]
+  - grapheme: みゅ
+    phonemes: [m, y, uw]
+  - grapheme: みぇ
+    phonemes: [m, y, eh]
+  - grapheme: みょ
+    phonemes: [m, y, ao]
+  - grapheme: いぇ
+    phonemes: [y, eh]
+  - grapheme: りゃ
+    phonemes: [dx, y, ah]
+  - grapheme: りゅ
+    phonemes: [dx, y, uw]
+  - grapheme: りぇ
+    phonemes: [dx, y, eh]
+  - grapheme: りょ
+    phonemes: [dx, y, ao]
+  - grapheme: てぃ
+    phonemes: [t, iy]
+  - grapheme: とぅ
+    phonemes: [t, uw]
+  - grapheme: ふぁ
+    phonemes: [f, ah]
+  - grapheme: ふぃ
+    phonemes: [f, iy]
+  - grapheme: ふぇ
+    phonemes: [f, eh]
+  - grapheme: ふぉ
+    phonemes: [f, ao]
+  - grapheme: すぃ
+    phonemes: [s, iy]
+  - grapheme: ずぃ
+    phonemes: [z, iy]
+  - grapheme: でぃ
+    phonemes: [d, iy]
+  - grapheme: どぅ
+    phonemes: [d, uw]
+  - grapheme: でゅ
+    phonemes: [d, y, uw]
+  - grapheme: とぅ
+    phonemes: [t, uw]
+  - grapheme: うぃ
+    phonemes: [w, iy]
+  - grapheme: うぇ
+    phonemes: [w, eh]
+  - grapheme: うぉ
+    phonemes: [w, ao]
+  - grapheme: あ
+    phonemes: [ah]
+  - grapheme: い
+    phonemes: [iy]
+  - grapheme: う
+    phonemes: [uw]
+  - grapheme: え
+    phonemes: [eh]
+  - grapheme: お
+    phonemes: [ao]
+  - grapheme: あ2
+    phonemes: [q, ah]
+  - grapheme: い2
+    phonemes: [q, iy]
+  - grapheme: う2
+    phonemes: [q, uw]
+  - grapheme: え2
+    phonemes: [q, eh]
+  - grapheme: お2
+    phonemes: [q, ao]
+  - grapheme: か
+    phonemes: [k, ah]
+  - grapheme: き
+    phonemes: [k, iy]
+  - grapheme: く
+    phonemes: [k, uw]
+  - grapheme: け
+    phonemes: [k, eh]
+  - grapheme: こ
+    phonemes: [k, ao]
+  - grapheme: さ
+    phonemes: [s, ah]
+  - grapheme: し
+    phonemes: [sh, iy]
+  - grapheme: す
+    phonemes: [s, uw]
+  - grapheme: せ
+    phonemes: [s, eh]
+  - grapheme: そ
+    phonemes: [s, ao]
+  - grapheme: た
+    phonemes: [t, ah]
+  - grapheme: ち
+    phonemes: [ch, iy]
+  - grapheme: つ
+    phonemes: [t, s, uw]
+  - grapheme: て
+    phonemes: [t, eh]
+  - grapheme: と
+    phonemes: [t, ao]
+  - grapheme: な
+    phonemes: [n, ah]
+  - grapheme: に
+    phonemes: [n, iy]
+  - grapheme: ぬ
+    phonemes: [n, uw]
+  - grapheme: ね
+    phonemes: [n, eh]
+  - grapheme: の
+    phonemes: [n, ao]
+  - grapheme: は
+    phonemes: [hh, ah]
+  - grapheme: ひ
+    phonemes: [hh, iy]
+  - grapheme: ふ
+    phonemes: [f, uw]
+  - grapheme: へ
+    phonemes: [hh, eh]
+  - grapheme: ほ
+    phonemes: [hh, ao]
+  - grapheme: ま
+    phonemes: [m, ah]
+  - grapheme: み
+    phonemes: [m, iy]
+  - grapheme: む
+    phonemes: [m, uw]
+  - grapheme: め
+    phonemes: [m, eh]
+  - grapheme: も
+    phonemes: [m, ao]
+  - grapheme: や
+    phonemes: [y, ah]
+  - grapheme: ゆ
+    phonemes: [y, uw]
+  - grapheme: よ
+    phonemes: [y, ao]
+  - grapheme: ら
+    phonemes: [dx, ah]
+  - grapheme: り
+    phonemes: [dx, iy]
+  - grapheme: る
+    phonemes: [dx, uw]
+  - grapheme: れ
+    phonemes: [dx, eh]
+  - grapheme: ろ
+    phonemes: [dx, ao]
+  - grapheme: l a
+    phonemes: [l, ah]
+  - grapheme: l i
+    phonemes: [l, iy]
+  - grapheme: l u
+    phonemes: [l, uw]
+  - grapheme: l e
+    phonemes: [l, eh]
+  - grapheme: l o
+    phonemes: [l, ao]
+  - grapheme: わ
+    phonemes: [w, ah]
+  - grapheme: を
+    phonemes: [w, ao]
+  - grapheme: ん
+    phonemes: [n]
+  - grapheme: ん2
+    phonemes: [q, n]
+  - grapheme: が
+    phonemes: [g, ah]
+  - grapheme: ぎ
+    phonemes: [g, iy]
+  - grapheme: ぐ
+    phonemes: [g, uw]
+  - grapheme: げ
+    phonemes: [g, eh]
+  - grapheme: ご
+    phonemes: [g, ao]
+  - grapheme: ざ
+    phonemes: [z, ah]
+  - grapheme: じ
+    phonemes: [jh, iy]
+  - grapheme: ず
+    phonemes: [z, uw]
+  - grapheme: ぜ
+    phonemes: [z, eh]
+  - grapheme: ぞ
+    phonemes: [z, ao]
+  - grapheme: だ
+    phonemes: [d, ah]
+  - grapheme: で
+    phonemes: [d, eh]
+  - grapheme: ど
+    phonemes: [d, ao]
+  - grapheme: ぱ
+    phonemes: [p, ah]
+  - grapheme: ぴ
+    phonemes: [p, iy]
+  - grapheme: ぷ
+    phonemes: [p, uw]
+  - grapheme: ぺ
+    phonemes: [p, eh]
+  - grapheme: ぽ
+    phonemes: [p, ao]
+  - grapheme: ば
+    phonemes: [b, ah]
+  - grapheme: び
+    phonemes: [b, iy]
+  - grapheme: ぶ
+    phonemes: [b, uw]
+  - grapheme: べ
+    phonemes: [b, eh]
+  - grapheme: ぼ
+    phonemes: [b, ao]
+  - grapheme: っヴぁ
+    phonemes: [q, v, ah]
+  - grapheme: っヴぃ
+    phonemes: [q, v, iy]
+  - grapheme: っヴぇ
+    phonemes: [q, v, eh]
+  - grapheme: っヴぉ
+    phonemes: [q, v, ao]
+  - grapheme: っヴ
+    phonemes: [q, v, uw]
+  - grapheme: っゔぁ
+    phonemes: [q, v, ah]
+  - grapheme: っゔぃ
+    phonemes: [q, v, iy]
+  - grapheme: っゔぇ
+    phonemes: [q, v, eh]
+  - grapheme: っゔ
+    phonemes: [q, v, uw]
+  - grapheme: っゔぉ
+    phonemes: [q, v, ao]
+  - grapheme: っきゃ
+    phonemes: [q, k, y, ah]
+  - grapheme: っきゅ
+    phonemes: [q, k, y, uw]
+  - grapheme: っきぇ
+    phonemes: [q, k, y, eh]
+  - grapheme: っきょ
+    phonemes: [q, k, y, ao]
+  - grapheme: っぎゃ
+    phonemes: [q, g, y, ah]
+  - grapheme: っぎゅ
+    phonemes: [q, g, y, uw]
+  - grapheme: っぎぇ
+    phonemes: [q, g, y, eh]
+  - grapheme: っぎょ
+    phonemes: [q, g, y, ao]
+  - grapheme: っしゃ
+    phonemes: [q, sh, ah]
+  - grapheme: っしゅ
+    phonemes: [q, sh, uw]
+  - grapheme: っしぇ
+    phonemes: [q, sh, eh]
+  - grapheme: っしょ
+    phonemes: [q, sh, ao]
+  - grapheme: っじゃ
+    phonemes: [q, jh, ah]
+  - grapheme: っじゅ
+    phonemes: [q, jh, uw]
+  - grapheme: っじぇ
+    phonemes: [q, jh, eh]
+  - grapheme: っじょ
+    phonemes: [q, jh, ao]
+  - grapheme: っちゃ
+    phonemes: [q, ch, ah]
+  - grapheme: っちゅ
+    phonemes: [q, ch, uw]
+  - grapheme: っちぇ
+    phonemes: [q, ch, eh]
+  - grapheme: っちょ
+    phonemes: [q, ch, ao]
+  - grapheme: っつぁ
+    phonemes: [q, t, s, ah]
+  - grapheme: っつぃ
+    phonemes: [q, t, s, iy]
+  - grapheme: っつぇ
+    phonemes: [q, t, s, eh]
+  - grapheme: っつぉ
+    phonemes: [q, t, s, ao]
+  - grapheme: っにゃ
+    phonemes: [q, n, y, ah]
+  - grapheme: っにゅ
+    phonemes: [q, n, y, uw]
+  - grapheme: っにぇ
+    phonemes: [q, n, y, eh]
+  - grapheme: っにょ
+    phonemes: [q, n, y, ao]
+  - grapheme: っひゃ
+    phonemes: [q, hh, y, ah]
+  - grapheme: っひゅ
+    phonemes: [q, hh, y, uw]
+  - grapheme: っひぇ
+    phonemes: [q, hh, y, eh]
+  - grapheme: っひょ
+    phonemes: [q, hh, y, ao]
+  - grapheme: っぴゃ
+    phonemes: [q, p, y, ah]
+  - grapheme: っぴゅ
+    phonemes: [q, p, y, uw]
+  - grapheme: っぴぇ
+    phonemes: [q, p, y, eh]
+  - grapheme: っぴょ
+    phonemes: [q, p, y, ao]
+  - grapheme: っびゃ
+    phonemes: [q, b, y, ah]
+  - grapheme: っびゅ
+    phonemes: [q, b, y, uw]
+  - grapheme: っびぇ
+    phonemes: [q, b, y, eh]
+  - grapheme: っびょ
+    phonemes: [q, b, y, ao]
+  - grapheme: っみゃ
+    phonemes: [q, m, y, ah]
+  - grapheme: っみゅ
+    phonemes: [q, m, y, uw]
+  - grapheme: っみぇ
+    phonemes: [q, m, y, eh]
+  - grapheme: っみょ
+    phonemes: [q, m, y, ao]
+  - grapheme: っいぇ
+    phonemes: [q, y, eh]
+  - grapheme: っりゃ
+    phonemes: [q, dx, y, ah]
+  - grapheme: っりゅ
+    phonemes: [q, dx, y, uw]
+  - grapheme: っりぇ
+    phonemes: [q, dx, y, eh]
+  - grapheme: っりょ
+    phonemes: [q, dx, y, ao]
+  - grapheme: ってぃ
+    phonemes: [q, t, iy]
+  - grapheme: っとぅ
+    phonemes: [q, t, uw]
+  - grapheme: っふぁ
+    phonemes: [q, f, ah]
+  - grapheme: っふぃ
+    phonemes: [q, f, iy]
+  - grapheme: っふぇ
+    phonemes: [q, f, eh]
+  - grapheme: っふぉ
+    phonemes: [q, f, ao]
+  - grapheme: っすぃ
+    phonemes: [q, s, iy]
+  - grapheme: っずぃ
+    phonemes: [q, z, iy]
+  - grapheme: っでぃ
+    phonemes: [q, d, iy]
+  - grapheme: っどぅ
+    phonemes: [q, d, uw]
+  - grapheme: っでゅ
+    phonemes: [q, d, y, uw]
+  - grapheme: っとぅ
+    phonemes: [q, t, uw]
+  - grapheme: っうぃ
+    phonemes: [q, w, iy]
+  - grapheme: っうぇ
+    phonemes: [q, w, eh]
+  - grapheme: っうぉ
+    phonemes: [q, w, ao]
+  - grapheme: っあ
+    phonemes: [q, ah]
+  - grapheme: っい
+    phonemes: [q, iy]
+  - grapheme: っう
+    phonemes: [q, uw]
+  - grapheme: っえ
+    phonemes: [q, eh]
+  - grapheme: っお
+    phonemes: [q, ao]
+  - grapheme: あっ
+    phonemes: [q, ah]
+  - grapheme: いっ
+    phonemes: [q, iy]
+  - grapheme: うっ
+    phonemes: [q, uw]
+  - grapheme: えっ
+    phonemes: [q, eh]
+  - grapheme: おっ
+    phonemes: [q, ao]
+  - grapheme: っか
+    phonemes: [q, k, ah]
+  - grapheme: っき
+    phonemes: [q, k, iy]
+  - grapheme: っく
+    phonemes: [q, k, uw]
+  - grapheme: っけ
+    phonemes: [q, k, eh]
+  - grapheme: っこ
+    phonemes: [q, k, ao]
+  - grapheme: っさ
+    phonemes: [q, s, ah]
+  - grapheme: っし
+    phonemes: [q, sh, iy]
+  - grapheme: っす
+    phonemes: [q, s, uw]
+  - grapheme: っせ
+    phonemes: [q, s, eh]
+  - grapheme: っそ
+    phonemes: [q, s, ao]
+  - grapheme: った
+    phonemes: [q, t, ah]
+  - grapheme: っち
+    phonemes: [q, ch, iy]
+  - grapheme: っつ
+    phonemes: [q, t, s, uw]
+  - grapheme: って
+    phonemes: [q, t, eh]
+  - grapheme: っと
+    phonemes: [q, t, ao]
+  - grapheme: っな
+    phonemes: [q, n, ah]
+  - grapheme: っに
+    phonemes: [q, n, iy]
+  - grapheme: っぬ
+    phonemes: [q, n, uw]
+  - grapheme: っね
+    phonemes: [q, n, eh]
+  - grapheme: っの
+    phonemes: [q, n, ao]
+  - grapheme: っは
+    phonemes: [q, hh, ah]
+  - grapheme: っひ
+    phonemes: [q, hh, iy]
+  - grapheme: っふ
+    phonemes: [q, f, uw]
+  - grapheme: っへ
+    phonemes: [q, hh, eh]
+  - grapheme: っほ
+    phonemes: [q, hh, ao]
+  - grapheme: っま
+    phonemes: [q, m, ah]
+  - grapheme: っみ
+    phonemes: [q, m, iy]
+  - grapheme: っむ
+    phonemes: [q, m, uw]
+  - grapheme: っめ
+    phonemes: [q, m, eh]
+  - grapheme: っも
+    phonemes: [q, m, ao]
+  - grapheme: っや
+    phonemes: [q, y, ah]
+  - grapheme: っゆ
+    phonemes: [q, y, uw]
+  - grapheme: っよ
+    phonemes: [q, y, ao]
+  - grapheme: っら
+    phonemes: [q, dx, ah]
+  - grapheme: っり
+    phonemes: [q, dx, iy]
+  - grapheme: っる
+    phonemes: [q, dx, uw]
+  - grapheme: っれ
+    phonemes: [q, dx, eh]
+  - grapheme: っろ
+    phonemes: [q, dx, ao]
+  - grapheme: っl a
+    phonemes: [q, l, ah]
+  - grapheme: っl i
+    phonemes: [q, l, iy]
+  - grapheme: っl u
+    phonemes: [q, l, uw]
+  - grapheme: っl e
+    phonemes: [q, l, eh]
+  - grapheme: っl o
+    phonemes: [q, l, ao]
+  - grapheme: っわ
+    phonemes: [q, w, ah]
+  - grapheme: っを
+    phonemes: [q, w, ao]
+  - grapheme: っん
+    phonemes: [q, n]
+  - grapheme: っん2
+    phonemes: [q, q, n]
+  - grapheme: っが
+    phonemes: [q, g, ah]
+  - grapheme: っぎ
+    phonemes: [q, g, iy]
+  - grapheme: っぐ
+    phonemes: [q, g, uw]
+  - grapheme: っげ
+    phonemes: [q, g, eh]
+  - grapheme: っご
+    phonemes: [q, g, ao]
+  - grapheme: っざ
+    phonemes: [q, z, ah]
+  - grapheme: っじ
+    phonemes: [q, jh, iy]
+  - grapheme: っず
+    phonemes: [q, z, uw]
+  - grapheme: っぜ
+    phonemes: [q, z, eh]
+  - grapheme: っぞ
+    phonemes: [q, z, ao]
+  - grapheme: っだ
+    phonemes: [q, d, ah]
+  - grapheme: っで
+    phonemes: [q, d, eh]
+  - grapheme: っど
+    phonemes: [q, d, ao]
+  - grapheme: っぱ
+    phonemes: [q, p, ah]
+  - grapheme: っぴ
+    phonemes: [q, p, iy]
+  - grapheme: っぷ
+    phonemes: [q, p, uw]
+  - grapheme: っぺ
+    phonemes: [q, p, eh]
+  - grapheme: っぽ
+    phonemes: [q, p, ao]
+  - grapheme: っば
+    phonemes: [q, b, ah]
+  - grapheme: っび
+    phonemes: [q, b, iy]
+  - grapheme: っぶ
+    phonemes: [q, b, uw]
+  - grapheme: っべ
+    phonemes: [q, b, eh]
+  - grapheme: っぼ
+    phonemes: [q, b, ao]
+
+
+#Japanese (katakana voiced)
+  - grapheme: ヴァ1
+    phonemes: [v, ah]
+  - grapheme: ヴィ1
+    phonemes: [v, iy]
+  - grapheme: ヴェ1
+    phonemes: [v, eh]
+  - grapheme: ヴォ1
+    phonemes: [v, ao]
+  - grapheme: キャ1
+    phonemes: [k, y, ah]
+  - grapheme: キュ1
+    phonemes: [k, y, uw]
+  - grapheme: キェ1
+    phonemes: [k, y, eh]
+  - grapheme: キョ1
+    phonemes: [k, y, ao]
+  - grapheme: ギャ1
+    phonemes: [g, y, ah]
+  - grapheme: ギュ1
+    phonemes: [g, y, uw]
+  - grapheme: ギェ1
+    phonemes: [g, y, eh]
+  - grapheme: ギョ1
+    phonemes: [g, y, ao]
+  - grapheme: シャ1
+    phonemes: [sh, ah]
+  - grapheme: シュ1
+    phonemes: [sh, uw]
+  - grapheme: シェ1
+    phonemes: [sh, eh]
+  - grapheme: ショ1
+    phonemes: [sh, ao]
+  - grapheme: ジャ1
+    phonemes: [jh, ah]
+  - grapheme: ジュ1
+    phonemes: [jh, uw]
+  - grapheme: ジェ1
+    phonemes: [jh, eh]
+  - grapheme: ジョ1
+    phonemes: [jh, ao]
+  - grapheme: チャ1
+    phonemes: [ch, ah]
+  - grapheme: チュ1
+    phonemes: [ch, uw]
+  - grapheme: チェ1
+    phonemes: [ch, eh]
+  - grapheme: チョ1
+    phonemes: [ch, ao]
+  - grapheme: ツァ1
+    phonemes: [t, s, ah]
+  - grapheme: ツィ1
+    phonemes: [t, s, iy]
+  - grapheme: ツェ1
+    phonemes: [t, s, eh]
+  - grapheme: ツォ1
+    phonemes: [t, s, ao]
+  - grapheme: ニャ1
+    phonemes: [n, y, ah]
+  - grapheme: ニュ1
+    phonemes: [n, y, uw]
+  - grapheme: ニェ1
+    phonemes: [n, y, eh]
+  - grapheme: ニョ1
+    phonemes: [n, y, ao]
+  - grapheme: ヒャ1
+    phonemes: [hh, y, ah]
+  - grapheme: ヒュ1
+    phonemes: [hh, y, uw]
+  - grapheme: ヒェ1
+    phonemes: [hh, y, eh]
+  - grapheme: ヒョ1
+    phonemes: [hh, y, ao]
+  - grapheme: ピャ1
+    phonemes: [p, y, ah]
+  - grapheme: ピュ1
+    phonemes: [p, y, uw]
+  - grapheme: ピェ1
+    phonemes: [p, y, eh]
+  - grapheme: ピョ1
+    phonemes: [p, y, ao]
+  - grapheme: ビャ1
+    phonemes: [b, y, ah]
+  - grapheme: ビュ1
+    phonemes: [b, y, uw]
+  - grapheme: ビェ1
+    phonemes: [b, y, eh]
+  - grapheme: ビョ1
+    phonemes: [b, y, ao]
+  - grapheme: ミャ1
+    phonemes: [m, y, ah]
+  - grapheme: ミュ1
+    phonemes: [m, y, uw]
+  - grapheme: ミェ1
+    phonemes: [m, y, eh]
+  - grapheme: ミョ1
+    phonemes: [m, y, ao]
+  - grapheme: イェ1
+    phonemes: [y, eh]
+  - grapheme: リャ1
+    phonemes: [dx, y, ah]
+  - grapheme: リュ1
+    phonemes: [dx, y, uw]
+  - grapheme: リェ1
+    phonemes: [dx, y, eh]
+  - grapheme: リョ1
+    phonemes: [dx, y, ao]
+  - grapheme: ティ1
+    phonemes: [t, iy]
+  - grapheme: トゥ1
+    phonemes: [t, uw]
+  - grapheme: ファ1
+    phonemes: [f, ah]
+  - grapheme: フィ1
+    phonemes: [f, iy]
+  - grapheme: フェ1
+    phonemes: [f, eh]
+  - grapheme: フォ1
+    phonemes: [f, ao]
+  - grapheme: スィ1
+    phonemes: [s, iy]
+  - grapheme: ヅィ1
+    phonemes: [z, iy]
+  - grapheme: ディ1
+    phonemes: [d, iy]
+  - grapheme: ドゥ1
+    phonemes: [d, uw]
+  - grapheme: デュ1
+    phonemes: [d, y, uw]
+  - grapheme: トゥ1
+    phonemes: [t, uw]
+  - grapheme: ウィ1
+    phonemes: [w, iy]
+  - grapheme: ウェ1
+    phonemes: [w, eh]
+  - grapheme: ウォ1
+    phonemes: [w, ao]
+  - grapheme: ア1
+    phonemes: [ah]
+  - grapheme: イ1
+    phonemes: [iy]
+  - grapheme: ウ1
+    phonemes: [uw]
+  - grapheme: エ1
+    phonemes: [eh]
+  - grapheme: オ1
+    phonemes: [ao]
+  - grapheme: カ1
+    phonemes: [k, ah]
+  - grapheme: キ1
+    phonemes: [k, iy]
+  - grapheme: ク1
+    phonemes: [k, uw]
+  - grapheme: ケ1
+    phonemes: [k, eh]
+  - grapheme: コ1
+    phonemes: [k, ao]
+  - grapheme: サ1
+    phonemes: [s, ah]
+  - grapheme: シ1
+    phonemes: [sh, iy]
+  - grapheme: ス1
+    phonemes: [s, uw]
+  - grapheme: セ1
+    phonemes: [s, eh]
+  - grapheme: ソ1
+    phonemes: [s, ao]
+  - grapheme: タ1
+    phonemes: [t, ah]
+  - grapheme: チ1
+    phonemes: [ch, iy]
+  - grapheme: ツ1
+    phonemes: [t, s, uw]
+  - grapheme: テ1
+    phonemes: [t, eh]
+  - grapheme: ト1
+    phonemes: [t, ao]
+  - grapheme: ナ1
+    phonemes: [n, ah]
+  - grapheme: ニ1
+    phonemes: [n, iy]
+  - grapheme: ヌ1
+    phonemes: [n, uw]
+  - grapheme: ネ1
+    phonemes: [n, eh]
+  - grapheme: ノ1
+    phonemes: [n, ao]
+  - grapheme: ハ1
+    phonemes: [hh, ah]
+  - grapheme: ヒ1
+    phonemes: [hh, iy]
+  - grapheme: フ1
+    phonemes: [f, uw]
+  - grapheme: ヘ1
+    phonemes: [hh, eh]
+  - grapheme: ホ1
+    phonemes: [hh, ao]
+  - grapheme: マ1
+    phonemes: [m, ah]
+  - grapheme: ミ1
+    phonemes: [m, iy]
+  - grapheme: ム1
+    phonemes: [m, uw]
+  - grapheme: メ1
+    phonemes: [m, eh]
+  - grapheme: モ1
+    phonemes: [m, ao]
+  - grapheme: ヤ1
+    phonemes: [y, ah]
+  - grapheme: ユ1
+    phonemes: [y, uw]
+  - grapheme: ヨ1
+    phonemes: [y, ao]
+  - grapheme: ラ1
+    phonemes: [dx, ah]
+  - grapheme: リ1
+    phonemes: [dx, iy]
+  - grapheme: ル1
+    phonemes: [dx, uw]
+  - grapheme: レ1
+    phonemes: [dx, eh]
+  - grapheme: ロ1
+    phonemes: [dx, ao]
+  - grapheme: l a1
+    phonemes: [l, ah]
+  - grapheme: l i1
+    phonemes: [l, iy]
+  - grapheme: l u1
+    phonemes: [l, uw]
+  - grapheme: l e1
+    phonemes: [l, eh]
+  - grapheme: l o1
+    phonemes: [l, ao]
+  - grapheme: ワ1
+    phonemes: [w, ah]
+  - grapheme: を1
+    phonemes: [w, ao]
+  - grapheme: ン1
+    phonemes: [n]
+  - grapheme: ガ1
+    phonemes: [g, ah]
+  - grapheme: ギ1
+    phonemes: [g, iy]
+  - grapheme: グ1
+    phonemes: [g, uw]
+  - grapheme: ゲ1
+    phonemes: [g, eh]
+  - grapheme: ゴ1
+    phonemes: [g, ao]
+  - grapheme: ザ1
+    phonemes: [z, ah]
+  - grapheme: ジ1
+    phonemes: [jh, iy]
+  - grapheme: ヅ1
+    phonemes: [z, uw]
+  - grapheme: ゼ1
+    phonemes: [z, eh]
+  - grapheme: ゾ1
+    phonemes: [z, ao]
+  - grapheme: ダ1
+    phonemes: [d, ah]
+  - grapheme: デ1
+    phonemes: [d, eh]
+  - grapheme: ド1
+    phonemes: [d, ao]
+  - grapheme: パ1
+    phonemes: [p, ah]
+  - grapheme: ピ1
+    phonemes: [p, iy]
+  - grapheme: プ1
+    phonemes: [p, uw]
+  - grapheme: ぺ1
+    phonemes: [p, eh]
+  - grapheme: ポ1
+    phonemes: [p, ao]
+  - grapheme: バ1
+    phonemes: [b, ah]
+  - grapheme: ビ1
+    phonemes: [b, iy]
+  - grapheme: ブ1
+    phonemes: [b, uw]
+  - grapheme: ベ1
+    phonemes: [b, eh]
+  - grapheme: ボ1
+    phonemes: [b, ao]
+
+#Japanese (katakana unvoiced)
+  - grapheme: ヴァ
+    phonemes: [v]
+  - grapheme: ヴィ
+    phonemes: [v]
+  - grapheme: ヴェ
+    phonemes: [v]
+  - grapheme: ヴォ
+    phonemes: [v]
+  - grapheme: キャ
+    phonemes: [k, y]
+  - grapheme: キュ
+    phonemes: [k, y]
+  - grapheme: キェ
+    phonemes: [k, y]
+  - grapheme: キョ
+    phonemes: [k, y]
+  - grapheme: ギャ
+    phonemes: [g, y]
+  - grapheme: ギュ
+    phonemes: [g, y]
+  - grapheme: ギェ
+    phonemes: [g, y]
+  - grapheme: ギョ
+    phonemes: [g, y]
+  - grapheme: シャ
+    phonemes: [sh]
+  - grapheme: シュ
+    phonemes: [sh]
+  - grapheme: シェ
+    phonemes: [sh]
+  - grapheme: ショ
+    phonemes: [sh]
+  - grapheme: ジャ
+    phonemes: [jh]
+  - grapheme: ジュ
+    phonemes: [jh]
+  - grapheme: ジェ
+    phonemes: [jh]
+  - grapheme: ジョ
+    phonemes: [jh]
+  - grapheme: チャ
+    phonemes: [ch]
+  - grapheme: チュ
+    phonemes: [ch]
+  - grapheme: チェ
+    phonemes: [ch]
+  - grapheme: チョ
+    phonemes: [ch]
+  - grapheme: ツァ
+    phonemes: [t, s]
+  - grapheme: ツィ
+    phonemes: [t, s]
+  - grapheme: ツェ
+    phonemes: [t, s]
+  - grapheme: ツォ
+    phonemes: [t, s]
+  - grapheme: ニャ
+    phonemes: [n, y]
+  - grapheme: ニュ
+    phonemes: [n, y]
+  - grapheme: ニェ
+    phonemes: [n, y]
+  - grapheme: ニョ
+    phonemes: [n, y]
+  - grapheme: ヒャ
+    phonemes: [hh, y]
+  - grapheme: ヒュ
+    phonemes: [hh, y]
+  - grapheme: ヒェ
+    phonemes: [hh, y]
+  - grapheme: ヒョ
+    phonemes: [hh, y]
+  - grapheme: ピャ
+    phonemes: [p, y]
+  - grapheme: ピュ
+    phonemes: [p, y]
+  - grapheme: ピェ
+    phonemes: [p, y]
+  - grapheme: ピョ
+    phonemes: [p, y]
+  - grapheme: ビャ
+    phonemes: [b, y]
+  - grapheme: ビュ
+    phonemes: [b, y]
+  - grapheme: ビェ
+    phonemes: [b, y]
+  - grapheme: ビョ
+    phonemes: [b, y]
+  - grapheme: ミャ
+    phonemes: [m, y]
+  - grapheme: ミュ
+    phonemes: [m, y]
+  - grapheme: ミェ
+    phonemes: [m, y]
+  - grapheme: ミョ
+    phonemes: [m, y]
+  - grapheme: イェ
+    phonemes: [y]
+  - grapheme: リャ
+    phonemes: [dx, y]
+  - grapheme: リュ
+    phonemes: [dx, y]
+  - grapheme: リェ
+    phonemes: [dx, y]
+  - grapheme: リョ
+    phonemes: [dx, y]
+  - grapheme: ティ
+    phonemes: [t]
+  - grapheme: トゥ
+    phonemes: [t]
+  - grapheme: ファ
+    phonemes: [f]
+  - grapheme: フィ
+    phonemes: [f]
+  - grapheme: フェ
+    phonemes: [f]
+  - grapheme: フォ
+    phonemes: [f]
+  - grapheme: スィ
+    phonemes: [s]
+  - grapheme: ヅィ
+    phonemes: [z]
+  - grapheme: ディ
+    phonemes: [d]
+  - grapheme: ドゥ
+    phonemes: [d]
+  - grapheme: デュ
+    phonemes: [d, y]
+  - grapheme: トゥ
+    phonemes: [t]
+  - grapheme: ウィ
+    phonemes: [w]
+  - grapheme: ウェ
+    phonemes: [w]
+  - grapheme: ウォ
+    phonemes: [w]
+  - grapheme: ア
+    phonemes: [ah]
+  - grapheme: イ
+    phonemes: [iy]
+  - grapheme: ウ
+    phonemes: [uw]
+  - grapheme: エ
+    phonemes: [eh]
+  - grapheme: オ
+    phonemes: [ao]
+  - grapheme: カ
+    phonemes: [k]
+  - grapheme: キ
+    phonemes: [k]
+  - grapheme: ク
+    phonemes: [k]
+  - grapheme: ケ
+    phonemes: [k]
+  - grapheme: コ
+    phonemes: [k]
+  - grapheme: サ
+    phonemes: [s]
+  - grapheme: シ
+    phonemes: [sh]
+  - grapheme: ス
+    phonemes: [s]
+  - grapheme: セ
+    phonemes: [s]
+  - grapheme: ソ
+    phonemes: [s]
+  - grapheme: タ
+    phonemes: [t]
+  - grapheme: チ
+    phonemes: [ch]
+  - grapheme: ツ
+    phonemes: [t, s]
+  - grapheme: テ
+    phonemes: [t]
+  - grapheme: ト
+    phonemes: [t]
+  - grapheme: ナ
+    phonemes: [n]
+  - grapheme: ニ
+    phonemes: [n]
+  - grapheme: ヌ
+    phonemes: [n]
+  - grapheme: ネ
+    phonemes: [n]
+  - grapheme: ノ
+    phonemes: [n]
+  - grapheme: ハ
+    phonemes: [hh]
+  - grapheme: ヒ
+    phonemes: [hh]
+  - grapheme: フ
+    phonemes: [f]
+  - grapheme: ヘ
+    phonemes: [hh]
+  - grapheme: ホ
+    phonemes: [hh]
+  - grapheme: マ
+    phonemes: [m]
+  - grapheme: ミ
+    phonemes: [m]
+  - grapheme: ム
+    phonemes: [m]
+  - grapheme: メ
+    phonemes: [m]
+  - grapheme: モ
+    phonemes: [m]
+  - grapheme: ヤ
+    phonemes: [y]
+  - grapheme: ユ
+    phonemes: [y]
+  - grapheme: ヨ
+    phonemes: [y]
+  - grapheme: ラ
+    phonemes: [dx]
+  - grapheme: リ
+    phonemes: [dx]
+  - grapheme: ル
+    phonemes: [dx]
+  - grapheme: レ
+    phonemes: [dx]
+  - grapheme: ロ
+    phonemes: [dx]
+  - grapheme: l a
+    phonemes: [l]
+  - grapheme: l i
+    phonemes: [l]
+  - grapheme: l u
+    phonemes: [l]
+  - grapheme: l e
+    phonemes: [l]
+  - grapheme: l o
+    phonemes: [l]
+  - grapheme: ワ
+    phonemes: [w]
+  - grapheme: を
+    phonemes: [w]
+  - grapheme: ン
+    phonemes: [n]
+  - grapheme: ガ
+    phonemes: [g]
+  - grapheme: ギ
+    phonemes: [g]
+  - grapheme: グ
+    phonemes: [g]
+  - grapheme: ゲ
+    phonemes: [g]
+  - grapheme: ゴ
+    phonemes: [g]
+  - grapheme: ザ
+    phonemes: [z]
+  - grapheme: ジ
+    phonemes: [jh]
+  - grapheme: ヅ
+    phonemes: [z]
+  - grapheme: ゼ
+    phonemes: [z]
+  - grapheme: ゾ
+    phonemes: [z]
+  - grapheme: ダ
+    phonemes: [d]
+  - grapheme: デ
+    phonemes: [d]
+  - grapheme: ド
+    phonemes: [d]
+  - grapheme: パ
+    phonemes: [p]
+  - grapheme: ピ
+    phonemes: [p]
+  - grapheme: プ
+    phonemes: [p]
+  - grapheme: ぺ
+    phonemes: [p]
+  - grapheme: ポ
+    phonemes: [p]
+  - grapheme: バ
+    phonemes: [b]
+  - grapheme: ビ
+    phonemes: [b]
+  - grapheme: ブ
+    phonemes: [b]
+  - grapheme: ベ
+    phonemes: [b]
+  - grapheme: ボ
+    phonemes: [b]
+
+
+#Japanese (romaji)
+  - grapheme: v a
+    phonemes: [v, ah]
+  - grapheme: v i
+    phonemes: [v, iy]
+  - grapheme: v e
+    phonemes: [v, eh]
+  - grapheme: v o
+    phonemes: [v, ao]
+  - grapheme: v u
+    phonemes: [v, uw]
+  - grapheme: ky a
+    phonemes: [k, y, ah]
+  - grapheme: ky u
+    phonemes: [k, y, uw]
+  - grapheme: ky e
+    phonemes: [k, y, eh]
+  - grapheme: ky o
+    phonemes: [k, y, ao]
+  - grapheme: gy a
+    phonemes: [g, y, ah]
+  - grapheme: gy u
+    phonemes: [g, y, uw]
+  - grapheme: gy e
+    phonemes: [g, y, eh]
+  - grapheme: gy o
+    phonemes: [g, y, ao]
+  - grapheme: sh a
+    phonemes: [sh, ah]
+  - grapheme: sh u
+    phonemes: [sh, uw]
+  - grapheme: sh e
+    phonemes: [sh, eh]
+  - grapheme: sh o
+    phonemes: [sh, ao]
+  - grapheme: j a
+    phonemes: [jh, ah]
+  - grapheme: j u
+    phonemes: [jh, uw]
+  - grapheme: j e
+    phonemes: [jh, eh]
+  - grapheme: j o
+    phonemes: [jh, ao]
+  - grapheme: ch a
+    phonemes: [ch, ah]
+  - grapheme: ch u
+    phonemes: [ch, uw]
+  - grapheme: che
+    phonemes: [ch, eh]
+  - grapheme: ch o
+    phonemes: [ch, ao]
+  - grapheme: ts a
+    phonemes: [t, s, ah]
+  - grapheme: ts i
+    phonemes: [t, s, iy]
+  - grapheme: ts e
+    phonemes: [t, s, eh]
+  - grapheme: ts o
+    phonemes: [t, s, ao]
+  - grapheme: ny a
+    phonemes: [n, y, ah]
+  - grapheme: ny i
+    phonemes: [n, y, iy]
+  - grapheme: ny u
+    phonemes: [n, y, uw]
+  - grapheme: ny e
+    phonemes: [n, y, eh]
+  - grapheme: ny o
+    phonemes: [n, y, ao]
+  - grapheme: hy a
+    phonemes: [hh, y, ah]
+  - grapheme: hy i
+    phonemes: [hh, y, iy]
+  - grapheme: hy u
+    phonemes: [hh, y, uw]
+  - grapheme: hy e
+    phonemes: [hh, y, eh]
+  - grapheme: hy o
+    phonemes: [hh, y, ao]
+  - grapheme: py a
+    phonemes: [p, y, ah]
+  - grapheme: py i
+    phonemes: [p, y, iy]
+  - grapheme: py u
+    phonemes: [p, y, uw]
+  - grapheme: py e
+    phonemes: [p, y, eh]
+  - grapheme: py o
+    phonemes: [p, y, ao]
+  - grapheme: by a
+    phonemes: [b, y, ah]
+  - grapheme: by i
+    phonemes: [b, y, iy]
+  - grapheme: by u
+    phonemes: [b, y, uw]
+  - grapheme: by e
+    phonemes: [b, y, eh]
+  - grapheme: by o
+    phonemes: [b, y, ao]
+  - grapheme: my a
+    phonemes: [m, y, ah]
+  - grapheme: my i
+    phonemes: [m, y, iy]
+  - grapheme: my u
+    phonemes: [m, y, uw]
+  - grapheme: my e
+    phonemes: [m, y, eh]
+  - grapheme: my o
+    phonemes: [m, y, ao]
+  - grapheme: y e
+    phonemes: [y, eh]
+  - grapheme: ry a
+    phonemes: [dx, y, ah]
+  - grapheme: ry u
+    phonemes: [dx, y, uw]
+  - grapheme: ry e
+    phonemes: [dx, y, eh]
+  - grapheme: ry o
+    phonemes: [dx, y, ao]
+  - grapheme: t i
+    phonemes: [t, iy]
+  - grapheme: t u
+    phonemes: [t, uw]
+  - grapheme: f a
+    phonemes: [f, ah]
+  - grapheme: f i
+    phonemes: [f, iy]
+  - grapheme: f e
+    phonemes: [f, eh]
+  - grapheme: f o
+    phonemes: [f, ao]
+  - grapheme: s i
+    phonemes: [s, iy]
+  - grapheme: z i
+    phonemes: [z, iy]
+  - grapheme: d i
+    phonemes: [d, iy]
+  - grapheme: d u
+    phonemes: [d, uw]
+  - grapheme: dy u
+    phonemes: [d, y, uw]
+  - grapheme: t u
+    phonemes: [t, uw]
+  - grapheme: w i
+    phonemes: [w, iy]
+  - grapheme: w e
+    phonemes: [w, eh]
+  - grapheme: w o
+    phonemes: [w, ao]
+  - grapheme: a2
+    phonemes: [q, ah]
+  - grapheme: i2
+    phonemes: [q, iy]
+  - grapheme: u2
+    phonemes: [q, uw]
+  - grapheme: e2
+    phonemes: [q, eh]
+  - grapheme: o2
+    phonemes: [q, ao]
+  - grapheme: k a
+    phonemes: [k, ah]
+  - grapheme: k i
+    phonemes: [k, iy]
+  - grapheme: k u
+    phonemes: [k, uw]
+  - grapheme: k e
+    phonemes: [k, eh]
+  - grapheme: k o
+    phonemes: [k, ao]
+  - grapheme: s a
+    phonemes: [s, ah]
+  - grapheme: sh i
+    phonemes: [sh, iy]
+  - grapheme: s u
+    phonemes: [s, uw]
+  - grapheme: s e
+    phonemes: [s, eh]
+  - grapheme: s o
+    phonemes: [s, ao]
+  - grapheme: t a
+    phonemes: [t, ah]
+  - grapheme: ch i
+    phonemes: [ch, iy]
+  - grapheme: ts u
+    phonemes: [t, s, uw]
+  - grapheme: t e
+    phonemes: [t, eh]
+  - grapheme: t o
+    phonemes: [t, ao]
+  - grapheme: n a
+    phonemes: [n, ah]
+  - grapheme: n i
+    phonemes: [n, iy]
+  - grapheme: n u
+    phonemes: [n, uw]
+  - grapheme: n e
+    phonemes: [n, eh]
+  - grapheme: n o
+    phonemes: [n, ao]
+  - grapheme: h a
+    phonemes: [hh, ah]
+  - grapheme: h i
+    phonemes: [hh, iy]
+  - grapheme: f u
+    phonemes: [f, uw]
+  - grapheme: h e
+    phonemes: [hh, eh]
+  - grapheme: h o
+    phonemes: [hh, ao]
+  - grapheme: m a
+    phonemes: [m, ah]
+  - grapheme: m i
+    phonemes: [m, iy]
+  - grapheme: m u
+    phonemes: [m, uw]
+  - grapheme: m e
+    phonemes: [m, eh]
+  - grapheme: m o
+    phonemes: [m, ao]
+  - grapheme: y a
+    phonemes: [y, ah]
+  - grapheme: y u
+    phonemes: [y, uw]
+  - grapheme: y o
+    phonemes: [y, ao]
+  - grapheme: r a
+    phonemes: [dx, ah]
+  - grapheme: r i
+    phonemes: [dx, iy]
+  - grapheme: r u
+    phonemes: [dx, uw]
+  - grapheme: r e
+    phonemes: [dx, eh]
+  - grapheme: r o
+    phonemes: [dx, ao]
+  - grapheme: l a
+    phonemes: [l, ah]
+  - grapheme: l i
+    phonemes: [l, iy]
+  - grapheme: l u
+    phonemes: [l, uw]
+  - grapheme: l e
+    phonemes: [l, eh]
+  - grapheme: l o
+    phonemes: [l, ao]
+  - grapheme: w a
+    phonemes: [w, ah]
+  - grapheme: w o
+    phonemes: [w, ao]
+  - grapheme: n
+    phonemes: [n]
+  - grapheme: n2
+    phonemes: [q, n]
+  - grapheme: g a
+    phonemes: [g, ah]
+  - grapheme: g i
+    phonemes: [g, iy]
+  - grapheme: g u
+    phonemes: [g, uw]
+  - grapheme: g e
+    phonemes: [g, eh]
+  - grapheme: g o
+    phonemes: [g, ao]
+  - grapheme: z a
+    phonemes: [z, ah]
+  - grapheme: z i
+    phonemes: [jh, iy]
+  - grapheme: z u
+    phonemes: [z, uw]
+  - grapheme: z e
+    phonemes: [z, eh]
+  - grapheme: z o
+    phonemes: [z, ao]
+  - grapheme: d a
+    phonemes: [d, ah]
+  - grapheme: d e
+    phonemes: [d, eh]
+  - grapheme: d o
+    phonemes: [d, ao]
+  - grapheme: p a
+    phonemes: [p, ah]
+  - grapheme: p i
+    phonemes: [p, iy]
+  - grapheme: p u
+    phonemes: [p, uw]
+  - grapheme: p e
+    phonemes: [p, eh]
+  - grapheme: p o
+    phonemes: [p, ao]
+  - grapheme: b a
+    phonemes: [b, ah]
+  - grapheme: b i
+    phonemes: [b, iy]
+  - grapheme: b u
+    phonemes: [b, uw]
+  - grapheme: b e
+    phonemes: [b, eh]
+  - grapheme: b o
+    phonemes: [b, ao]
+  - grapheme: kw a
+    phonemes: [k, w, ah]
+  - grapheme: kw i
+    phonemes: [k, w, iy]
+  - grapheme: kw u
+    phonemes: [k, w, uw]
+  - grapheme: kw e
+    phonemes: [k, w, eh]
+  - grapheme: kw o
+    phonemes: [k, w, ao]
+  - grapheme: gw a
+    phonemes: [g, w, ah]
+  - grapheme: gw i
+    phonemes: [g, w, iy]
+  - grapheme: gw u
+    phonemes: [g, w, uw]
+  - grapheme: gw e
+    phonemes: [g, w, eh]
+  - grapheme: gw o
+    phonemes: [g, w, ao]
+  - grapheme: jy a
+    phonemes: [jh, y, ah]
+  - grapheme: jy i
+    phonemes: [jh, y, iy]
+  - grapheme: jy u
+    phonemes: [jh, y, uw]
+  - grapheme: jy e
+    phonemes: [jh, y, eh]
+  - grapheme: jy o
+    phonemes: [jh, y, ao]
+  - grapheme: dy a
+    phonemes: [d, y, ah]
+  - grapheme: dy i
+    phonemes: [d, y, iy]
+  - grapheme: dy u
+    phonemes: [d, y, uw]
+  - grapheme: dy e
+    phonemes: [d, y, eh]
+  - grapheme: dy o
+    phonemes: [d, y, ao]
+  - grapheme: vva
+    phonemes: [q, v, ah]
+  - grapheme: vvi
+    phonemes: [v, iy]
+  - grapheme: vve
+    phonemes: [q, v, eh]
+  - grapheme: vvo
+    phonemes: [q, v, ao]
+  - grapheme: vvu
+    phonemes: [q, v, uw]
+  - grapheme: kkya
+    phonemes: [q, k, y, ah]
+  - grapheme: kkyu
+    phonemes: [q, k, y, uw]
+  - grapheme: kkye
+    phonemes: [q, k, y, eh]
+  - grapheme: kkyo
+    phonemes: [q, k, y, ao]
+  - grapheme: ggya
+    phonemes: [q, g, y, ah]
+  - grapheme: ggyu
+    phonemes: [q, g, y, uw]
+  - grapheme: ggye
+    phonemes: [q, g, y, eh]
+  - grapheme: ggyo
+    phonemes: [q, g, y, ao]
+  - grapheme: ssha
+    phonemes: [q, sh, ah]
+  - grapheme: sshu
+    phonemes: [q, sh, uw]
+  - grapheme: sshe
+    phonemes: [q, sh, eh]
+  - grapheme: ssho
+    phonemes: [q, sh, ao]
+  - grapheme: jja
+    phonemes: [q, jh, ah]
+  - grapheme: jju
+    phonemes: [q, jh, uw]
+  - grapheme: jje
+    phonemes: [q, jh, eh]
+  - grapheme: jjo
+    phonemes: [q, jh, ao]
+  - grapheme: ccha
+    phonemes: [q, ch, ah]
+  - grapheme: cchu
+    phonemes: [q, ch, uw]
+  - grapheme: cche
+    phonemes: [q, ch, eh]
+  - grapheme: ccho
+    phonemes: [q, ch, ao]
+  - grapheme: ttsa
+    phonemes: [q, t, s, ah]
+  - grapheme: ttsi
+    phonemes: [t, s, iy]
+  - grapheme: ttse
+    phonemes: [q, t, s, eh]
+  - grapheme: ttso
+    phonemes: [q, t, s, ao]
+  - grapheme: nnya
+    phonemes: [q, n, y, ah]
+  - grapheme: nnyi
+    phonemes: [n, y, iy]
+  - grapheme: nnyu
+    phonemes: [q, n, y, uw]
+  - grapheme: nnye
+    phonemes: [q, n, y, eh]
+  - grapheme: nnyo
+    phonemes: [q, n, y, ao]
+  - grapheme: hhya
+    phonemes: [q, hh, y, ah]
+  - grapheme: hhyi
+    phonemes: [hh, y , iy]
+  - grapheme: hhyu
+    phonemes: [q, hh, y, uw]
+  - grapheme: hhye
+    phonemes: [q, hh, y, eh]
+  - grapheme: hhyo
+    phonemes: [q, hh, y, ao]
+  - grapheme: ppya
+    phonemes: [q, p, y, ah]
+  - grapheme: ppyi
+    phonemes: [p, y, iy]
+  - grapheme: ppyu
+    phonemes: [q, p, y, uw]
+  - grapheme: ppye
+    phonemes: [q, p, y, eh]
+  - grapheme: ppyo
+    phonemes: [q, p, y, ao]
+  - grapheme: bbya
+    phonemes: [q, b, y, ah]
+  - grapheme: bbyi
+    phonemes: [b, y, iy]
+  - grapheme: bbyu
+    phonemes: [q, b, y, uw]
+  - grapheme: bbye
+    phonemes: [q, b, y, eh]
+  - grapheme: bbyo
+    phonemes: [q, b, y, ao]
+  - grapheme: mmya
+    phonemes: [q, m, y, ah]
+  - grapheme: mmyi
+    phonemes: [m, y, iy]
+  - grapheme: mmyu
+    phonemes: [q, m, y, uw]
+  - grapheme: mmye
+    phonemes: [q, m, y, eh]
+  - grapheme: mmyo
+    phonemes: [q, m, y, ao]
+  - grapheme: yye
+    phonemes: [q, y, eh]
+  - grapheme: rrya
+    phonemes: [q, dx, y, ah]
+  - grapheme: rryu
+    phonemes: [q, dx, y, uw]
+  - grapheme: rrye
+    phonemes: [q, dx, y, eh]
+  - grapheme: rryo
+    phonemes: [q, dx, y, ao]
+  - grapheme: tti
+    phonemes: [q, t, iy]
+  - grapheme: ttu
+    phonemes: [q, t, uw]
+  - grapheme: ffa
+    phonemes: [q, f, ah]
+  - grapheme: ffi
+    phonemes: [q, f, iy]
+  - grapheme: ffe
+    phonemes: [q, f, eh]
+  - grapheme: ffo
+    phonemes: [q, f, ao]
+  - grapheme: ssi
+    phonemes: [q, s, iy]
+  - grapheme: zzi
+    phonemes: [q, z, iy]
+  - grapheme: ddi
+    phonemes: [q, d, iy]
+  - grapheme: ddu
+    phonemes: [q, d, uw]
+  - grapheme: ddyu
+    phonemes: [q, d, y, uw]
+  - grapheme: ttu
+    phonemes: [q, t, uw]
+  - grapheme: wwi
+    phonemes: [q, w, iy]
+  - grapheme: wwe
+    phonemes: [q, w, eh]
+  - grapheme: wwo
+    phonemes: [q, w, ao]
+  - grapheme: kka
+    phonemes: [q, k, ah]
+  - grapheme: kki
+    phonemes: [q, k, iy]
+  - grapheme: kku
+    phonemes: [q, k, uw]
+  - grapheme: kke
+    phonemes: [q, k, eh]
+  - grapheme: kko
+    phonemes: [q, k, ao]
+  - grapheme: ssa
+    phonemes: [q, s, ah]
+  - grapheme: sshi
+    phonemes: [q, sh, iy]
+  - grapheme: ssu
+    phonemes: [q, s, uw]
+  - grapheme: sse
+    phonemes: [q, s, eh]
+  - grapheme: sso
+    phonemes: [q, s, ao]
+  - grapheme: tta
+    phonemes: [q, t, ah]
+  - grapheme: cchi
+    phonemes: [q, ch, iy]
+  - grapheme: ttsu
+    phonemes: [q, t, s, uw]
+  - grapheme: tte
+    phonemes: [q, t, eh]
+  - grapheme: tto
+    phonemes: [q, t, ao]
+  - grapheme: nna
+    phonemes: [q, n, ah]
+  - grapheme: nni
+    phonemes: [q, n, iy]
+  - grapheme: nnu
+    phonemes: [q, n, uw]
+  - grapheme: nne
+    phonemes: [q, n, eh]
+  - grapheme: nno
+    phonemes: [q, n, ao]
+  - grapheme: hha
+    phonemes: [q, hh, ah]
+  - grapheme: hhi
+    phonemes: [q, hh, iy]
+  - grapheme: ffu
+    phonemes: [q, f, uw]
+  - grapheme: hhe
+    phonemes: [q, hh, eh]
+  - grapheme: hho
+    phonemes: [q, hh, ao]
+  - grapheme: mma
+    phonemes: [q, m, ah]
+  - grapheme: mmi
+    phonemes: [q, m, iy]
+  - grapheme: mmu
+    phonemes: [q, m, uw]
+  - grapheme: mme
+    phonemes: [q, m, eh]
+  - grapheme: mmo
+    phonemes: [q, m, ao]
+  - grapheme: yya
+    phonemes: [q, y, ah]
+  - grapheme: yyu
+    phonemes: [q, y, uw]
+  - grapheme: yyo
+    phonemes: [q, y, ao]
+  - grapheme: rra
+    phonemes: [q, dx, ah]
+  - grapheme: rri
+    phonemes: [q, dx, iy]
+  - grapheme: rru
+    phonemes: [q, dx, uw]
+  - grapheme: rre
+    phonemes: [q, dx, eh]
+  - grapheme: rro
+    phonemes: [dx, ao]
+  - grapheme: lla
+    phonemes: [q, l, ah]
+  - grapheme: lli
+    phonemes: [q, l, iy]
+  - grapheme: llu
+    phonemes: [q, l, uw]
+  - grapheme: lle
+    phonemes: [q, l, eh]
+  - grapheme: llo
+    phonemes: [q, l, ao]
+  - grapheme: wwa
+    phonemes: [q, w, ah]
+  - grapheme: wwo
+    phonemes: [q, w, ao]
+  - grapheme: gga
+    phonemes: [q, g, ah]
+  - grapheme: ggi
+    phonemes: [q, g, iy]
+  - grapheme: ggu
+    phonemes: [q, g, uw]
+  - grapheme: gge
+    phonemes: [q, g, eh]
+  - grapheme: ggo
+    phonemes: [q, g, ao]
+  - grapheme: zza
+    phonemes: [q, z, ah]
+  - grapheme: zzi
+    phonemes: [q, z, iy]
+  - grapheme: zzu
+    phonemes: [q, z, uw]
+  - grapheme: zze
+    phonemes: [q, z, eh]
+  - grapheme: zzo
+    phonemes: [q, z, ao]
+  - grapheme: dda
+    phonemes: [q, d, ah]
+  - grapheme: dde
+    phonemes: [q, d, eh]
+  - grapheme: ddo
+    phonemes: [q, d, ao]
+  - grapheme: ppa
+    phonemes: [q, p, ah]
+  - grapheme: ppi
+    phonemes: [q, p, iy]
+  - grapheme: ppu
+    phonemes: [q, p, uw]
+  - grapheme: ppe
+    phonemes: [q, p, eh]
+  - grapheme: ppo
+    phonemes: [q, p, ao]
+  - grapheme: bba
+    phonemes: [q, b, ah]
+  - grapheme: bbi
+    phonemes: [q, b, iy]
+  - grapheme: bbu
+    phonemes: [q, b, uw]
+  - grapheme: bbe
+    phonemes: [q, b, eh]
+  - grapheme: bbo
+    phonemes: [q, b, ao]
+  - grapheme: kkwa
+    phonemes: [q, k, w, ah]
+  - grapheme: kkwi
+    phonemes: [q, k, w, iy]
+  - grapheme: kkwu
+    phonemes: [k, w, uw]
+  - grapheme: kkwe
+    phonemes: [q, k, w, eh]
+  - grapheme: kkwo
+    phonemes: [q, k, w, ao]
+  - grapheme: ggwa
+    phonemes: [q, g, w, ah]
+  - grapheme: ggwi
+    phonemes: [q, g, w, iy]
+  - grapheme: ggwu
+    phonemes: [q, g, w, uw]
+  - grapheme: ggwe
+    phonemes: [q, g, w, eh]
+  - grapheme: ggwo
+    phonemes: [q, g, w, ao]
+  - grapheme: jjya
+    phonemes: [q, jh, y, ah]
+  - grapheme: jjyi
+    phonemes: [q, jh, y, iy]
+  - grapheme: jjyu
+    phonemes: [q, jh, y, uw]
+  - grapheme: jjye
+    phonemes: [q, jh, y, eh]
+  - grapheme: jjyo
+    phonemes: [q, jh, y, ao]
+  - grapheme: ddya
+    phonemes: [d, y, ah]
+  - grapheme: ddyi
+    phonemes: [q, d, y, iy]
+  - grapheme: ddyu
+    phonemes: [q, d, y, uw]
+  - grapheme: ddye
+    phonemes: [q, d, y, eh]
+  - grapheme: ddyo
+    phonemes: [q, d, y, ao]
+
+  - grapheme: vv a
+    phonemes: [q, v, ah]
+  - grapheme: vv i
+    phonemes: [v, iy]
+  - grapheme: vv e
+    phonemes: [q, v, eh]
+  - grapheme: vv o
+    phonemes: [q, v, ao]
+  - grapheme: vv u
+    phonemes: [q, v, uw]
+  - grapheme: kky a
+    phonemes: [q, k, y, ah]
+  - grapheme: kky u
+    phonemes: [q, k, y, uw]
+  - grapheme: kky e
+    phonemes: [q, k, y, eh]
+  - grapheme: kky o
+    phonemes: [q, k, y, ao]
+  - grapheme: ggy a
+    phonemes: [q, g, y, ah]
+  - grapheme: ggy u
+    phonemes: [q, g, y, uw]
+  - grapheme: ggy e
+    phonemes: [q, g, y, eh]
+  - grapheme: ggy o
+    phonemes: [q, g, y, ao]
+  - grapheme: ssh a
+    phonemes: [q, sh, ah]
+  - grapheme: ssh u
+    phonemes: [q, sh, uw]
+  - grapheme: ssh e
+    phonemes: [q, sh, eh]
+  - grapheme: ssh o
+    phonemes: [q, sh, ao]
+  - grapheme: jj a
+    phonemes: [q, jh, ah]
+  - grapheme: jj u
+    phonemes: [q, jh, uw]
+  - grapheme: jj e
+    phonemes: [q, jh, eh]
+  - grapheme: jj o
+    phonemes: [q, jh, ao]
+  - grapheme: cch a
+    phonemes: [q, ch, ah]
+  - grapheme: cch u
+    phonemes: [q, ch, uw]
+  - grapheme: cch e
+    phonemes: [q, ch, eh]
+  - grapheme: cch o
+    phonemes: [q, ch, ao]
+  - grapheme: tts a
+    phonemes: [q, t, s, ah]
+  - grapheme: tts i
+    phonemes: [t, s, iy]
+  - grapheme: tts e
+    phonemes: [q, t, s, eh]
+  - grapheme: tts o
+    phonemes: [q, t, s, ao]
+  - grapheme: nny a
+    phonemes: [q, n, y, ah]
+  - grapheme: nny i
+    phonemes: [n, y, iy]
+  - grapheme: nny u
+    phonemes: [q, n, y, uw]
+  - grapheme: nny e
+    phonemes: [q, n, y, eh]
+  - grapheme: nny o
+    phonemes: [q, n, y, ao]
+  - grapheme: hhy a
+    phonemes: [q, hh, y, ah]
+  - grapheme: hhy i
+    phonemes: [hh, y , iy]
+  - grapheme: hhy u
+    phonemes: [q, hh, y, uw]
+  - grapheme: hhy e
+    phonemes: [q, hh, y, eh]
+  - grapheme: hhy o
+    phonemes: [q, hh, y, ao]
+  - grapheme: ppy a
+    phonemes: [q, p, y, ah]
+  - grapheme: ppy i
+    phonemes: [p, y, iy]
+  - grapheme: ppy u
+    phonemes: [q, p, y, uw]
+  - grapheme: ppy e
+    phonemes: [q, p, y, eh]
+  - grapheme: ppy o
+    phonemes: [q, p, y, ao]
+  - grapheme: bby a
+    phonemes: [q, b, y, ah]
+  - grapheme: bby i
+    phonemes: [b, y, iy]
+  - grapheme: bby u
+    phonemes: [q, b, y, uw]
+  - grapheme: bby e
+    phonemes: [q, b, y, eh]
+  - grapheme: bby o
+    phonemes: [q, b, y, ao]
+  - grapheme: mmy a
+    phonemes: [q, m, y, ah]
+  - grapheme: mmy i
+    phonemes: [m, y, iy]
+  - grapheme: mmy u
+    phonemes: [q, m, y, uw]
+  - grapheme: mmy e
+    phonemes: [q, m, y, eh]
+  - grapheme: mmy o
+    phonemes: [q, m, y, ao]
+  - grapheme: yy e
+    phonemes: [q, y, eh]
+  - grapheme: rry a
+    phonemes: [q, dx, y, ah]
+  - grapheme: rry u
+    phonemes: [q, dx, y, uw]
+  - grapheme: rry e
+    phonemes: [q, dx, y, eh]
+  - grapheme: rry o
+    phonemes: [q, dx, y, ao]
+  - grapheme: tt i
+    phonemes: [q, t, iy]
+  - grapheme: tt u
+    phonemes: [q, t, uw]
+  - grapheme: ff a
+    phonemes: [q, f, ah]
+  - grapheme: ff i
+    phonemes: [q, f, iy]
+  - grapheme: ff e
+    phonemes: [q, f, eh]
+  - grapheme: ff o
+    phonemes: [q, f, ao]
+  - grapheme: ss i
+    phonemes: [q, s, iy]
+  - grapheme: zz i
+    phonemes: [q, z, iy]
+  - grapheme: dd i
+    phonemes: [q, d, iy]
+  - grapheme: dd u
+    phonemes: [q, d, uw]
+  - grapheme: ddy u
+    phonemes: [q, d, y, uw]
+  - grapheme: tt u
+    phonemes: [q, t, uw]
+  - grapheme: ww i
+    phonemes: [q, w, iy]
+  - grapheme: ww e
+    phonemes: [q, w, eh]
+  - grapheme: ww o
+    phonemes: [q, w, ao]
+  - grapheme: kk a
+    phonemes: [q, k, ah]
+  - grapheme: kk i
+    phonemes: [q, k, iy]
+  - grapheme: kk u
+    phonemes: [q, k, uw]
+  - grapheme: kk e
+    phonemes: [q, k, eh]
+  - grapheme: kk o
+    phonemes: [q, k, ao]
+  - grapheme: ss a
+    phonemes: [q, s, ah]
+  - grapheme: ssh i
+    phonemes: [q, sh, iy]
+  - grapheme: ss u
+    phonemes: [q, s, uw]
+  - grapheme: ss e
+    phonemes: [q, s, eh]
+  - grapheme: ss o
+    phonemes: [q, s, ao]
+  - grapheme: tt a
+    phonemes: [q, t, ah]
+  - grapheme: cch i
+    phonemes: [q, ch, iy]
+  - grapheme: tts u
+    phonemes: [q, t, s, uw]
+  - grapheme: tt e
+    phonemes: [q, t, eh]
+  - grapheme: tt o
+    phonemes: [q, t, ao]
+  - grapheme: nn a
+    phonemes: [q, n, ah]
+  - grapheme: nn i
+    phonemes: [q, n, iy]
+  - grapheme: nn u
+    phonemes: [q, n, uw]
+  - grapheme: nn e
+    phonemes: [q, n, eh]
+  - grapheme: nn o
+    phonemes: [q, n, ao]
+  - grapheme: hh a
+    phonemes: [q, hh, ah]
+  - grapheme: hh i
+    phonemes: [q, hh, iy]
+  - grapheme: ff u
+    phonemes: [q, f, uw]
+  - grapheme: hh e
+    phonemes: [q, hh, eh]
+  - grapheme: hh o
+    phonemes: [q, hh, ao]
+  - grapheme: mm a
+    phonemes: [q, m, ah]
+  - grapheme: mm i
+    phonemes: [q, m, iy]
+  - grapheme: mm u
+    phonemes: [q, m, uw]
+  - grapheme: mm e
+    phonemes: [q, m, eh]
+  - grapheme: mm o
+    phonemes: [q, m, ao]
+  - grapheme: yy a
+    phonemes: [q, y, ah]
+  - grapheme: yy u
+    phonemes: [q, y, uw]
+  - grapheme: yy o
+    phonemes: [q, y, ao]
+  - grapheme: rr a
+    phonemes: [q, dx, ah]
+  - grapheme: rr i
+    phonemes: [q, dx, iy]
+  - grapheme: rr u
+    phonemes: [q, dx, uw]
+  - grapheme: rr e
+    phonemes: [q, dx, eh]
+  - grapheme: rr o
+    phonemes: [dx, ao]
+  - grapheme: ll a
+    phonemes: [q, l, ah]
+  - grapheme: ll i
+    phonemes: [q, l, iy]
+  - grapheme: ll u
+    phonemes: [q, l, uw]
+  - grapheme: ll e
+    phonemes: [q, l, eh]
+  - grapheme: ll o
+    phonemes: [q, l, ao]
+  - grapheme: ww a
+    phonemes: [q, w, ah]
+  - grapheme: ww o
+    phonemes: [q, w, ao]
+  - grapheme: gg a
+    phonemes: [q, g, ah]
+  - grapheme: gg i
+    phonemes: [q, g, iy]
+  - grapheme: gg u
+    phonemes: [q, g, uw]
+  - grapheme: gg e
+    phonemes: [q, g, eh]
+  - grapheme: gg o
+    phonemes: [q, g, ao]
+  - grapheme: zz a
+    phonemes: [q, z, ah]
+  - grapheme: zz i
+    phonemes: [q, z, iy]
+  - grapheme: zz u
+    phonemes: [q, z, uw]
+  - grapheme: zz e
+    phonemes: [q, z, eh]
+  - grapheme: zz o
+    phonemes: [q, z, ao]
+  - grapheme: dd a
+    phonemes: [q, d, ah]
+  - grapheme: dd e
+    phonemes: [q, d, eh]
+  - grapheme: dd o
+    phonemes: [q, d, ao]
+  - grapheme: pp a
+    phonemes: [q, p, ah]
+  - grapheme: pp i
+    phonemes: [q, p, iy]
+  - grapheme: pp u
+    phonemes: [q, p, uw]
+  - grapheme: pp e
+    phonemes: [q, p, eh]
+  - grapheme: pp o
+    phonemes: [q, p, ao]
+  - grapheme: bb a
+    phonemes: [q, b, ah]
+  - grapheme: bb i
+    phonemes: [q, b, iy]
+  - grapheme: bb u
+    phonemes: [q, b, uw]
+  - grapheme: bb e
+    phonemes: [q, b, eh]
+  - grapheme: bb o
+    phonemes: [q, b, ao]
+  - grapheme: kkw a
+    phonemes: [q, k, w, ah]
+  - grapheme: kkw i
+    phonemes: [q, k, w, iy]
+  - grapheme: kkw u
+    phonemes: [k, w, uw]
+  - grapheme: kkw e
+    phonemes: [q, k, w, eh]
+  - grapheme: kkw o
+    phonemes: [q, k, w, ao]
+  - grapheme: ggw a
+    phonemes: [q, g, w, ah]
+  - grapheme: ggw i
+    phonemes: [q, g, w, iy]
+  - grapheme: ggw u
+    phonemes: [q, g, w, uw]
+  - grapheme: ggw e
+    phonemes: [q, g, w, eh]
+  - grapheme: ggw o
+    phonemes: [q, g, w, ao]
+  - grapheme: jjy a
+    phonemes: [q, jh, y, ah]
+  - grapheme: jjy i
+    phonemes: [q, jh, y, iy]
+  - grapheme: jjy u
+    phonemes: [q, jh, y, uw]
+  - grapheme: jjy e
+    phonemes: [q, jh, y, eh]
+  - grapheme: jjy o
+    phonemes: [q, jh, y, ao]
+  - grapheme: ddy a
+    phonemes: [d, y, ah]
+  - grapheme: ddy i
+    phonemes: [q, d, y, iy]
+  - grapheme: ddy u
+    phonemes: [q, d, y, uw]
+  - grapheme: ddy e
+    phonemes: [q, d, y, eh]
+  - grapheme: ddy o
+    phonemes: [q, d, y, ao]
