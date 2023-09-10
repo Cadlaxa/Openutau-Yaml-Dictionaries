@@ -40,6 +40,7 @@ symbols:
   - {symbol: Z, type: fricative}
 #Arpasing
   - {symbol: aa, type: vowel}
+  - {symbol: ax, type: vowel}
   - {symbol: ae, type: vowel}
   - {symbol: ah, type: vowel}
   - {symbol: ao, type: vowel}
@@ -49,6 +50,8 @@ symbols:
   - {symbol: ch, type: affricate}
   - {symbol: d, type: stop}
   - {symbol: dh, type: fricative}
+  - {symbol: dx, type: tap}
+  - {symbol: dr, type: affricate}
   - {symbol: eh, type: vowel}
   - {symbol: er, type: vowel}
   - {symbol: ey, type: vowel}
@@ -59,6 +62,7 @@ symbols:
   - {symbol: iy, type: vowel}
   - {symbol: jh, type: affricate}
   - {symbol: k, type: stop}
+  - {symbol: kr, type: stop}
   - {symbol: l, type: liquid}
   - {symbol: m, type: nasal}
   - {symbol: n, type: nasal}
@@ -66,11 +70,14 @@ symbols:
   - {symbol: ow, type: vowel}
   - {symbol: oy, type: vowel}
   - {symbol: p, type: stop}
+  - {symbol: q, type: stop}
   - {symbol: r, type: liquid}
   - {symbol: s, type: fricative}
+  - {symbol: st, type: fricative}
   - {symbol: sh, type: fricative}
   - {symbol: t, type: stop}
   - {symbol: th, type: fricative}
+  - {symbol: tr, type: affricate}
   - {symbol: uh, type: vowel}
   - {symbol: uw, type: vowel}
   - {symbol: v, type: fricative}
