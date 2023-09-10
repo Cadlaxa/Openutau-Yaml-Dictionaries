@@ -1,5 +1,8 @@
 # Changelog
 ---
+**`(9/10/23)`**
+- **Minor fix in Xsampa's vowel list on arpasing (ax is not indicated before so it isn't recognized by the phonemizer)**
+  
 **`(9/2/23)`**
 - **Updated En Delta to En Xsampa**
 - **Updated En Xsampa Phoneme list**
