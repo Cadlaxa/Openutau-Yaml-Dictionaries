@@ -1,9 +1,9 @@
 # Openutau Yaml Dictionaries
-Openutau Yaml Dictionaries for Arpasing, En VCCV, Delta phonemizers, En Enunu, and En EnunuX/EnunuX to support Japanese, Korean, Chinese, and French (more languages to support soon)
+Openutau Yaml Dictionaries for Arpasing, En VCCV, Xsampa phonemizers, En Enunu, and En EnunuX/EnunuX to support Japanese, Korean, Chinese, and French (more languages to support soon)
 
  #### 📍 When using this dictionaries with Arpasing banks with few or missing phonemes especially with `Arpasing 0.1.0` and `0.2.0 banks`, I recommend using my [Syllable-Based ARPAsing Phonemizer](https://github.com/Cadlaxa/Syllable-Based-ARPAsing-Phonemizer)
 
-`English to Japanese`, `English to Korean`, `English to Chinese`, `English to Cantonese`,`English to French`, and `English to Spanish` (languages auxiliary support for now) for Arpasing, En VCCV, Delta banks, and Enunu/Enunux English banks for [Openutau](https://www.openutau.com/) .yaml dictionaries, tweaked based on [Slidingwall's synth dictionary](https://github.com/Slidingwall/synthv-dictionaries).
+`English to Japanese`, `English to Korean`, `English to Chinese`, `English to Cantonese`,`English to French`, and `English to Spanish` (languages auxiliary support for now) for Arpasing, En VCCV, Xsampa banks, and Enunu/Enunux English banks for [Openutau](https://www.openutau.com/) .yaml dictionaries, tweaked based on [Slidingwall's synth dictionary](https://github.com/Slidingwall/synthv-dictionaries).
 
 #### 📍 As of now, the bigger the `.yaml` file, the slower Openutau changes the phonemes or any changes in general, as of Ou doesn't supports yet the dictionary picking like on Synthv, for now, you can choose and download the single language dictionary or the compiled one. You can customize the dictionary as you please.
 
@@ -106,7 +106,7 @@ credits for [mmemim](https://github.com/mmemim) for the [Synthv French .json Dic
 
  - - - -
 ## How to edit `.yaml` dictionary to fit a specific voicebank
-- Some voicebanks come with extra phonemes especially with En VCCV and Delta voicebanks, test out first the dictionary so you will know if its there are errors you will encounter like on this picture below:
+- Some voicebanks come with extra phonemes especially with En VCCV and Xsampa voicebanks, test out first the dictionary so you will know if its there are errors you will encounter like on this picture below:
 ![example](https://user-images.githubusercontent.com/92255161/216491969-82eb325e-9077-423d-97c6-2ab73f5b1caa.png)
 
 - Editing the `.yaml` file via notepad or any other editing software you have to edit your desired phoneme per voicebank. I recommended to copy first one language then edit with the instructions inside the `.yaml` file
